@@ -10,25 +10,18 @@ Al finalizar la clase el estudiante será capaz de:
 
 # 1.1. 📲 Principios de Computación Móvil
 <p align="center">
-  <img src="../imagenes/android.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
+  <img src="../imagenes/movil.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
 </p>
 
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
-+ En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
-
-<p align="center">
-  <img src="../imagenes/tiempo.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
-</p>
-
++ En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos
 
 + La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
 + Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
-
-imagen
 
 ## 🌐 Portabilidad: 
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
@@ -51,10 +44,6 @@ Algunas de las formas más comunes de dispositivos de computación móvil son la
 
 Es absolutamente crucial que se entienda las dimensiones de la movilidad y las tenga en cuenta durante todo el proceso de diseño e implementación de la aplicación móvil.
 
-<p align="center">
-  <img src="../imagenes/movilidad.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movilidad">
-</p>
-
 1. El usuario móvil se está moviendo, al menos ocasionalmente, entre ubicaciones conocidas o desconocidas.
 
 2. El usuario móvil generalmente no está enfocado en la tarea de computación.
@@ -72,8 +61,6 @@ Es absolutamente crucial que se entienda las dimensiones de la movilidad y las t
 </p>
 
 El primer paso para crear una aplicación de software, después del proceso de recopilación de requisitos, es establecer un plan de alto nivel sobre cómo será la aplicación cuando finalice. Se conoce a este plan de alto nivel de la aplicación móvil una "arquitectura de software móvil”.
-
-imagen
 
 ## INTERFACES DE USUARIO Y CICLO DE VIDA DE ACTIVIDADES
 
