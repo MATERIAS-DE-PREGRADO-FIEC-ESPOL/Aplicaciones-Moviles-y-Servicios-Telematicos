@@ -9,20 +9,12 @@ Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
 # 1.1. 📲 Principios de Computación Móvil
-<p align="center">
-  <img src="../imagenes/android.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
-</p>
 
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
 + En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
-
-<p align="center">
-  <img src="../imagenes/tiempo.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
-</p>
-
 
 + La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
@@ -51,10 +43,6 @@ Algunas de las formas más comunes de dispositivos de computación móvil son la
 
 Es absolutamente crucial que se entienda las dimensiones de la movilidad y las tenga en cuenta durante todo el proceso de diseño e implementación de la aplicación móvil.
 
-<p align="center">
-  <img src="../imagenes/movilidad.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movilidad">
-</p>
-
 1. El usuario móvil se está moviendo, al menos ocasionalmente, entre ubicaciones conocidas o desconocidas.
 
 2. El usuario móvil generalmente no está enfocado en la tarea de computación.
@@ -66,10 +54,6 @@ Es absolutamente crucial que se entienda las dimensiones de la movilidad y las t
 5. El usuario móvil puede requerir acceso al sistema en cualquier lugar y en cualquier momento.
 
 # 1.2. ARQUITECTURA DE SOFTWARE PARA SERVICIOS MÓVILES
-
-<p align="center">
-  <img src="../imagenes/apmoviles.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="apmoviles">
-</p>
 
 El primer paso para crear una aplicación de software, después del proceso de recopilación de requisitos, es establecer un plan de alto nivel sobre cómo será la aplicación cuando finalice. Se conoce a este plan de alto nivel de la aplicación móvil una "arquitectura de software móvil”.
 
@@ -90,11 +74,6 @@ Los marcos de referencia que nos ayudan a escribir software que está "más cerc
 
  # 1.3. INTERFACES DE USUARIO Y CICLO DE VIDA DE ACTIVIDADES
 
-
-<p align="center">
-  <img src="../imagenes/diseno.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="diseno">
-</p>
-
 ¿Podemos o no podemos usar las mismas metodologías, marcos y herramientas para el desarrollo de aplicaciones móviles?
 La respuesta es más bien un "Sí" a medida que el software se acerca al hardware y más un "No" a medida que se aleja del hardware.
 
@@ -113,10 +92,6 @@ imágen
 
 ## TIPOS DE APLICACIONES
 
-<p align="center">
-  <img src="../imagenes/aphibrida.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="aphibrida">
-</p>
-
 1. Aplicaciones nativas
 2. Aplicaciones web
 3. Aplicaciones híbridas
@@ -125,11 +100,6 @@ imágen
 imagen
 
 ## PATRONES DE DISEÑO PARA INTERFACES DE USUARIO MÓVIL
-
-
-<p align="center">
-  <img src="../imagenes/diseno2.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="diseno2">
-</p>
 
 La «Ley del pulgar» se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
 
@@ -152,19 +122,6 @@ https://www.adobe.com/la/products/xd.html
 
 ## MODELO-VISTA-CONTROLADOR EN ANDROID
 
-
-<p align="center">
-  <img src="../imagenes/ctrlandroid1.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid1">
-</p>
-
-<p align="center">
-  <img src="../imagenes/ctrlandroid2.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid2">
-</p>
-
-<p align="center">
-  <img src="../imagenes/ctrlandroid3.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid3">
-</p>
-
 1. Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
 2. Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
 3. En las aplicaciones de Android, las clases de modelos son generalmente clases personalizadas que crea. 
@@ -173,10 +130,6 @@ https://www.adobe.com/la/products/xd.html
 
 
 ## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
-
-<p align="center">
-  <img src="../imagenes/sistemaoper.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="sistemaoper">
-</p>
 
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
