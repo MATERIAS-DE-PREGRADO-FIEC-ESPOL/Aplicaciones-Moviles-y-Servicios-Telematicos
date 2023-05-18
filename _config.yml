@@ -1,5 +1,5 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-- jekyll-remote-theme
+---
+remote_theme: pages-themes/cayman@v0.2.0
+---
 title: PROFESORA ADRIANA COLLAGUAZO JARAMILLO
 description: PROFESORA ADRIANA COLLAGUAZO JARAMILLO
