@@ -4,7 +4,6 @@ remote_theme: pages-themes/leap-day@v0.2.0
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
 # Unidad 1: Desarrollo de aplicaciones móviles
-
 ## 🎯 Objetivo de Aprendizaje
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
