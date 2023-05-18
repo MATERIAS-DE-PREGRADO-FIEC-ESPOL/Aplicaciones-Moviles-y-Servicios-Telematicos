@@ -10,6 +10,10 @@ Al finalizar la clase el estudiante será capaz de:
 
 # 1.1. 📲 Principios de Computación Móvil
 
+<p align="center">
+  <img src="../imagenes/compmovil.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="compmovil">
+</p>
+
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
@@ -20,8 +24,9 @@ Al finalizar la clase el estudiante será capaz de:
 
 + Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
 
-imagen
-
+<p align="center">
+  <img src="../imagenes/tiempo.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
+</p>
 ## 🌐 Portabilidad: 
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
