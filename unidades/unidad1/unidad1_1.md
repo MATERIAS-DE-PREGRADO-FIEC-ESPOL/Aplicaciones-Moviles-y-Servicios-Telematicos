@@ -30,7 +30,6 @@ Al finalizar la clase el estudiante será capaz de:
 
 <<<<<<< HEAD
 =======
-imagen
 
 <<<<<<< HEAD
 ## 🌐 Portabilidad: 
@@ -258,7 +257,9 @@ Es el elemento básico de comunicación entre los distintos componentes Android 
 
 ## DISEÑO DE UNA APLICACIÓN MÓVIL
 
-
+<p align="center">
+  <img src="../imagenes/tiempo.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
+</p>
 El splash/pantalla de bienvenida/pantalla de inicio, es la primera pantalla que verá el usuario al iniciar la app. Su uso está siendo cada vez más limitado, por lo que generalmente se muestra rápidamente la primera vez que se abre la aplicación. Esta pantalla sirve como presentación del contenido mientras se realiza la carga inicial, por tanto, es normal que se incluya un elemento indicativo de carga junto a los demás elementos gráficos.
 
 imagen
