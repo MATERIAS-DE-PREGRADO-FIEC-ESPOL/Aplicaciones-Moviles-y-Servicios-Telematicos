@@ -13,15 +13,16 @@ Al finalizar la clase el estudiante será capaz de:
   <img src="../imagenes/movil.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
 </p>
 
-<p align="center">
-  <img src="../imagenes/tiempo.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
-</p>
-
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
 + En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
+
+<p align="center">
+  <img src="../imagenes/tiempo.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
+</p>
+
 
 + La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
@@ -154,7 +155,18 @@ https://www.adobe.com/la/products/xd.html
 
 ## MODELO-VISTA-CONTROLADOR EN ANDROID
 
-imagen
+
+<p align="center">
+  <img src="../imagenes/ctrlandroid1.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid1">
+</p>
+
+<p align="center">
+  <img src="../imagenes/ctrlandroid2.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid2">
+</p>
+
+<p align="center">
+  <img src="../imagenes/ctrlandroid3.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="ctrlandroid3">
+</p>
 
 1. Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
 2. Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
@@ -164,6 +176,10 @@ imagen
 
 
 ## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
+
+<p align="center">
+  <img src="../imagenes/sistemaoper.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="sistemaoper">
+</p>
 
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
