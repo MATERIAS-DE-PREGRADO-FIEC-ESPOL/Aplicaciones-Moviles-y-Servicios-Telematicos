@@ -8,10 +8,9 @@ remote_theme: pages-themes/leap-day@v0.2.0
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
-
 # 1.1. 📲 Principios de Computación Móvil
 <p align="center">
-  <img src="../imagenes/movil.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
+  <img src="../imagenes/android.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
 </p>
 
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
@@ -31,14 +30,7 @@ Al finalizar la clase el estudiante será capaz de:
 
 imagen
 
-<<<<<<< HEAD
 ## 🌐 Portabilidad: 
-=======
-# # PRINCIPIOS DE COMPUTACIÓN MÓVIL
-
-
-+ ### Portabilidad: 
->>>>>>> 048df13bc50bb3dfd5c08684057ab45534fb3b6d
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
 ## 🌐 Conectividad:
