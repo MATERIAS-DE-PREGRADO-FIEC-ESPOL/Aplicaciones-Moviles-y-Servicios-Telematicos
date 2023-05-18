@@ -3,14 +3,13 @@ remote_theme: pages-themes/cayman@v0.2.0
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# Unidad 1: Internet y servicios en red
+# Unidad 1: Desarrollo de aplicaciones móviles
 
 ## 🎯 Objetivo de Aprendizaje
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
-# 1.1. PRINCIPIOS DE COMPUTACIÓN MÓVIL
-
+# 1.1. Principios de Computación Móvil
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
