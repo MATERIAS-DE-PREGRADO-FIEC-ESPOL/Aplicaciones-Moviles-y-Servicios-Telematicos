@@ -8,7 +8,7 @@ remote_theme: pages-themes/leap-day@v0.2.0
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
-# 1.1. Principios de Computación Móvil
+# 1.1. 📲 Principios de Computación Móvil
 <p align="center">
   <img src="../imagenes/movil.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="movil">
 </p>
@@ -28,27 +28,36 @@ Al finalizar la clase el estudiante será capaz de:
 
 + Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
 
+<<<<<<< HEAD
+=======
+imagen
+
+<<<<<<< HEAD
+## 🌐 Portabilidad: 
+=======
+>>>>>>> 5dd9e0b702a96759c5a8934b638c19e8fb94a259
 # # PRINCIPIOS DE COMPUTACIÓN MÓVIL
 
 
 + ### Portabilidad: 
+>>>>>>> 048df13bc50bb3dfd5c08684057ab45534fb3b6d
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
-+ ### Conectividad:
+## 🌐 Conectividad:
  Esto define la calidad de servicio (QoS) de la conectividad de la red. 
 
-+ ### Interactividad:
+## 🌐 Interactividad:
  Los nodos que pertenecen a un sistema de computación móvil están conectados entre sí.
 
-+ ### Individualidad: 
+## 🌐 Individualidad: 
 Un dispositivo portátil conectado a una red móvil a menudo denota un individuo.
 
 Algunas de las formas más comunes de dispositivos de computación móvil son las siguientes:
 
-+ Computadoras portátiles
-+ Las tarjetas inteligentes
-+ Teléfonos celulares
-+ Computadoras usables (wearable)
+- Computadoras portátiles
+- Las tarjetas inteligentes
+- Teléfonos celulares
+- Computadoras usables (wearable)
 
 Es absolutamente crucial que se entienda las dimensiones de la movilidad y las tenga en cuenta durante todo el proceso de diseño e implementación de la aplicación móvil.
 
