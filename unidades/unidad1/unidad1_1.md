@@ -28,8 +28,6 @@ Al finalizar la clase el estudiante será capaz de:
 
 + Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
 
-imagen
-
 # # PRINCIPIOS DE COMPUTACIÓN MÓVIL
 
 
@@ -112,8 +110,6 @@ Debido a esta naturaleza integrada de los sistemas móviles totalmente centraliz
 
  Las aplicaciones cliente, en el caso del desarrollo móvil, son típicamente aquellas que se ejecutan en dispositivos móviles. Por lo general, no es posible escribir aplicaciones grandes para que los dispositivos sirvan como cliente, principalmente debido a los recursos limitados en los dispositivos y la gran variedad de ellos. Entonces, la mayoría de las veces, las aplicaciones móviles se distribuyen.
 
-imágen
-
 ## TIPOS DE APLICACIONES
 
 <p align="center">
@@ -125,8 +121,6 @@ imágen
 3. Aplicaciones híbridas
 4. Aplicaciones avanzadas
 
-imagen
-
 ## PATRONES DE DISEÑO PARA INTERFACES DE USUARIO MÓVIL
 
 
@@ -136,7 +130,6 @@ imagen
 
 La «Ley del pulgar» se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
 
-imagen
 
 ## PROTOTIPADO MÓVIL
 
@@ -187,11 +180,12 @@ https://www.adobe.com/la/products/xd.html
 4. Incluye un set de bibliotecas base que proporcionan la mayor parte de las funciones disponibles en las bibliotecas base del lenguaje Java.
 5. Android depende de Linux para los servicios base del sistema como seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores.
 
-imagen
 
 ## VERSIONES DE ANDROID
 
-imagen
+<p align="center">
+  <img src="../imagenes/android.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="android">
+</p>
 Los datos recogidos durante un período final de 7 días, el 6 de Junio 2016. 
 
 
@@ -218,6 +212,10 @@ Los datos recogidos durante un período final de 7 días, el 6 de Junio 2016.
 
 ## ESTRUCTURA DE UN PROYECTO
 
+<p align="center">
+  <img src="../imagenes/proyecto.jpg" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="proyecto">
+</p>
+
 app>java>com.example.myfirstapp>MainActivity
 Esta es la actividad principal (el punto de entrada para tu app). Cuando compilas y ejecutas la app, el sistema inicia una instancia de esta Activity y carga su diseño.
 
@@ -231,8 +229,6 @@ app>manifests>AndroidManifest.xml
 El archivo de manifiesto describe las características fundamentales de la app y define cada uno de sus componentes.
 
 Diseño de la interfaz de usuario
-
-imagen
 
 ## COMPONENTES DE UNA APLICACIÓN
 
@@ -252,6 +248,7 @@ Son elementos visuales, interactivos, que pueden mostrarse en la pantalla princi
 Es el elemento básico de comunicación entre los distintos componentes Android que hemos descrito anteriormente.
 
 ## DISEÑO DE UNA APLICACIÓN MÓVIL
+
 
 El splash/pantalla de bienvenida/pantalla de inicio, es la primera pantalla que verá el usuario al iniciar la app. Su uso está siendo cada vez más limitado, por lo que generalmente se muestra rápidamente la primera vez que se abre la aplicación. Esta pantalla sirve como presentación del contenido mientras se realiza la carga inicial, por tanto, es normal que se incluya un elemento indicativo de carga junto a los demás elementos gráficos.
 
