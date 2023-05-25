@@ -78,6 +78,60 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 9. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code. En caso de no completar el paso 7, puede agregar el siguiente código para reemplazar:
 
 **Archivo: activity_main.xml**
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dip"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario" />
+
+        <EditText
+            android:id="@+id/edtClave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clave" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:onClick="login"/>
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="registrarse"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:text="Registrarse" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 <p align="center">
   <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
