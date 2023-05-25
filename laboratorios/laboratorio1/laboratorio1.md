@@ -71,7 +71,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_screen1.png" alt="appAMST" width="30%">
 </p>
 
 
@@ -386,6 +386,185 @@ Una vez configurado su usuario en git podrá subir su commit.
 $ git branch -M main (Es necesario un cambio de rama)
 
 $ git remote add origin [link URL del repositorio]
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+9.	Ahora tendremos que publicar los cambios:
+
+$ git push -u origin main
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+10.	Se puede observar como ahora el repositorio está actualizado
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+**Preguntas de investigación:**
+
+1.	¿Qué otro tipo de servicios en línea (como GITHUB) existen?
+2.	¿Para qué sirve el archivo .gitignore y como se utiliza?
+3.	¿Qué limitaciones tiene GITHUB?
+4.	¿Qué es una rama?
+5.	¿Cuál es el link de su repositorio?
+6.	¿Por qué los nuevos repositorios de GitHub ya no utilizan como rama principal master?
+7.	¿Cuál es la diferencia entre crear un repositorio público o privado?
+
+### Paso 3: Invitar a otros miembros del grupo a mi proyecto (incluya a todos los miembros del grupo) (5 puntos)
+
+1.	Para habilitar la modificación a otros miembros de mi grupo, debemos darle acceso. [Incluso si el proyecto es libre, solo pueden modificarlo quienes han sido invitados]. Para esto de clic en el tab “Settings/Configuración” > Manage Access / Administrar acceso
+
+2.	Buscamos y agregamos a otros usuarios (usuario de GitHub).
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+3.	Una vez agregados, es necesario aceptar las invitaciones para poder realizar PUSH (cambios al repositorio). Puede revisar las invitaciones en la campana a lado del usuario o en su correo electrónico para aceptarlas.
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+## Paso 4: Crear una rama [Branch] (Trabajo individual) (15 puntos)
+
+1.	Los estudiantes que no crearon el repositorio clonar el proyecto en su computadora con el comando 
+
+$ git clone [web URL del repositorio]
+
+2.	Tenemos el proyecto principal en main, cualquier otro cambio puede ser realizado sin dañar el proyecto principal. Utilizamos el comando: 
+git checkout -b “nombre_rama”
+
+***Para este taller, crearemos una rama de la siguiente forma: “nombre_apellido1”***
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+3.	Ahora realizamos algunos cambios en nuestro proyecto local. 
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+
+4.	Estos cambios son únicamente reflejados dentro de nuestra rama. Ahora subimos los cambios, para ello realizamos los siguientes comandos.
+
+  **Git add --all:** Agrega todos los cambios a nuestra rama.
+
+  **Git commit -m “cambios a mi rama”** Agrega un commit en mi rama, indicando los cambios que realice.
+
+  **Git push origin [nombre rama]** Subimos los cambios al repositorio (pero solo dentro de la página).
+
+  <p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+
+5.	Podemos revisar todas las ramas dentro de GitHub (así mismo podemos cambiar entre ramas para revisar diferentes versiones de código).
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+### Paso 5: Unir ramas al proyecto principal [Branch] (15 puntos).
+Las ramas funcionan como proyectos paralelos del proyecto principal, pero para avanzar con el proyecto es necesario unir las ramas una vez han sido probadas.
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+1.	En caso de realizar algún cambio en el repositorio principal.
+a.	git fetch origin main (obtiene todos los cambios realizados en main)
+
+2.	Nos cambiamos a la rama principal.
+a.	git checkout main
+
+3.	Traemos los cambios realizados en la rama única.
+a.	git merge [nombre rama]
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+***Nota: Esto indica los archivos que han sido modificados.***
+
+4.	Ahora de vuelta al repositorio, los cambios han sido actualizados. En caso de que salga el siguiente mensaje, dar clic en el mismo (Compare & pull request).
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+5.	Llenar con una descripción y hacer clic en create pull request.
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+6.	Una vez hecho eso se debe aceptar el pull request, y automáticamente se agregarán los cambios.
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+</p>
+
+
+Preguntas de investigación
+1.	¿Para qué sirve el comando merge?
+2.	¿Qué hace el comando git push?
+3.	¿Para qué sirve el pull request de GitHub?
+
+
+**TAREAS DE DESAFÍO (30 puntos):**
+
+1.	Dentro del proyecto de su repositorio, por grupo cree un menú donde cada integrante usará un componente diferente. Componentes por usar:
+- Video view: Obtener un video de YouTube.
+- Calendar view: Mostrar el calendario con una tarea.
+- Mostrar un mapa con Google Maps.
+- Mostrar un gráfico lineal estático.
+
+2.	Pueden escoger cualquiera de las 3 opciones para crear el menú:
+- Menú con botón flotante
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_botonflotante.png" alt="appAMST" width="30%">
+</p>
+
+- Menú lateral
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_menulateral.png" alt="appAMST" width="30%">
+</p>
+
+- Menú de opciones
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_menuopciones.png" alt="appAMST" width="30%">
+</p>
+
+### FORMATO DEL TRABAJO
+La práctica de laboratorio será desarrollada en el siguiente formato:
+
+- Nombre del archivo: AMST_LabA_Grupo B_Apellido1_Apellido2_Apellido3
+- (*) Siendo A el número del trabajo y B el número del grupo
+- Nombre de la materia y paralelo 1
+- Título del trabajo: Ejemplo: Laboratorio A - Tema
+- Nombre de la profesora
+- Número de grupo
+- Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
+- Fecha de inicio y fin del trabajo
+- Resultados de las actividades planteadas: Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso.
+- Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
+- Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
 
 
 
