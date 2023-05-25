@@ -8,15 +8,17 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 ## 🎯 Objetivo de Aprendizaje
 Desarrollar aplicaciones móviles considerando las características de la programación en dispositivos móviles.
+
 **Recursos:** Android Studio, GIT (software), GitHub (online).
+
 **Duración:** 5 horas
 
 **Instrucciones**
+
 Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargue el código fuente en un repositorio de GitHub.
 
-**Actividades**
 
-Nota: Solo un integrante por grupo realiza las actividades del paso 1 al 3.
+**Actividades**
 
 Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
@@ -26,7 +28,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
   <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
 </p>
 
-2.	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
+2.	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="90%">
@@ -75,7 +77,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 </p>
 
 
-9. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code. En caso de no completar el paso 7, puede agregar el siguiente código para reemplazar:
+9. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code.
 
 **Archivo: activity_main.xml**
 ```
@@ -133,11 +135,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-<p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
-</p>
-
-10.	Seleccionar la ruta app > java> com.example.mediconline > MainActivity.java donde se programa las funcionalidades de la aplicación en lenguaje Java.
+10.	Seleccionar la ruta app > java> com.example.appamst0 > MainActivity.java donde se programa las funcionalidades de la aplicación en lenguaje Java.
 
 **Archivo: MainActivity.java**
 
@@ -193,38 +191,290 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-
-<p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
-</p>
-
 11.	Dar clic derecho en la ruta app > java y seleccione New > Activity > Empty Activity para crear una nueva actividad con el nombre de formulario_registro. Con esto se crearán dos archivos:
 +	formulario_registro.java
 +	activity_formulario_registro.xml
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_newactivity.png" alt="appAMST" width="90%">
 </p>
 
+<p align="center">
+  <img src="../imagenes/amst_lab1_formulario_registro.png" alt="appAMST" width="90%">
+</p>
 
 12.	Modifique el archivo formulario_registro.java para poder enviar la notificación de registro.
 
 **Archivo: formulario_registro.java**
+```
+package com.example.appamst0;
+
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+
+public class formulario_registro extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_formulario_registro);
+    }
+
+    //insertarpaciente
+    public void insertarpaciente(View v) {
+        addNotification();
+
+    }
+
+    private void addNotification() {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            String id ="canal";
+            String description = "AMST";
+            int importance = NotificationManager.IMPORTANCE_HIGH;
+            NotificationChannel channel = new NotificationChannel(id, description, importance);
+
+            NotificationCompat.Builder builder =
+                    new NotificationCompat.Builder(this,id)
+                            .setSmallIcon(R.drawable.medicalcare)
+                            .setContentTitle("Se ha registrado con exito")
+                            .setContentText("Revise su correo electronico en los proximos 2 dias")
+                            .setAutoCancel(true)
+                            .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+            Intent notificationIntent = new Intent(this, formulario_registro.class);
+            notificationIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            notificationIntent.putExtra("message", "This is a notification message");
+
+            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+                    PendingIntent.FLAG_UPDATE_CURRENT);
+            builder.setContentIntent(pendingIntent);
+            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            manager.createNotificationChannel(channel);
+            manager.notify(0, builder.build());
+        }}
+}
+```
 
 13. En la ruta res > layout seleccione el archivo activity_formulario_registro.xml registro en la pestaña “Text” que contiene el código xml del formulario de registro para los nuevos usuarios que deseen utilizar la aplicación.
 
 **Archivo: activity_formulario_registro.xml**
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formulario_registro">
 
-<p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
-</p>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres:"/>
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos:"/>
+
+            <EditText
+                android:id="@+id/edtApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCedula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cedula:"/>
+
+            <EditText
+                android:id="@+id/edtCedula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtEdad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad:"/>
+
+            <EditText
+                android:id="@+id/edtEdad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtAltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altura:"/>
+
+            <EditText
+                android:id="@+id/edtAltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peso:"/>
+            <EditText
+                android:id="@+id/edtPeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario:"/>
+
+            <EditText
+                android:id="@+id/edtUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtClave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clave:"/>
+
+            <EditText
+                android:id="@+id/edtClave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text=""/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGrabaregistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Grabar"
+            android:onClick="insertarpaciente"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 ### Paso 2: Ejecución de la aplicación móvil. (30 puntos)
 
-14.	Ejecutar el aplicativo móvil “mediconline” seleccionando el device selecter al lado de la opción Run ‘app’, en la cual se puede escoger entre 2 opciones: el dispositivo móvil conectado a través del cable USB de datos, o el emulador que usa los dispositivos virtuales disponibles.
+14.	Ejecutar el aplicativo móvil “appAMST#” seleccionando el device selecter al lado de la opción Run ‘app’, en la cual se puede escoger entre 2 opciones: el dispositivo móvil conectado a través del cable USB de datos, o el emulador que usa los dispositivos virtuales disponibles.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_run.png" alt="appAMST" width="50%">
 </p>
 
 15.	Para la primera opción de ejecución de la aplicación se usa un teléfono móvil conectado vía USB a la computadora que contiene la aplicación móvil, posterior indicará que instale un apk que contiene la ejecución de la aplicación. Se puede ver más de eso a partir del Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android.
