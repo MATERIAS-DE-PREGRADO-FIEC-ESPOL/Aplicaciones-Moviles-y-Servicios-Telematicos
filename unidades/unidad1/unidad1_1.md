@@ -31,16 +31,16 @@ Al finalizar la clase el estudiante será capaz de:
   <img src="../imagenes/tiempo.png" alt="industria" width="70%">
 </p>
 
-## 🌐 Portabilidad: 
+## 🌐 Portabilidad
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
-## 🌐 Conectividad:
+## 🌐 Conectividad
  Esto define la calidad de servicio (QoS) de la conectividad de la red. 
 
-## 🌐 Interactividad:
+## 🌐 Interactividad
  Los nodos que pertenecen a un sistema de computación móvil están conectados entre sí.
 
-## 🌐 Individualidad: 
+## 🌐 Individualidad
 Un dispositivo portátil conectado a una red móvil a menudo denota un individuo.
 
 Algunas de las formas más comunes de dispositivos de computación móvil son las siguientes:
