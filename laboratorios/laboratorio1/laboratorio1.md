@@ -34,17 +34,15 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
 3.	Configuración inicial del proyecto.
 
-a -	[Name]: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST[númeroGrupo]. 
+- [Name]: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST[númeroGrupo]. 
 
-b.	[PackageName]: Paquete principal de código java, se obtiene automáticamente del nombre.
+-	[PackageName]: Paquete principal de código java, se obtiene automáticamente del nombre.
 
-c.	[Save Location]: Dirección donde se ubica el proyecto en nuestra PC
+-	[Save Location]: Dirección donde se ubica el proyecto en nuestra PC
 
-d.	[Language]: Java
+-	[Language]: Java
 
-e.	[Minimum SDK]: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
-
-f.	Marcar la opción Use legacy Android.support libraries.
+- [Minimum SDK]: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
 
 4.	Seleccionamos Finish.
 
@@ -54,6 +52,7 @@ f.	Marcar la opción Use legacy Android.support libraries.
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
 
+<<<<<<< Updated upstream
 
 
 5.	Seleccione en la ruta app > res > layout > activity_main.xml.
@@ -76,6 +75,21 @@ f.	Marcar la opción Use legacy Android.support libraries.
 11.	Dar clic derecho en la ruta app > java y seleccione New > Activity > Empty Activity para crear una nueva actividad con el nombre de formulario_registro. Con esto se crearán dos archivos:
 	formulario_registro.java
 	activity_formulario_registro.xml
+=======
+4.	Seleccione en la ruta app > res > layout > activity_main.xml.
+
+5.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_emptylayout.png" alt="appAMST" width="90%">
+</p>
+
+6. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_palette.png" alt="appAMST" width="40%">
+</p>
+>>>>>>> Stashed changes
 
 
 
