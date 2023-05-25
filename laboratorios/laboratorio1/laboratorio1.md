@@ -26,19 +26,26 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
   <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
 </p>
 
-2.	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña Phone and Tablet > Empty Activity. Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
+2.	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="90%">
 </p>
 
 3.	Configuración inicial del proyecto.
-a.	[Name]: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST[númeroGrupo]. 
+
+a -	[Name]: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST[númeroGrupo]. 
+
 b.	[PackageName]: Paquete principal de código java, se obtiene automáticamente del nombre.
+
 c.	[Save Location]: Dirección donde se ubica el proyecto en nuestra PC
+
 d.	[Language]: Java
+
 e.	[Minimum SDK]: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
+
 f.	Marcar la opción Use legacy Android.support libraries.
+
 4.	Seleccionamos Finish.
 
 <p align="center">
@@ -47,8 +54,14 @@ f.	Marcar la opción Use legacy Android.support libraries.
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
 
-Paso 2: Crear un repositorio (30 puntos).
 
-1.	Dentro de la carpeta del proyecto creado en el paso anterior, abra la línea de comandos de GIT (GIT CLI). Podemos encontrarlo dando clic derecho en la carpeta y escogiendo la opción “GIT BASH HERE”.
+
+4.	Seleccione en la ruta app > res > layout > activity_main.xml.
+
+5.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
+
+6. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+
+
 
 
