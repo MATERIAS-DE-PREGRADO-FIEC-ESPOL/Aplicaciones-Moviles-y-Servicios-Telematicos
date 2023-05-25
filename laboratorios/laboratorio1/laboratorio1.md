@@ -38,7 +38,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
 - Name: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST(NúmeroGrupo). 
 -	PackageName: Paquete principal de código java, se obtiene automáticamente del nombre.
--	[Save Location]: Dirección donde se ubica el proyecto en nuestra PC
+-	Save Location: Dirección donde se ubica el proyecto en nuestra PC
 -	Language: Java
 - Minimum SDK: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
 
