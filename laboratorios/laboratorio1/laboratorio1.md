@@ -65,10 +65,17 @@ f.	Marcar la opción Use legacy Android.support libraries.
 
 8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
 
-8. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code. En caso de no completar el paso 7, puede agregar el siguiente código para reemplazar:
+9. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code. En caso de no completar el paso 7, puede agregar el siguiente código para reemplazar:
 
 **Archivo: activity_main.xml**
 
+10.	Seleccionar la ruta app > java> com.example.mediconline > MainActivity.java donde se programa las funcionalidades de la aplicación en lenguaje Java.
+
+**Archivo: MainActivity.java**
+
+11.	Dar clic derecho en la ruta app > java y seleccione New > Activity > Empty Activity para crear una nueva actividad con el nombre de formulario_registro. Con esto se crearán dos archivos:
+	formulario_registro.java
+	activity_formulario_registro.xml
 
 
 
