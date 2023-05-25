@@ -540,10 +540,14 @@ public class formulario_registro extends AppCompatActivity {
   <img src="../imagenes/amst_lab1_buildapk.png" alt="appAMST" width="90%">
 </p>
 
+<p align="center">
+  <img src="../imagenes/amst_lab1_locateapk.png" alt="appAMST" width="90%">
+</p>
+
 2.	Cuando se da clic en el enlace “locate” o en la advertencia podrá ingresar a la ruta donde se encuentra el archivo apk.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_locateapk.png" alt="appAMST" width="90%">
+  <img src="../imagenes/amst_lab1_fileapk.png" alt="appAMST" width="90%">
 </p>
 
 ### Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android. (5 puntos)
@@ -554,7 +558,7 @@ public class formulario_registro extends AppCompatActivity {
 3.	Buscamos la opción “Número de compilación” o “Número de versión” y presionamos 7 veces seguidas sobre esta opción.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_compilacion.png" alt="appAMST" width="70%">
 </p>
 
 **Habilitar depuración por USB**
@@ -564,31 +568,15 @@ public class formulario_registro extends AppCompatActivity {
 3.	Cuando se conecte el celular mediante USB, aparecerá el mensaje “Permitir depuración por USB” o “Allow USB Debugging”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_usbdebugging.png" alt="appAMST" width="90%">
 </p>
 
 ### Paso 5: Ejecución de la aplicación en el teléfono móvil. (5 puntos)
 En el Select Device del menú se puede observar como ya está configurado su dispositivo móvil, al hacer click en “run” puede observar cómo se ejecuta la aplicación en el mismo.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_celular.png" alt="appAMST" width="40%">
 </p>
-
-## FORMATO DEL TRABAJO
-
-La práctica de laboratorio será desarrollada en el siguiente formato:
-
-- Nombre del archivo: AMST_LabA_Grupo B_Apellido1_Apellido2_Apellido3
-- (*) Siendo A el número del trabajo y B el número del grupo
--	Nombre de la materia
--	Título del trabajo: Ejemplo: Trabajo Autónomo A - Tema
-- Nombre de la profesora
-- Número de grupo
--	Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
--	Fecha de inicio y fin del trabajo
--	Resultados de las actividades planteadas: Explicación de las actividades ejecutadas, incluyendo el código fuente (Java y XML) con las imágenes del proceso. También incluya el enlace del repositorio de Github que contiene el código del proyecto de la aplicación móvil y el archivo ejecutable (*.apk).
--	Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
--	Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
 
 
 ## Paso 6: Crear un repositorio (30 puntos).
