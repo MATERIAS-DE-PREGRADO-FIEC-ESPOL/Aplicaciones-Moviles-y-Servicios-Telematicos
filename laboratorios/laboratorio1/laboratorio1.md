@@ -57,10 +57,14 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 6.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_palette.png" alt="emptyactivity" width="30%">
+  <img src="../imagenes/amst_lab1_emptylayout.png" alt="emptyactivity" width="90%">
 </p>
 
 7. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+
+<p align="center">
+  <img src="../imagenes/amst_lab1_palette.png" alt="emptyactivity" width="30%">
+</p>
 
 8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
 
