@@ -56,11 +56,18 @@ f.	Marcar la opción Use legacy Android.support libraries.
 
 
 
-4.	Seleccione en la ruta app > res > layout > activity_main.xml.
+5.	Seleccione en la ruta app > res > layout > activity_main.xml.
 
-5.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
+6.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
 
-6. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+7. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+
+
+8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
+
+8. Para visualizar el código en formato xml en la ruta app > res > layout > activity_main.xml, en la parte superior seleccione la pestaña de Code. En caso de no completar el paso 7, puede agregar el siguiente código para reemplazar:
+
+**Archivo: activity_main.xml**
 
 
 
