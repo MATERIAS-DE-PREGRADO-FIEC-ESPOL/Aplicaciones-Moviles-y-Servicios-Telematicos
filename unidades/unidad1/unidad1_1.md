@@ -17,11 +17,16 @@ Al finalizar la clase el estudiante será capaz de:
 
 <a name="caracteristicas"> </a>
 # 📲 1.1. Características
-- Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
+
+<p align="center">
+  <img src="../imagenes/computacionmovil.jpg" style="width: 40%; height: 200px; float: right; padding: 15px;" alt="redhat">
+</p>
+
+- Los **sistemas de computación móviles** son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 - Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
-- En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
+- En algunos ambientes el **factor de la movilidad** juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
 
 - La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
