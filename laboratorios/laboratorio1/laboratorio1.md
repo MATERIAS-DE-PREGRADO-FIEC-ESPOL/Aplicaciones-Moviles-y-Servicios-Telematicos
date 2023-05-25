@@ -22,31 +22,27 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
-1.	Al abrir Android Studio, podemos crear, abrir o importar proyectos. Seleccione “New Project”.
+1. Al abrir Android Studio, podemos crear, abrir o importar proyectos. Seleccione “New Project”.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
 </p>
 
-2.	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
+2. Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="90%">
 </p>
 
-3.	Configuración inicial del proyecto.
+3. Configuración inicial del proyecto.
 
-- [Name]: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST[númeroGrupo]. 
-
--	[PackageName]: Paquete principal de código java, se obtiene automáticamente del nombre.
-
+- Name: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este taller, usaremos appAMST(NúmeroGrupo). 
+-	PackageName: Paquete principal de código java, se obtiene automáticamente del nombre.
 -	[Save Location]: Dirección donde se ubica el proyecto en nuestra PC
+-	Language: Java
+- Minimum SDK: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
 
--	[Language]: Java
-
-- [Minimum SDK]: Escoger el primero que aparece en la lista. (API 16: Android 4.1)
-
-4.	Seleccionamos Finish.
+4. Seleccionamos Finish.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_appAMST0.png" alt="appAMST" width="90%">
@@ -54,9 +50,9 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
 
-5.	Seleccione en la ruta app > res > layout > activity_main.xml.
+5. Seleccione en la ruta app > res > layout > activity_main.xml.
 
-6.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
+6. En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_emptylayout.png" alt="appAMST" width="90%">
