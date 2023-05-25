@@ -52,15 +52,15 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
 
-<<<<<<< Updated upstream
-
-
 5.	Seleccione en la ruta app > res > layout > activity_main.xml.
 
 6.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
 
-7. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
+<p align="center">
+  <img src="../imagenes/amst_lab1_palette.png" alt="emptyactivity" width="30%">
+</p>
 
+7. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
 
 8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
 
@@ -75,21 +75,6 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 11.	Dar clic derecho en la ruta app > java y seleccione New > Activity > Empty Activity para crear una nueva actividad con el nombre de formulario_registro. Con esto se crearán dos archivos:
 	formulario_registro.java
 	activity_formulario_registro.xml
-=======
-4.	Seleccione en la ruta app > res > layout > activity_main.xml.
-
-5.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
-
-<p align="center">
-  <img src="../imagenes/amst_lab1_emptylayout.png" alt="appAMST" width="90%">
-</p>
-
-6. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
-
-<p align="center">
-  <img src="../imagenes/amst_lab1_palette.png" alt="appAMST" width="40%">
-</p>
->>>>>>> Stashed changes
 
 
 
