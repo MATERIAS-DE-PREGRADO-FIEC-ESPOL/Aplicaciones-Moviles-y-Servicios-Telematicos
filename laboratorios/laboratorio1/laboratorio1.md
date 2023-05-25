@@ -533,7 +533,7 @@ Las ramas funcionan como proyectos paralelos del proyecto principal, pero para a
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_unirramas.png" alt="appAMST" width="1000%">
 </p>
 
 1.	En caso de realizar algún cambio en el repositorio principal.
@@ -589,19 +589,19 @@ Preguntas de investigación
 - Menú con botón flotante
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_botonflotante.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_botonflotante.png" alt="appAMST" width="50%">
 </p>
 
 - Menú lateral
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_menulateral.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_menulateral.png" alt="appAMST" width="50%">
 </p>
 
 - Menú de opciones
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_menuopciones.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_menuopciones.png" alt="appAMST" width="50%">
 </p>
 
 ### FORMATO DEL TRABAJO
