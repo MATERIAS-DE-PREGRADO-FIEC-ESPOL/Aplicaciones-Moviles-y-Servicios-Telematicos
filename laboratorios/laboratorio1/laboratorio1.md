@@ -4,7 +4,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
 # Práctica de laboratorio 1
-# DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS
+## DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS
 
 ## 🎯 Objetivo de Aprendizaje
 Desarrollar aplicaciones móviles considerando las características de la programación en dispositivos móviles.

@@ -34,5 +34,8 @@
     * 4.3. Aplicaciones para computación en el borde móvil
     * 4.4. Aplicaciones telemáticas móviles y su impacto en la sociedad
 
+## PRÁCTICAS DE LABORATORIO
+* [AMST LAB1 DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS](laboratorios/laboratorio1/laboratorio1.md)
+
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
