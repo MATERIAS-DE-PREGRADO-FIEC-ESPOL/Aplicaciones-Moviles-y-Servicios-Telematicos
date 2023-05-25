@@ -22,7 +22,7 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
-1.  Al abrir Android Studio, podemos crear, abrir o importar proyectos. Seleccione “New Project”.
+1.	Al abrir Android Studio, podemos crear, abrir o importar proyectos. Seleccione “New Project”.
 
 <p align="center">
   <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
@@ -691,7 +691,6 @@ $ git push -u origin main
 </p>
 
 **Preguntas de investigación:**
-
 1.	¿Qué otro tipo de servicios en línea (como GITHUB) existen?
 2.	¿Para qué sirve el archivo .gitignore y como se utiliza?
 3.	¿Qué limitaciones tiene GITHUB?
@@ -700,7 +699,7 @@ $ git push -u origin main
 6.	¿Por qué los nuevos repositorios de GitHub ya no utilizan como rama principal master?
 7.	¿Cuál es la diferencia entre crear un repositorio público o privado?
 
-### Paso 3: Invitar a otros miembros del grupo a mi proyecto (incluya a todos los miembros del grupo) (5 puntos)
+## Paso 7: Invitar a otros miembros del grupo a mi proyecto (incluya a todos los miembros del grupo) (5 puntos)
 
 1.	Para habilitar la modificación a otros miembros de mi grupo, debemos darle acceso. [Incluso si el proyecto es libre, solo pueden modificarlo quienes han sido invitados]. Para esto de clic en el tab “Settings/Configuración” > Manage Access / Administrar acceso
 
@@ -760,7 +759,7 @@ git checkout -b “nombre_rama”
   <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
-### Paso 5: Unir ramas al proyecto principal [Branch] (15 puntos).
+### Paso 8: Unir ramas al proyecto principal [Branch] (15 puntos).
 Las ramas funcionan como proyectos paralelos del proyecto principal, pero para avanzar con el proyecto es necesario unir las ramas una vez han sido probadas.
 
 
