@@ -8,43 +8,29 @@ remote_theme: pages-themes/cayman@v0.2.0
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
-<<<<<<< HEAD
-# 1.1. 📲 Principios de Computación Móvil
-
-<p align="center">
-  <img src="../imagenes/compmovil.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="compmovil">
-</p>
-=======
 # 1.1. Principios de computación móvil
 - [Características](#caracteristicas)
     - [Portabilidad](#portabilidad)
     - [Conectividad](#conectividad)
     - [Interactividad](#interactividad)
     - [Individualidad](#individualidad)
->>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 
 <a name="caracteristicas"> </a>
 # 📲 1.1. Características
-+ Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
+- Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
-+ Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
+- Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
-<<<<<<< HEAD
-+ En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
-=======
-+ En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos
->>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
+- En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
 
-+ La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
+- La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
-+ Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
+- Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
 
-<<<<<<< HEAD
 <p align="center">
-  <img src="../imagenes/tiempo.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
+  <img src="../imagenes/tiempo.png" alt="industria" width="70%">
 </p>
-=======
->>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
+
 ## 🌐 Portabilidad: 
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
