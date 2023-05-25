@@ -52,8 +52,6 @@ Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
 
-
-
 5.	Seleccione en la ruta app > res > layout > activity_main.xml.
 
 6.	En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
