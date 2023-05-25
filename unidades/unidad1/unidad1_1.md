@@ -8,25 +8,43 @@ remote_theme: pages-themes/cayman@v0.2.0
 Al finalizar la clase el estudiante será capaz de:
 - Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
+<<<<<<< HEAD
 # 1.1. 📲 Principios de Computación Móvil
 
 <p align="center">
   <img src="../imagenes/compmovil.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="compmovil">
 </p>
+=======
+# 1.1. Principios de computación móvil
+- [Características](#caracteristicas)
+    - [Portabilidad](#portabilidad)
+    - [Conectividad](#conectividad)
+    - [Interactividad](#interactividad)
+    - [Individualidad](#individualidad)
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 
+<a name="caracteristicas"> </a>
+# 📲 1.1. Características
 + Los sistemas de computación móviles son sistemas informáticos que pueden moverse fácilmente físicamente. Por ejemplo: computadoras portátiles, asistentes digitales personales (PDA) y teléfonos móviles.
 
 + Entre los aspectos distintivos de los sistemas de computación móvil están la conectividad de red inalámbrica, tamaño pequeño, y fuente de energía.
 
+<<<<<<< HEAD
 + En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos.
+=======
++ En algunos ambientes el factor de la movilidad juega un rol muy importante, por ejemplo: en el sector de la salud, en los sectores de atención de desastres, en sectores académicos
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 
 + La integración de las disciplinas de desarrollo de aplicaciones y de ingeniería de software permite la obtención de software de calidad.
 
 + Si bien existe una variedad de metodologías, técnicas, marcos y herramientas que se utilizan en el desarrollo de software para sistemas estacionarios, hay muy pocos para sistemas móviles.
 
+<<<<<<< HEAD
 <p align="center">
   <img src="../imagenes/tiempo.png" style="width: 30%; height: 180px; float: left; padding: 15px;" alt="tiempo">
 </p>
+=======
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 ## 🌐 Portabilidad: 
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
 
@@ -62,8 +80,6 @@ Es absolutamente crucial que se entienda las dimensiones de la movilidad y las t
 
 El primer paso para crear una aplicación de software, después del proceso de recopilación de requisitos, es establecer un plan de alto nivel sobre cómo será la aplicación cuando finalice. Se conoce a este plan de alto nivel de la aplicación móvil una "arquitectura de software móvil”.
 
-imagen
-
 ## INTERFACES DE USUARIO Y CICLO DE VIDA DE ACTIVIDADES
 
 ¿Podemos o no podemos usar las mismas metodologías, marcos y herramientas para el desarrollo de aplicaciones móviles?
@@ -93,10 +109,11 @@ Debido a esta naturaleza integrada de los sistemas móviles totalmente centraliz
 
  Las aplicaciones cliente, en el caso del desarrollo móvil, son típicamente aquellas que se ejecutan en dispositivos móviles. Por lo general, no es posible escribir aplicaciones grandes para que los dispositivos sirvan como cliente, principalmente debido a los recursos limitados en los dispositivos y la gran variedad de ellos. Entonces, la mayoría de las veces, las aplicaciones móviles se distribuyen.
 
-imágen
-
 ## TIPOS DE APLICACIONES
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 1. Aplicaciones nativas
 2. Aplicaciones web
 3. Aplicaciones híbridas
@@ -126,7 +143,10 @@ Adobe XD
 https://www.adobe.com/la/products/xd.html
 
 ## MODELO-VISTA-CONTROLADOR EN ANDROID
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 1. Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
 2. Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
 3. En las aplicaciones de Android, las clases de modelos son generalmente clases personalizadas que crea. 
@@ -136,6 +156,10 @@ https://www.adobe.com/la/products/xd.html
 
 ## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
 3. Incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema
@@ -186,8 +210,6 @@ app>manifests>AndroidManifest.xml
 El archivo de manifiesto describe las características fundamentales de la app y define cada uno de sus componentes.
 
 Diseño de la interfaz de usuario
-
-imagen
 
 ## COMPONENTES DE UNA APLICACIÓN
 
