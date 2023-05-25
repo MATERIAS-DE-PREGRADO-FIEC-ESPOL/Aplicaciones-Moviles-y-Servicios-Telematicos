@@ -469,6 +469,10 @@ public class formulario_registro extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+<p align="center">
+  <img src="../imagenes/amst_lab1_screen2_registro.png" alt="appAMST" width="50%">
+</p>
+
 ### Paso 2: Ejecución de la aplicación móvil. (30 puntos)
 
 14.	Ejecutar el aplicativo móvil “appAMST#” seleccionando el device selecter al lado de la opción Run ‘app’, en la cual se puede escoger entre 2 opciones: el dispositivo móvil conectado a través del cable USB de datos, o el emulador que usa los dispositivos virtuales disponibles.
@@ -479,59 +483,53 @@ public class formulario_registro extends AppCompatActivity {
 
 15.	Para la primera opción de ejecución de la aplicación se usa un teléfono móvil conectado vía USB a la computadora que contiene la aplicación móvil, posterior indicará que instale un apk que contiene la ejecución de la aplicación. Se puede ver más de eso a partir del Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android.
 
-16. Para la segunda opción de ejecución de la aplicación se usa el emulador seleccionando el dispositivo virtual que le aparezca, en este caso Pixel_3a_API_30_x86. En caso de que no tenga instalado ningún dispositivo virtual continúe al literal 16.
+16. Para la segunda opción de ejecución de la aplicación se usa el emulador seleccionando el dispositivo virtual que le aparezca, en este caso Pixel 6 Pro API 28. En caso de que no tenga instalado ningún dispositivo virtual continúe al literal 17.
 
 **Nota: Verificar que la API del dispositivo sea mayor a 26, caso contrario continuar al literal 17.**
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_avd.png" alt="appAMST" width="90%">
 </p>
 
 16.1 Durante la ejecución de la aplicación mediconline se debe ingresar un usuario y contraseña. No hay usuarios registrados para la aplicación por lo que debe salir el mensaje: “Usted no cuenta con un usuario”
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_nousuario.png" alt="appAMST" width="50%">
 </p>
 
 16.2 Cuando da clic en el botón Registrarse, debe ingresar sus datos y dar click a grabar para que aparezca la notificación. La interfaz de usuario se encuentra diseñada en el archivo activity_formulario_registro.xml.
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_mensajeregistro.png" alt="appAMST" width="50%">
 </p>
 
 17. Si no tiene instalado una versión de SDK para emular la ejecución de la aplicación en un dispositivo móvil, seleccione la opción AVD Manager (Android Virtual Device Manager).
 
-
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_menuavd.png" alt="appAMST" width="80%">
 </p>
 
 18.	Crear un dispositivo virtual.
 
+19.	Seleccionar el hardware “Pixel 6 PRO”, luego dar click en el botón siguiente. El hardware seleccionado no es relevante para la práctica, pero es recomendable escoger aquellos con símbolo del Play Store.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_newavd.png" alt="appAMST" width="90%">
 </p>
 
-
-19.	Seleccionar el hardware “Nexus 5X”, luego dar click en el botón siguiente. El hardware seleccionado no es relevante para la práctica, pero es recomendable escoger aquellos con símbolo del Play Store.
+20.	Seleccionar la imagen del API 33, luego dar click en el botón siguiente.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_avdapi33.png" alt="appAMST" width="90%">
 </p>
 
-20.	Seleccionar la imagen del API 30, luego dar click en el botón siguiente.
+21. En caso de no tener activado el botón next, dar clic a Download para descargar el API 33 y aceptar el acuerdo de la licencia de Android Software Development Kit.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_api33download.png" alt="appAMST" width="90%">
 </p>
 
-21. En caso de no tener activado el botón next, dar clic a Download para descargar el API 30 y aceptar el acuerdo de la licencia de Android Software Development Kit.
-
-<p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
-</p>
 
 ### Paso 3: Generación del APK (archivo ejecutable de Android) para instalación de aplicación en el teléfono celular. (5 puntos)
 
@@ -539,13 +537,13 @@ public class formulario_registro extends AppCompatActivity {
 (*) Este archivo permite ejecutar la aplicación desde el celular.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_buildapk.png" alt="appAMST" width="90%">
 </p>
 
 2.	Cuando se da clic en el enlace “locate” o en la advertencia podrá ingresar a la ruta donde se encuentra el archivo apk.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_locateapk.png" alt="appAMST" width="90%">
 </p>
 
 ### Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android. (5 puntos)
