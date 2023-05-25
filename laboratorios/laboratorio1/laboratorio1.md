@@ -625,13 +625,13 @@ git config --global user.name "Tu nombre"
 Una vez configurado su usuario en git podrá subir su commit.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_newrepository.png" alt="appAMST" width="80%">
 </p>
 
 5.	Creamos un repositorio en línea. Ahora usaremos GitHub (Requerirá una cuenta gratuita). Del lado superior izquierdo, encontrara el botón “NEW”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_createrep.png" alt="appAMST" width="90%">
 </p>
 
 6.	La información requerida para crear un repositorio se muestra a continuación:
@@ -649,13 +649,13 @@ Una vez configurado su usuario en git podrá subir su commit.
 **Licencia** Tipo de licencia: OpenSouce, MIT, Apache, etc.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_repvacio.png" alt="appAMST" width="90%">
 </p>
 
   Una vez ingresados todos los campos, se da clic en “Create repository”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_code.png" alt="appAMST" width="80%">
 </p>
 
 ***Vista del repositorio vacío.***
