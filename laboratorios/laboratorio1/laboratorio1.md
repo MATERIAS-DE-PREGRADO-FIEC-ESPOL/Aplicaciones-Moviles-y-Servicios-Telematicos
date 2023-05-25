@@ -596,19 +596,19 @@ La práctica de laboratorio será desarrollada en el siguiente formato:
 1.	Dentro de la carpeta del proyecto creado en el paso anterior, abra la línea de comandos de GIT (GIT CLI). Podemos encontrarlo dando clic derecho en la carpeta y escogiendo la opción “GIT BASH HERE”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_gitbash.png" alt="appAMST" width="90%">
 </p>
 
 - En caso de que no se disponga de GIT CLI, también se puede utilizar CMD de Windows/Ubuntu. Para probar que GIT ha sido instalado correctamente, utilice el comando “git --version”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_gitbash2.png" alt="appAMST" width="90%">
 </p>
 
 ***GIT en línea de comandos de Windows***
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_gitenlinea.png" alt="appAMST" width="90%">
 </p>
 
 ***GIT BASH propia***
@@ -616,7 +616,7 @@ La práctica de laboratorio será desarrollada en el siguiente formato:
 2.	Para crear un nuevo repositorio, utilice el siguiente comando “git init”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_gitinit.png" alt="appAMST" width="90%">
 </p>
 
 ***Esto creará un archivo oculto [.git] para el manejo del repositorio y nos ubicará directamente en la rama “master”***
@@ -624,13 +624,13 @@ La práctica de laboratorio será desarrollada en el siguiente formato:
 3.	Agregamos todos los archivos del proyecto a nuestro repositorio local con el comando: “git add --all”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_gitaddall.png" alt="appAMST" width="90%">
 </p>
 
 4.	Ahora realizamos un commit, esto realizará nuestros cambios permanentes en el repositorio local. Pero debemos asignarle un mensaje [-m “mensaje”] para indicar los cambios que hemos realizado.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="../imagenes/amst_lab1_commit.png" alt="appAMST" width="90%">
 </p>
 
 **Importante:** Para poder realizar un commit es necesario configurar previamente su correo y nombre de usuario, por lo que debe poseer un usuario de GitHub. Los comandos por utilizar para configurar sus credenciales son: 
