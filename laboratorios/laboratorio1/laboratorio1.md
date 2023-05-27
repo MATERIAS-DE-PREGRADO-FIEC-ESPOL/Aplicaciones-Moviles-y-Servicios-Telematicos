@@ -22,7 +22,7 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 **Actividades**
 
-Paso 1: Crear un nuevo proyecto en Android Studio.
+### Paso 1: Crear un nuevo proyecto en Android Studio.
 
 1. Al abrir Android Studio, podemos crear, abrir, o importar proyectos. Seleccione “New Project”.
 <p align="center">
