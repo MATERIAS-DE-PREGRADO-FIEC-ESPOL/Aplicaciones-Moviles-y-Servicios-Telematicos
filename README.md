@@ -1,2 +1,2 @@
-# Materia de Aplicaciones Móviles y Servicios Telematicos
-Profesora Mg. Adriana Collaguazo Jaramillo
+# MATERIA DE APLICACIONES MÓVILES Y SERVICIOS TELEMÁTICOS
+# PROFESORA MG. ADRIANA COLLAGUAZO JARAMILLO
