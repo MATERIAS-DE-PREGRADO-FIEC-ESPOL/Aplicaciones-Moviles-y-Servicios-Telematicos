@@ -3,5 +3,7 @@ remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme
 ---
-title: PROFESORA ADRIANA COLLAGUAZO JARAMILLO
-description: PROFESORA ADRIANA COLLAGUAZO JARAMILLO
+title: [PROFESORA ADRIANA COLLAGUAZO JARAMILLO]
+description: [PROFESORA ADRIANA COLLAGUAZO JARAMILLO]
+
+google_analytics: [G-711FMTCF19]

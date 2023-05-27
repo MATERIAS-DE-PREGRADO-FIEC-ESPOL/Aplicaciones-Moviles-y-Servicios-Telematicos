@@ -1,4 +1,4 @@
-# PROFESORA: MG. ADRIANA COLLAGUAZO JARAMILLO
+# MATERIA DE APLICACIONES MÓVILES Y SERVICIOS TELEMÁTICOS
 ## Código: TLMG1024 (AMST)
 ## Carrera: Ingeniería en Telemática
 ## Facultad de Ingeniería en Electricidad y Computación (FIEC ESPOL)
