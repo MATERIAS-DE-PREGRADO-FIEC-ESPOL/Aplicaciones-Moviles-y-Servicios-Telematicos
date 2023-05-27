@@ -37,6 +37,8 @@
 ## PRÁCTICAS DE LABORATORIO
 * [AMST LAB1 DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS](laboratorios/laboratorio1/laboratorio1.md)
 
+## MICROSESIONES
+
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
 
