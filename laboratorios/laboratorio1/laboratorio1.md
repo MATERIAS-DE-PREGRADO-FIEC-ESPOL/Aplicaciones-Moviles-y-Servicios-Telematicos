@@ -26,13 +26,13 @@ Paso 1: Crear un nuevo proyecto en Android Studio.
 
 1. Al abrir Android Studio, podemos crear, abrir, o importar proyectos. Seleccione “New Project”.
 <p align="center">
-  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="80%">
+  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="85%">
 </p>
 
 2. Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="80%">
+  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="85%">
 </p>
 
 3.  Configuración inicial del proyecto.
@@ -46,7 +46,7 @@ Paso 1: Crear un nuevo proyecto en Android Studio.
 4. Seleccionamos Finish.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_appAMST0.png" alt="appAMST" width="80%">
+  <img src="../imagenes/amst_lab1_appAMST0.png" alt="appAMST" width="85%">
 </p>
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
