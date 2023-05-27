@@ -26,13 +26,13 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 1. Al abrir Android Studio, podemos crear, abrir, o importar proyectos. Seleccione “New Project”.
 <p align="center">
-  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
+  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="100%">
 </p>
 
 2. Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="90%">
+  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="100%">
 </p>
 
 3.  Configuración inicial del proyecto.
