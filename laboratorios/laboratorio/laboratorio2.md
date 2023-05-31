@@ -153,10 +153,14 @@ Siempre que realices cambios en los archivos Gradle, recuerda volver a sincroniz
 
 ### **Paso 2:** Inicio de sesión con cuenta Google (10 puntos)
 
-**Pre-requisito:** Habilitar el método de inicio de sesión mediante Google. Dentro de la consola de FireBase seleccione: Categorías de producto > Compilación > Autenticación > Comenzar. Luego se mostrará el menú de Users con el botón de Configurar el método de acceso (Sign-in-method) y entre los proveedores adicionales habilitar Google. 
+**Pre-requisito:** Habilitar el método de inicio de sesión mediante Google. Dentro de la consola del proyecto en FireBase seleccione del lado izquierdo la ruta de Build -> Authentication. Luego se mostrará el menú de Users, dar clic en el botón de Set up sign-in method y entre los proveedores adicionales habilitar ***Google***. 
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_console_autenticacion.png" alt="appAMST" width="100%">
+</p>
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_console_proveedor.png" alt="appAMST" width="100%">
 </p>
 
 1.	Agregamos nuevas dependencias en build.gradle (module:app), y luego sincronizamos.
