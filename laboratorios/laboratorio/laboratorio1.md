@@ -5,7 +5,7 @@ plugins:
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# Práctica de laboratorio 1
+# Práctica de Laboratorio 1
 ## DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS
 
 ## 🎯 Objetivo de Aprendizaje

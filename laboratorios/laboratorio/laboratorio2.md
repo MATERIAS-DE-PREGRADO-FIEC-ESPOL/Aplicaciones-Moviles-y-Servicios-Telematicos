@@ -1,92 +1,137 @@
-# Aplicación móvil con integración de base de datos externa en la nube de Google.
+---
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+[Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-### **Objetivo de Aprendizaje:** 
+# Práctica de Laboratorio 2
+## DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNA EN GOOGLE
+
+## 🎯 Objetivo de Aprendizaje
 Demostrar el acceso a los recursos en red para la programación de aplicaciones móviles avanzadas.
 
-### **Recursos:**
-Android Studio, Google Cloud servicio de FireBase.
+**Recursos:**
+Android Studio, Google Cloud, FireBase.
 
-### **Duración:**
+**Duración:**
  7 horas
 
 
-## Instrucciones
+**Instrucciones**
+- Crear una aplicación móvil que interactúe con una base de datos no relacional durante el desarrollo de la aplicación móvil.
 
-- Crear una aplicación móvil que interactúe con una base de datos no relacional durante el desarrollo de aplicaciones móviles.
-
-## Actividades
+**Actividades**
 
 ### **Paso 1:** Integra el servicio de FireBase a tu aplicación de Android Studio. (15 puntos)
 
+1.	Crea un proyecto en Android Studio nombrado ***appAMST_labA_firebase*** donde A será el número de laboratorio.
 
-1.	Crea un proyecto en Android Studio llamado, con el nombre “AMST_GrupoA_LabB_Cloud_Firebase”, donde A será su número de grupo y B el número de laboratorio.
+-	Asegúrese de que su Minimum API level sea API 16 (Jelly Bean) o mayor.
 
+-	Para este curso, el lenguaje a utilizar será JAVA.
 
-<p align="center">
-  <img src="../imagenes/amst_lab2_1.png" alt="appAMST" width="100%">
-</p>
+-	No marcar “Use legacy android.support libraries”.
 
-2.	Acceder a la consola de FireBase usando una cuenta de gmail.
-
-<p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
-</p>
-
-3.	Dentro del proyecto FireBase creado recientemente, añadimos nuestra aplicación Android en la consola, dando clic al icono de Android Studio.  
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_newproject.png" alt="appAMST" width="100%">
 </p>
 
-En caso de que ya existan proyectos en el repositorio de Firebase, hacer click en el siguiente botón: 
+2.	Acceder a la [consola de FireBase](https://console.firebase.google.com/) usando una cuenta de gmail o de FIEC. Luego selecciona ***Crear un nuevo proyecto*** en que se mostrará el siguiente proceso.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_firebase_new_project.png" alt="appAMST" width="100%">
 </p>
-
-4.	En Android Studio, el nombre del paquete de Android puede encontrarlo en build.gradde (module:app), en la variable applicationId
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_google_analytics.png" alt="appAMST" width="100%">
 </p>
 
+<p align="center">
+  <img src="../imagenes/amst_lab2_googleanalytics_account.png" alt="appAMST" width="100%">
+</p>
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_readyproject.png" alt="appAMST" width="100%">
+</p>
+
+3.	Dentro del proyecto de FireBase creado recientemente, añadimos nuestra aplicación de Android en la consola, dando clic al icono de Android Studio.  
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_appandroid.png" alt="appAMST" width="100%">
+</p>
+
+***En caso de que ya existan proyectos en el repositorio de Firebase, hacer clic en el siguiente botón de Agregar app:***
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_menu_addapp.png" alt="appAMST" width="50%">
+</p>
+
+4.	Para completar los datos de la sección de Añadir Firebase a tu aplicación de Android, en Android Studio puedes encontrar el nombre del paquete de Android en el archivo de **build.gradde (module:app)** en la variable applicationId.
+
+```
+android {
+    namespace 'com.example.appamst_laba_firebase'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.appamst_laba_firebase"
+        minSdk 16
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+}
+```
 
 5.	En app > manifests > AndroidManifest.xml dar permisos de acceso a Internet:
 
-<p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
-</p>
+```
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+```
 
-6.	En Cloud Firebase agrega los datos de tu app para Android.
-
-7.	La pestaña Graddles está en la esquina superior derecha de la ventana.
-
-8.	En la ruta Gradle > app > Tasks > android > signinReport se encuentra el certificado de firma de depuración SHA-1. En caso de no encontrar el archivo, dirigirse al literal 8.a y luego repetir el paso 8.
-
-<p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
-</p>
-
-a.	Para conseguir el certificado de firma de depuración SHA-1 de Android Studio debemos acceder a File -> settings -> Experimental y desmarcar la opción "Do not build gradle task list during Gradle sync".
+6. Para obtener el certificado de firma de depuración SHA-1 de Android Studio, debemos acceder a la ruta de File -> Settings -> Experimental. Luego, desmarcar la opción ***Only include test tasks in the Gradle task list generated during Gradle Sync***
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_certificado_firma.png" alt="appAMST" width="100%">
 </p>
 
-b.	Ahora para actualizar el proyecto, ir a Files ->Sync project with Gradle files
+7. Ahora para actualizar el proyecto, selecciona Files -> Sync Project with Gradle Files.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_syncproject.png" alt="appAMST" width="80%">
 </p>
 
-9.	Luego de llenar todos los datos, damos clic en Registrar aplicación.
+8.	Luego, ubicar la pestaña Gradle que se encuentra en la esquina superior derecha de la ventana, seleccionar la ruta Gradle -> app -> Tasks -> android -> signingReport, donde se encuentra el certificado de firma de depuración SHA-1.
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_sha1.png" alt="appAMST" width="100%">
+</p>
+
+9.	Ahora si puede completar todos los datos (nombre del paquete, apodo, y el certificado de firma SHA-1 de depuración) en la consola de Firebase, ventana de Agrega Firebase a tú aplicación Android.
+
+- Apodo: Es un identificador interno y conveniente que solo tú puedes ver en Firebase console.
+
+- Certificado de firma SHA‑1 de depuración: Firebase Authentication.
+
+- Importante: Para la autenticación, requiere agregar el certificado de firma SHA‑1 de depuración.
+
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_addfirebasetoandroid.png" alt="appAMST" width="100%">
+</p>
 
 10.	Descargamos el archivo de configuración “Google-services.json”.
 
 11.	En Android Studio cambiamos a la vista Proyecto y agregamos el archivo dentro de la carpeta app de nuestro proyecto, tal como se muestra en la imagen.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_googleservices.png" alt="appAMST" width="80%">
 </p>
 
 
@@ -103,7 +148,7 @@ Siempre que realices cambios en los archivos Gradle, recuerda volver a sincroniz
 13.	Listo, ahora está sincronizado el proyecto y se puede ir a la consola.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_readygoogle.png" alt="appAMST" width="100%">
 </p>
 
 ### **Paso 2:** Inicio de sesión con cuenta Google (10 puntos)
@@ -127,9 +172,6 @@ Siempre que realices cambios en los archivos Gradle, recuerda volver a sincroniz
 </p>
 
 **Código de la vista**
-
-
-
 Los componentes subrayados son aquellos que aún no han sido creados. Por eso debe agregar una imagen llamada google.png en src/main/res/drawable.
 
 ### **Paso 3:** Configurar Inicio de sesión (15 puntos)
