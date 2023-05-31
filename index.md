@@ -37,5 +37,19 @@
 ## PRÁCTICAS DE LABORATORIO
 * [AMST LAB1 DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS](laboratorios/laboratorio1/laboratorio1.md)
 
+## MICROSESIONES
+
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-711FMTCF19"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-711FMTCF19');
+</script>

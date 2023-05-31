@@ -67,10 +67,6 @@ Es absolutamente crucial que se entienda las dimensiones de la movilidad y las t
 
 5. El usuario móvil puede requerir acceso al sistema en cualquier lugar y en cualquier momento.
 
-# 1.2. ARQUITECTURA DE SOFTWARE PARA SERVICIOS MÓVILES
-
-El primer paso para crear una aplicación de software, después del proceso de recopilación de requisitos, es establecer un plan de alto nivel sobre cómo será la aplicación cuando finalice. Se conoce a este plan de alto nivel de la aplicación móvil una "arquitectura de software móvil”.
-
 ## INTERFACES DE USUARIO Y CICLO DE VIDA DE ACTIVIDADES
 
 ¿Podemos o no podemos usar las mismas metodologías, marcos y herramientas para el desarrollo de aplicaciones móviles?

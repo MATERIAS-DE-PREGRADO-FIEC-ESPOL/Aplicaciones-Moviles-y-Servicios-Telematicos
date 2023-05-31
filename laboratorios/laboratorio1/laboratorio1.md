@@ -1,5 +1,7 @@
 ---
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
@@ -9,7 +11,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 ## 🎯 Objetivo de Aprendizaje
 Desarrollar aplicaciones móviles considerando las características de la programación en dispositivos móviles.
 
-**Recursos:** Android Studio, GIT (software), GitHub (online).
+**Recursos:** Android Studio, GitBash, GitHub online.
 
 **Duración:** 5 horas
 
@@ -20,18 +22,17 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 **Actividades**
 
-Paso 1: Crear un nuevo proyecto en Android Studio. (2 puntos)
+### Paso 1: Crear un nuevo proyecto en Android Studio.
 
-1.	Al abrir Android Studio, podemos crear, abrir o importar proyectos. Seleccione “New Project”.
-
+1. Al abrir Android Studio, podemos crear, abrir, o importar proyectos. Seleccione “New Project”.
 <p align="center">
-  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="90%">
+  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="100%">
 </p>
 
-2.  Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
+2. Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="90%">
+  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="100%">
 </p>
 
 3.  Configuración inicial del proyecto.
@@ -717,7 +718,7 @@ $ git push -u origin main
   <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
-## Paso 4: Crear una rama [Branch] (Trabajo individual) (15 puntos)
+## Paso 8: Crear una rama [Branch] (Trabajo individual) (15 puntos)
 
 1.	Los estudiantes que no crearon el repositorio clonar el proyecto en su computadora con el comando 
 
