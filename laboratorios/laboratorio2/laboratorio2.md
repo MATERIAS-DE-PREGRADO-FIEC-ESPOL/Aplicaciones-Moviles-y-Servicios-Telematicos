@@ -110,7 +110,7 @@ android {
 8.	Luego, ubicar la pestaña Gradle que se encuentra en la esquina superior derecha de la ventana, seleccionar la ruta Gradle -> app -> Tasks -> android -> signingReport, donde se encuentra el certificado de firma de depuración SHA-1.
 
 <p align="center">
-  <img src="/imagenes/amst_lab2_sha1.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab2_sha1.png" alt="appAMST" width="100%">
 </p>
 
 9.	Ahora si puede completar todos los datos (nombre del paquete, apodo, y el certificado de firma SHA-1 de depuración) en la consola de Firebase, ventana de Agrega Firebase a tú aplicación Android, y dar clic en ***Register Add***.
