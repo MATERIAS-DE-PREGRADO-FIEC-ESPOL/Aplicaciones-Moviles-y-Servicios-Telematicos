@@ -720,7 +720,7 @@ public void iniciarBaseDeDatos() {
     }
 ```
 
-10. Finalmente, agregar la función cerrarSesion en el mismo archivo PerfilUsuario.java para que sea habilitada cuando se de clic en el boton Cerrar Sesion.
+10. Agregamos la función cerrarSesion en el mismo archivo PerfilUsuario.java para que sea habilitada cuando se de clic en el boton Cerrar Sesion.
 
 ```
 public void cerrarSesion(View view) {
@@ -731,6 +731,20 @@ public void cerrarSesion(View view) {
         startActivity(intent);
     }
 ```
+
+11. Finalmente, ejecute la aplicación móvil amstfirebaseapp.
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_pantalla1.png" alt="appAMST" width="50%">
+</p>
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_pantalla2_login.png" alt="appAMST" width="50%">
+</p>
+
+<p align="center">
+  <img src="../imagenes/amst_lab2_pantalla3_perfilusuario.png" alt="appAMST" width="50%">
+</p>
 
 ### **Desafíos (20 puntos)**:
 - Mejorar el diseño del perfil de usuario. 
