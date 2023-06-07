@@ -214,7 +214,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 ```
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_vista_menu.png" alt="appAMST" width="100%">
+  <img src="../imagenes/amst_lab3_vista_menu.png" alt="appAMST" width="60%">
 </p>
 
 4)	Creamos una transición de una actividad a otra para (De inicio de sesión -> Menú principal)
@@ -235,7 +235,8 @@ La REST API que usaremos para este taller será https://amst-lab-api.herokuapp.c
 
 1)	Dar permisos para el uso de internet. Nuestra aplicación debe permitir conectarse a internet por medio del teléfono. Para ello, agregamos la siguiente línea en el archivo manifesto (El archivo de configuraciones generales)
 - El archivo se encuentra en app > manifests > AndroidManifest.xml
-- Agregamos la siguiente línea (para conceder permisos de Internet): 
+- Agregamos la siguiente línea (para conceder permisos de Internet):
+
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
@@ -251,6 +252,7 @@ Se agrega antes del tag aplicaciones:
 ```
 
 2)	Instalamos las dependencias necesarias (Librería Volley para request http).
+
 - Agregamos la librería Volley en el archivo **build.gradle** que se encuentra en “Gradle Scripts” - build.gradle (modulo app).
 
 - Agregamos la siguiente línea:
