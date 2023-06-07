@@ -48,11 +48,11 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
 - [Save Location]: DirecciÓn donde se ubica el proyecto en nuestra PC.
 - Languaje: Java
 
+4) Seleccionamos FINISH. Como resultado se creará un proyecto vacío, solo presentado el mensaje “Hello World”.
+
 <p align="center">
   <img src="../imagenes/amst_lab3_configproject.png" alt="appAMST" width="100%">
 </p>
-
-4) Seleccionamos FINISH. Como resultado se creará un proyecto vacío, solo presentado el mensaje “Hello World”.
 
 <p align="center">
   <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
