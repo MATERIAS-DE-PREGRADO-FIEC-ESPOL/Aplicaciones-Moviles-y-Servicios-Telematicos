@@ -41,7 +41,7 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
   <img src="../imagenes/amst_lab3_emptyviewsactivity.png" alt="appAMST" width="100%">
 </p>
 
-3.	Configuración inicial del proyecto.
+3) Configuración inicial del proyecto.
 
 - Name: Colocaremos el nombre de nuestra app. (Recuerde que este nombre será reflejado en el PlayStore al momento de publicarlo). Para este laboratorio, usaremos **amst api app** donde A es el número de la práctica de laboratorio.
 - PackageName: Paquete principal de código java, se obtiene automáticamente del nombre.
@@ -52,7 +52,7 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
   <img src="../imagenes/amst_lab3_configproject.png" alt="appAMST" width="100%">
 </p>
 
-4.	Seleccionamos FINISH. Como resultado se creará un proyecto vacío, solo presentado el mensaje “Hello World”.
+4) Seleccionamos FINISH. Como resultado se creará un proyecto vacío, solo presentado el mensaje “Hello World”.
 
 <p align="center">
   <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
@@ -62,7 +62,7 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
 
 Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y un menú principal. Al momento de abrir la aplicación, se ejecutará MainActivity.java y activity_main.xml
 
-1.	Dentro del archivo activity_main.xml que se encuentra en la ruta app > res > layout, vamos a colocar los siguientes elementos:
+1)	Dentro del archivo activity_main.xml que se encuentra en la ruta app > res > layout, vamos a colocar los siguientes elementos:
 - (1 Layout vertical) para el arreglo de los elementos
 - (1 EditText) un titulo
 - (2 Inputs) Ingresar usuario y contraseña
@@ -139,7 +139,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 - ¿Que hace el atributo type? (mencione otros 5 valores que puede tener el atributo type diferentes al que se usa en el código).
 
 
-2.	Crear una segunda actividad a mi aplicación para redirigir al usuario cuando este ha completado con éxito el inicio de sesión.
+2) Crear una segunda actividad a mi aplicación para redirigir al usuario cuando este ha completado con éxito el inicio de sesión.
 - Para crear una nueva actividad, damos clic derecho en “app”.
 - Seleccionar New > Activity > Empty Activity.
 
@@ -151,7 +151,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 -	menu.java
 -	menu.xml
 
-3.	Creamos un menú básico (15 minutos):
+3) Creamos un menú básico (15 minutos):
 - (1 Layout vertical) para el arreglo de los elementos
 - (1 EditText) un título
 - (4 Botones) un título
@@ -217,7 +217,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
   <img src="../imagenes/amst_lab3_vista_menu.png" alt="appAMST" width="100%">
 </p>
 
-4.	Creamos una transición de una actividad a otra para (De inicio de sesión -> Menú principal)
+4)	Creamos una transición de una actividad a otra para (De inicio de sesión -> Menú principal)
 - Seleccionamos el botón de Iniciar sesion > atributo(onClick) (dentro de activity_main.xml)
 - Escribirnos el nombre de la función irMenuPrincipal
 - Creamos la función irMenuPrincipal dentro de MainActivity.java
@@ -233,7 +233,7 @@ Una REST API o API de desarrollo permite interactuar con una base de datos exter
 
 La REST API que usaremos para este taller será https://amst-lab-api.herokuapp.com/db. Esta API está desarrollada en Django Python con autenticación JWT.  De esta manera, el teléfono puede acceder a grandes cantidades de información sin tener que alojarla de forma interna. A cambio requiere conexión a internet (lo cual en casos puede llegar a ser costosa).
 
-1.	Dar permisos para el uso de internet. Nuestra aplicación debe permitir conectarse a internet por medio del teléfono. Para ello, agregamos la siguiente línea en el archivo manifesto (El archivo de configuraciones generales)
+1)	Dar permisos para el uso de internet. Nuestra aplicación debe permitir conectarse a internet por medio del teléfono. Para ello, agregamos la siguiente línea en el archivo manifesto (El archivo de configuraciones generales)
 - El archivo se encuentra en app > manifests > AndroidManifest.xml
 - Agregamos la siguiente línea (para conceder permisos de Internet): 
 ```
@@ -250,7 +250,7 @@ Se agrega antes del tag aplicaciones:
         android:allowBackup="true"
 ```
 
-2.	Instalamos las dependencias necesarias (Librería Volley para request http).
+2)	Instalamos las dependencias necesarias (Librería Volley para request http).
 - Agregamos la librería Volley en el archivo **build.gradle** que se encuentra en “Gradle Scripts” - build.gradle (modulo app).
 - Agregamos la siguiente línea:
 
@@ -260,14 +260,14 @@ dependencies {
 }
 ```
 
-3.	Una vez ingresada se actualizará el Gradle (Paquete de librerías) [En caso de no sincronizarse puede sincronizarlo manualmente con File > Sync Project with Grandle files].
+3)	Una vez ingresada se actualizará el Gradle (Paquete de librerías) [En caso de no sincronizarse puede sincronizarlo manualmente con File > Sync Project with Grandle files].
 
 ### **Paso 4:** Inicio de sesión con Base de datos externa (REST API).
 
 Creamos la función Iniciar sesión en MainActivity.java
 Ahora creamos la función que va a recibir como parámentros nuestro usuario y contraseña y retornará el token de seguridad o el mensaje de que el usuario no es válido.
 
-1.	Creamos una variable lista (queue) de las solicitudes (request) a ejecutar.
+1)	Creamos una variable lista (queue) de las solicitudes (request) a ejecutar.
 
 ```
 public class MainActivity extends AppCompatActivity {
@@ -275,7 +275,7 @@ private RequestQueue mQueue = null;
 }
 ```
 
-2.	Debe crearse un usuario, accediendo al portal 
+2)	Debe crearse un usuario, accediendo al portal 
 [API Usuarios Heroku](https://amst-lab-api.herokuapp.com/admin/auth/user/)
 
 Usuario: estudiante, contraseña:stud3ntam5t
@@ -304,7 +304,7 @@ Al hacer clic en guardar el usuario estará creado. Aparecerá otro formulario. 
 
 - Dirigirse al final y presionar el botón SAVE.  
 
-3.	Creamos la función IniciarSesion(). Para realizar la siguiente llamada HTTP:
+3)	Creamos la función IniciarSesion(). Para realizar la siguiente llamada HTTP:
 Url: https://amst-lab-api.herokuapp.com/api/db/nuevo-jwt
 Método: POST
 Cuerpo: {username, password}
@@ -443,7 +443,7 @@ public class menu extends AppCompatActivity {
 ```
 
 
-### **Paso 5:** Creación de nueva actividad de red de sensores
+### **Paso 6:** Creación de nueva actividad de red de sensores
 Creamos una nueva actividad, dando clic derecho en app > Activity > Empty Activity > redes_sensores
 Ingresamos un el nombre para la nueva actividad [red_sensores], lo que generara dos archivos:
 a.	red_sensores.java
@@ -703,18 +703,15 @@ Nota: Realice la importación de las librerías que sean necesarias.
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-**Diseño de la aplicación móvil de sensado de temperatura, humedad y peso.**
+**Diseño: Aplicación móvil de sensado de temperatura, humedad y peso.**
 
 
-Preguntas de desafío:
-c)	¿Qué son los métodos POST y GET?
-d)	¿Qué otros métodos como esos existen?
-e)	¿Qué es Django y para qué sirve?
-
-Tareas de Desafío:
-1.	Realizar una actividad que me permita enviar nuevos valores de humedad, peso y temperatura a la base de datos actual. Pista: Utilice el método POST como en el inicio de sesión, pero en vez de crear el token, enviar los parámetros de los nuevos valores y la función getHeaders del método get usado. 
-2.	Usar la ruta: https://amst-lab-api.herokuapp.com/api/sensores/
-
+### **Preguntas de desafío:**
+a)	¿Qué son los métodos POST y GET?
+b)	¿Qué otros métodos como esos existen?
+c)	¿Qué es Django y para qué sirve?
+d)	Realizar una actividad que me permita enviar nuevos valores de humedad, peso y temperatura a la base de datos actual. Pista: Utilice el método POST como en el inicio de sesión, pero en vez de crear el token, enviar los parámetros de los nuevos valores y la función getHeaders del método get usado. 
+e)	Usar la ruta: https://amst-lab-api.herokuapp.com/api/sensores/
 
 
 
@@ -722,10 +719,10 @@ Tareas de Desafío:
 
 El trabajo autónomo será desarrollado en el siguiente formato:
 
-- Nombre del archivo: AMST_Trabajo Autónomo A_Grupo B_Apellido1_Apellido2_Apellido3…
-- (*) Siendo A el número del trabajo y B el número del grupo
+- Nombre del archivo: AMST_LaboratorioA_Grupo B_Apellido1_Apellido2_Apellido3
+- (*) Siendo A el número de la práctica y B el número del grupo
 - Nombre de la materia y paralelo 1
-- Título del trabajo: Ejemplo: Trabajo Autónomo A - Tema
+- Título del trabajo: Ejemplo: Práctica de Laboratorio A - Tema
 - Nombre de la profesora
 - Número de grupo
 - Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
