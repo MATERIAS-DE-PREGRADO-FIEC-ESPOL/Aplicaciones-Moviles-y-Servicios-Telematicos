@@ -8,7 +8,7 @@ plugins:
 # Prácticas de Laboratorio 3
 ## DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNAS Y PRIVADAS UTILIZANDO REST API
 
-**Objetivo de Aprendizaje:**
+## 🎯 Objetivo de Aprendizaje
 Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
 **Recursos:**
@@ -18,7 +18,6 @@ Android Studio, REST API del curso, REST API privada, bases de datos PostgreSQL 
 8 horas
 
 **Instruciones**
-
 Crear una aplicación que interactúe con 3 tipos de base de datos utilizadas actualmente durante el desarrollo de aplicaciones móviles:
 1.	Base de datos externa PostgreSQL para el inicio de sesión y la consulta de datos.
 2.	Uso de token de autorización.
