@@ -252,6 +252,7 @@ Se agrega antes del tag aplicaciones:
 
 2)	Instalamos las dependencias necesarias (Librería Volley para request http).
 - Agregamos la librería Volley en el archivo **build.gradle** que se encuentra en “Gradle Scripts” - build.gradle (modulo app).
+
 - Agregamos la siguiente línea:
 
 ```
@@ -305,12 +306,12 @@ Al hacer clic en guardar el usuario estará creado. Aparecerá otro formulario. 
 - Dirigirse al final y presionar el botón SAVE.  
 
 3)	Creamos la función IniciarSesion(). Para realizar la siguiente llamada HTTP:
-Url: https://amst-lab-api.herokuapp.com/api/db/nuevo-jwt
-Método: POST
-Cuerpo: {username, password}
-Retorno: {token de usuario}
+- Url: https://amst-lab-api.herokuapp.com/api/db/nuevo-jwt
+- Método: POST
+- Cuerpo: {username, password}
+- Retorno: {token de usuario}
 
-**Archivo: MainActivity.java**
+**Clase: MainActivity.java**
 
 ```
 package com.example.amstapiapp;
