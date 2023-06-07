@@ -233,15 +233,18 @@ Una REST API o API de desarrollo permite interactuar con una base de datos exter
 
 La REST API que usaremos para este taller será https://amst-lab-api.herokuapp.com/db. Esta API está desarrollada en Django Python con autenticación JWT.  De esta manera, el teléfono puede acceder a grandes cantidades de información sin tener que alojarla de forma interna. A cambio requiere conexión a internet (lo cual en casos puede llegar a ser costosa).
 
-1)	Dar permisos para el uso de internet. Nuestra aplicación debe permitir conectarse a internet por medio del teléfono. Para ello, agregamos la siguiente línea en el archivo manifesto (El archivo de configuraciones generales)
+1)	Dar permisos para el uso de internet. Nuestra aplicación debe permitir conectarse a internet por medio del teléfono. Para ello, agregamos la siguiente línea en el archivo manifesto (El archivo de configuraciones generales).
+
 - El archivo se encuentra en app > manifests > AndroidManifest.xml
+
 - Agregamos la siguiente línea (para conceder permisos de Internet):
 
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-Se agrega antes del tag aplicaciones:
+- Se agrega antes del tag aplicaciones:
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -710,10 +713,14 @@ Nota: Realice la importación de las librerías que sean necesarias.
 
 
 ### **Preguntas de desafío:**
-a)	¿Qué son los métodos POST y GET?
-b)	¿Qué otros métodos como esos existen?
-c)	¿Qué es Django y para qué sirve?
-d)	Realizar una actividad que me permita enviar nuevos valores de humedad, peso y temperatura a la base de datos actual. Pista: Utilice el método POST como en el inicio de sesión, pero en vez de crear el token, enviar los parámetros de los nuevos valores y la función getHeaders del método get usado. 
+a)	¿Qué son los métodos POST y GET?.
+
+b)	¿Qué otros métodos como esos existen?.
+
+c)	¿Qué es Django y para qué sirve?.
+
+d)	Realizar una actividad que me permita enviar nuevos valores de humedad, peso y temperatura a la base de datos actual. Pista: Utilice el método POST como en el inicio de sesión, pero en vez de crear el token, enviar los parámetros de los nuevos valores y la función getHeaders del método get usado.
+
 e)	Usar la ruta: https://amst-lab-api.herokuapp.com/api/sensores/
 
 
