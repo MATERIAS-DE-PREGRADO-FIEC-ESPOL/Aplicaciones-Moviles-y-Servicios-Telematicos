@@ -79,13 +79,14 @@ Windows:
 - En el cuadro inferior de “Variables del sistema” buscaremos la variable llamada “Path” y le daremos doble click.
 
 - Se abrirá una nueva ventana, ahí presionaremos en el botón nuevo.
-ix.	Escribiremos la ruta donde se alojó la carpeta de flutter. Ejemplo: C:\Users\<tu-nombre-de-usuario>\Documents\flutter\bin
-x.	Daremos en aceptar en las ventanas hasta cerrarlas todas.
-b.	MacOS.
-i.	Abriremos una terminal.
-ii.	Nos dirigiremos al directorio del usuario con el comando: cd /Users/<tu-nombre-de-usuario>
-iii.	Una vez dentro, realizaremos el comando vim .bash_profile
-iv.	Presionamos la tecla i para empezar a editar el archivo creado.
-v.	Escribiremos: export PATH=”$PATH:/Users/<tu-nombre-de-usuario>/development/flutter/bin” (el path agregado debe coincidir con el path donde se encuentra la carpeta de flutter alojada.)
-vi.	Para salir de vim escribiremos “:wq!”
-vii.	Cerramos y volvemos a abrir la terminal.
+- Escribiremos la ruta donde se alojó la carpeta de flutter. Ejemplo: C:\Users\<tu-nombre-de-usuario>\Documents\flutter\bin
+- Daremos en aceptar en las ventanas hasta cerrarlas todas.
+- MacOS.
+- Abriremos una terminal.
+- Nos dirigiremos al directorio del usuario con el comando: cd /Users/<tu-nombre-de-usuario>
+- Una vez dentro, realizaremos el comando vim .bash_profile
+- Presionamos la tecla i para empezar a editar el archivo creado.
+- Escribiremos: export PATH=”$PATH:/Users/<tu-nombre-de-usuario>/development/flutter/bin” (el path agregado debe coincidir con el path donde se encuentra la carpeta de flutter alojada.)
+- Para salir de vim escribiremos “:wq!”
+- Cerramos y volvemos a abrir la terminal.
+
