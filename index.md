@@ -42,6 +42,10 @@
 * [AMST LAB3 DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNAS UTILIZANDO REST API](laboratorios/laboratorio3/laboratorio3.md)
 
 ## MICROSESIONES
+* [MICROSESION 2](microsesiones/microsesion2_nonrelational.md)
+
+# MANUALES
+* [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)
 
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
