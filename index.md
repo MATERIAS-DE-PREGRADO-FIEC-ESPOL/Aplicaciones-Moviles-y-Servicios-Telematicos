@@ -42,7 +42,7 @@
 * [AMST LAB3 DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNAS UTILIZANDO REST API](laboratorios/laboratorio3/laboratorio3.md)
 
 ## MICROSESIONES
-MICROSESION2(laboratorios/laboratorio3/laboratorio3.md)
+MICROSESION2(microsesiones/microsesion2_nonrelational.md)
 
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
