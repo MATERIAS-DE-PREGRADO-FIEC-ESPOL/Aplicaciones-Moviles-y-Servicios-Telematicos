@@ -59,18 +59,18 @@ Linux:
 - Linux (64-bit)
 
 
-1.	Descargar el archivo SDK en su última versión estable en el siguiente enlace, ahí podrán encontrar los diferentes archivos para cada tipo de sistema operativo.:
+1)	Descargar el archivo SDK en su última versión estable en el siguiente enlace, ahí podrán encontrar los diferentes archivos para cada tipo de sistema operativo.:
 a.	https://flutter.dev/docs/development/tools/sdk/releases
 
-2.	Extraemos el archivo zip.
+2)	Extraemos el archivo zip.
 - En Windows podemos dar click derecho al archivo y damos click en extraer todo.
 - En MacOS podemos dar click derecho al archivo y dar click en abrir, con esto de descomprimirá el archivo.
 
-3. La carpeta extraída la alojamos en la siguiente localización. (En caso de no existir el directorio, crearlo).
+3) La carpeta extraída la alojamos en la siguiente localización. (En caso de no existir el directorio, crearlo).
 - En Windows:         C:\Users\<tu-nombre-de-usuario>\Documents.
 - En Mac: <Disco Principal>/Users/<tu-nombre-de-usuario>/development
 
-4.	Debemos agregar el path a las variables del sistema:
+4)	Debemos agregar el path a las variables del sistema:
 
 **En Windows**
 
@@ -97,42 +97,42 @@ a.	https://flutter.dev/docs/development/tools/sdk/releases
 - Para salir de vim escribiremos “:wq!”
 - Cerramos y volvemos a abrir la terminal.
 
-5.	Para verificar que hemos agregado correctamente flutter a nuestro path abriremos una instancia de cmd en Windows o una nueva terminal en MacOS.
-6.	Escribimos el comando flutter --version, deberá aparecer la versión actualmente instalada de flutter, en caso de error verificar los pasos anteriores.
-7.	Una vez verificado, ejecutamos el siguiente comando: flutter doctor
-8.	En caso de pedir aceptar algunas opciones de firmas y datos lo hacemos.
+5)	Para verificar que hemos agregado correctamente flutter a nuestro path abriremos una instancia de cmd en Windows o una nueva terminal en MacOS.
+6)	Escribimos el comando flutter --version, deberá aparecer la versión actualmente instalada de flutter, en caso de error verificar los pasos anteriores.
+7)	Una vez verificado, ejecutamos el siguiente comando: flutter doctor
+8)	En caso de pedir aceptar algunas opciones de firmas y datos lo hacemos.
 
 ### **Paso 2: Configuración de Android Studio**
 
 
 Para esto ya deben tener instalado Android Studio y actualizado a la última versión.
 
-1.	Abriremos Android Studio.
-2.	Abriremos configure > settings.
-3.	En la parte derecha seleccionaremos la pestaña Plugins.
-4.	Buscaremos el Marketplace el nombre el plugin llamado “flutter”
-5.	Una vez encontrado presionaremos en el icono de Install, para instalar el plugin.
+1)	Abriremos Android Studio.
+2)	Abriremos configure > settings.
+3)	En la parte derecha seleccionaremos la pestaña Plugins.
+4)	Buscaremos el Marketplace el nombre el plugin llamado “flutter”
+5)	Una vez encontrado presionaremos en el icono de Install, para instalar el plugin.
 
-6.	En caso de mostrarnos un mensaje de que existe dependencia con dart, le damos a install también.
-7.	Esperamos a que termine y se mostrará un botón de reiniciar ide, presionamos y esperamos.
-8.	Para verificar que la instalación fue correcta en la página de inicio nos aparecerá una nueva pestaña que dice: “Create new flutter Project”.
+6)	En caso de mostrarnos un mensaje de que existe dependencia con dart, le damos a install también.
+7)	Esperamos a que termine y se mostrará un botón de reiniciar ide, presionamos y esperamos.
+8)	Para verificar que la instalación fue correcta en la página de inicio nos aparecerá una nueva pestaña que dice: “Create new flutter Project”.
 
 ### **Paso 3: Crear nuevo proyecto**
 Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
-1.	Abriremos Android Studio.
-2.	Daremos click en “Create new flutter project”.
-3.	Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
-a.	Presionar en los 3 puntos a la derecha.
-b.	Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guardó cuando se instaló).
-4.	Le damos click en Next.
-5.	En la siguiente página podremos poner el nombre y la localización del proyecto, en nuestro caso llamaremos el proyecto “g0amst”, donde 0 es el número de grupo.
-6.	Damos click en Finish.
-7.	Se nos abrirá la app de ejemplo que viene por defecto en flutter.
-8.	Para correrla debemos de tener un dispositivo Android conectado, o iniciado un dispositivo virtual.
-9. Presionamos en el icono de run para que empiece a compilar la aplicación y automáticamente se abrirá en el dispositivo la aplicación.
+1)	Abriremos Android Studio.
+2)	Daremos click en “Create new flutter project”.
+3)	Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
+- Presionar en los 3 puntos a la derecha.
+- Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guardó cuando se instaló).
+4)	Le damos click en Next.
+5)	En la siguiente página podremos poner el nombre y la localización del proyecto, en nuestro caso llamaremos el proyecto “g0amst”, donde 0 es el número de grupo.
+6)	Damos click en Finish.
+7)	Se nos abrirá la app de ejemplo que viene por defecto en flutter.
+8)	Para correrla debemos de tener un dispositivo Android conectado, o iniciado un dispositivo virtual.
+9) Presionamos en el icono de run para que empiece a compilar la aplicación y automáticamente se abrirá en el dispositivo la aplicación.
 
-10.	Con esto se nos abrira una aplicación que la genera flutter como demostracion. Eliminaremos todos los comentarios que encontramos en el archivo ./lib/main.dart.
-11.	OJO* Algunos comentarios que son nombres de widgets como “MaterialAPP o ThemeData” se generan automaticamente por Android Studio para mejor facilidad de visualizacion de los componentes. Con esto estamos listos para el desarrollo de la app.
+10)	Con esto se nos abrira una aplicación que la genera flutter como demostracion. Eliminaremos todos los comentarios que encontramos en el archivo ./lib/main.dart.
+11)	OJO* Algunos comentarios que son nombres de widgets como “MaterialAPP o ThemeData” se generan automaticamente por Android Studio para mejor facilidad de visualizacion de los componentes. Con esto estamos listos para el desarrollo de la app.
 
 ### **Paso 4: Esqueleto de la aplicación**
 
@@ -144,12 +144,12 @@ Una vez creada la carpeta, añadir en el archivo pubspec.yaml las siguientes lí
 
 El proyecto simula una aplicación básica de compra con inicio de sesión, registro, configuración, vista de promociones y carrito de compra.
 
-1.	Primero dentro del paquete lib se va a crear un nuevo archivo .dart llamado exampleapp. Es recomendable separar los archivos por carpetas para una mejor organización. En este caso se creó una carpeta llamada ui donde se colocarán todos los archivos de la interfaz de usuario.
+1)	Primero dentro del paquete lib se va a crear un nuevo archivo .dart llamado exampleapp. Es recomendable separar los archivos por carpetas para una mejor organización. En este caso se creó una carpeta llamada ui donde se colocarán todos los archivos de la interfaz de usuario.
 Botón derecho -> crear nuevo archivo .dart.
 Nota: Al crear cualquier archivo .dart importar primero material.dart:
 import 'package:flutter/material.dart';
 
-2.	Dentro del archivo vamos a crear la clase ExampleApp. Para eso vamos a copiar el siguiente código:
+2)	Dentro del archivo vamos a crear la clase ExampleApp. Para eso vamos a copiar el siguiente código:
 
 ````
 import 'package:flutter/material.dart';
@@ -176,13 +176,13 @@ class _ExampleApp extends State<ExampleApp> {
 }
 ````
 
-3.	ExampleApp será la clase principal, por lo que vamos a modificar main.dart para que al iniciarse se ejecute nuestra nueva clase (Borramos todo el código afuera del void main()):
+3)	ExampleApp será la clase principal, por lo que vamos a modificar main.dart para que al iniciarse se ejecute nuestra nueva clase (Borramos todo el código afuera del void main()):
 
 
 
 En runApp colocamos el nombre de la clase que creamos, que sería ExampleApp. Así mismo hay que importarla: import 'package:g0amst/ui/exampleapp.dart';
 
-4.	En nuestra clase principal necesitamos definir los componentes que se van a ejecutar a lo largo de la aplicación. Para eso modificamos la función build para que retorne los materiales necesarios:
+4)	En nuestra clase principal necesitamos definir los componentes que se van a ejecutar a lo largo de la aplicación. Para eso modificamos la función build para que retorne los materiales necesarios:
 
 ````
 @override
@@ -213,7 +213,7 @@ InitialRoute: Indica la ruta donde comenzará la aplicación
 
 - onGenerateRoute: Detalla las rutas disponibles para la aplicación
 
-5.	En Flutter las rutas son las que permiten navegar entre pestañas. En este caso se crea el archivo .dart routes en la carpeta ui.
+5)	En Flutter las rutas son las que permiten navegar entre pestañas. En este caso se crea el archivo .dart routes en la carpeta ui.
 Dentro se crea la clase Routes junto a la función estática generateRoute, como se puede ver en el código de abajo:
 
 ````
@@ -248,7 +248,7 @@ class Routes {
 errorRoute se utiliza para cuando se desea ingresar a una ruta inexistente.
 Cada vez que se cree una nueva pestaña, hay que agregar la ruta respectiva en esta clase.
 
-6.	Para el diseño de la aplicación se crea el archivo colors.dart, para esto se creó una nueva carpeta llamada constants. Dentro de este archivo crearemos la clase AppColors, donde definiremos la función mainColor para la aplicación. De la misma forma dentro de esta clase se pueden definir todos los colores que se vayan a utilizar durante la aplicación:
+6)	Para el diseño de la aplicación se crea el archivo colors.dart, para esto se creó una nueva carpeta llamada constants. Dentro de este archivo crearemos la clase AppColors, donde definiremos la función mainColor para la aplicación. De la misma forma dentro de esta clase se pueden definir todos los colores que se vayan a utilizar durante la aplicación:
 
 ````
 import 'package:flutter/material.dart';
@@ -291,7 +291,7 @@ class AppColors {
 
 Esta clase puede ser personalizada de cualquier manera.
 
-7.	Una vez completados pasos 5 y 6 volver a ExampleApp para importar las clases recién creadas:
+7)	Una vez completados pasos 5 y 6 volver a ExampleApp para importar las clases recién creadas:
 
 ````
 import 'package:g0amst/constants/colors.dart';
@@ -306,7 +306,7 @@ La lista de componentes se puede observar en este link: https://docs.flutter.dev
 Estos se los creará en una nueva carpeta dentro de ui llamada views:
 
 Para mayor organización se crea una carpeta nueva dentro de views por cada componente.
-1.	Splash
+1)	Splash
 Se crea una pantalla de inicio que se muestre por un periodo corto.
 a.	Creamos un archivo llamado splash.dart, donde se definirá la clase SplashView:
 
@@ -398,7 +398,7 @@ switch (settings.name) {
 }
 ````
 
-2.	**Login y registro**
+2)	**Login y registro**
 Por este laboratorio ni el login ni el registro van a tener funcionalidad puesto que el objetivo de esta práctica está enfocado más en el diseño de los componentes
 - Dentro de views -> login se crea un nuevo archivo .dart llamado login_bottom_sheet_view que contendrá el formulario de inicio de sesión:
 
@@ -853,7 +853,7 @@ case '/register':
 
 No olvidar importar las clases
 
-3.	Home
+3)	Home
 Esta vista representa el menú principal, y se utilizarán componentes como pageController o CurvedNavigationBar
 - Crear el archivo home_view.dart dentro de views->home
 
@@ -1539,7 +1539,8 @@ case '/home':
 ### **Paso 6: Desarrollo de funcionalidad para componente**
 
 Para este paso se creará un carrito de compras que permita añadir y eliminar productos.
-1.	Primero agregamos un nuevo modelo en la carpeta models que representará al carrito de compras: cart.dart:
+
+1)	Primero agregamos un nuevo modelo en la carpeta models que representará al carrito de compras: cart.dart:
 
 ````
 import 'package:NOMBREPROYECTO/utils/info.dart';
@@ -1601,9 +1602,9 @@ ShoppingCart demoCarts = new ShoppingCart([
 
 Este contiene la funcionalidad del carrito de compras, es decir, agregar y quitar un producto cada vez que se requiera. Además, retorna el total de los productos comprados.
 
-2.	El componente for_you tiene la funcionalidad de que por cada producto que se selecciona se abre una pestaña diferente con información solo para ese producto.
+2)	El componente for_you tiene la funcionalidad de que por cada producto que se selecciona se abre una pestaña diferente con información solo para ese producto.
 Entonces se crea en views una carpeta llamada product con su archivo .dart product_view
-3.	Dentro se crea una clase que va a mostrar información del producto y a su vez lo dejará ser añadido al carrito de compras:
+3)	Dentro se crea una clase que va a mostrar información del producto y a su vez lo dejará ser añadido al carrito de compras:
 
 ````
 import 'package:NOMBREPROYECTO/models/cart.dart';
@@ -1727,7 +1728,7 @@ class ProductView extends StatelessWidget {
 }
 ````
 
-4.	Una vez agregada esa clase se añade su ruta a routes.dart:
+4)	Una vez agregada esa clase se añade su ruta a routes.dart:
 
 ````
 case '/product-view':
@@ -1735,7 +1736,7 @@ case '/product-view':
   return MaterialPageRoute(builder: (_) => ProductView(_product));
 ````
 
-5.	Ahora implementaremos la vista del carrito de compras. Para eso creamos en views una carpeta cart con el archivo cart_view.dart:
+5)	Ahora implementaremos la vista del carrito de compras. Para eso creamos en views una carpeta cart con el archivo cart_view.dart:
 imp
 
 ````
@@ -1897,7 +1898,7 @@ class _CartViewState extends State<CartView> {
   }
 }
 ````
-6.	Una vez agregada esa clase se añade su ruta a routes.dart:
+6)	Una vez agregada esa clase se añade su ruta a routes.dart:
 
 ````
 case '/cart-view':
@@ -1923,62 +1924,62 @@ La solución más práctica y sencilla es ir al main.dart y escribir al inicio d
 
 **Android**
 
-1.	Para compilar para Android, desde Android Studio en la parte superior encontraremos la opción Build, seleccionaremos esa opción, luego seleccionamos flutter y por último Build APK.
+1)	Para compilar para Android, desde Android Studio en la parte superior encontraremos la opción Build, seleccionaremos esa opción, luego seleccionamos flutter y por último Build APK.
 
 
-2.	Se abrirá un terminal donde automáticamente iniciará la compilación de la aplicación, esperamos hasta que finalice. 
+2)	Se abrirá un terminal donde automáticamente iniciará la compilación de la aplicación, esperamos hasta que finalice. 
 
-3.	La apk la encontraremos en el directorio, ./build/app/outputs/flutter-apk/app-release.apk como se muestra a continuación:
+3)	La apk la encontraremos en el directorio, ./build/app/outputs/flutter-apk/app-release.apk como se muestra a continuación:
 
-4.	Esta apk la moveremos dentro de nuestro dispositivo móvil y lo instalaremos. En caso de error de instalación, activar la instalación de terceros en la configuración. Esto se da debido a que la aplicación no esta debidamente firmada por una cuenta asociada a la play store.
+4)	Esta apk la moveremos dentro de nuestro dispositivo móvil y lo instalaremos. En caso de error de instalación, activar la instalación de terceros en la configuración. Esto se da debido a que la aplicación no esta debidamente firmada por una cuenta asociada a la play store.
 
 **IOS**
 
 Para compilar nuestra aplicación para IOS necesitamos obligatoriamente tener una computadora macOS, debido a que necesitamos el programa xCode para poder compilarla. Esto es debido a que flutter usa los componentes nativos de IOS para compilar la aplicación. 
 
-1.	Abrimos nuestro proyecto en Android Studio, desde ahí buscamos el siguiente archivo: ./ios/Runner/AppDelegate.swift 
+1)	Abrimos nuestro proyecto en Android Studio, desde ahí buscamos el siguiente archivo: ./ios/Runner/AppDelegate.swift 
 
-2.	Una vez ahí, veremos a la derecha arriba una opción que dice OpenIOS module in Xcode, la seleccionamos y esta exportara y conectara a xcode con nuestro proyecto para compilarlo. Esperaremos un momento hasta que xCode se abra.
+2)	Una vez ahí, veremos a la derecha arriba una opción que dice OpenIOS module in Xcode, la seleccionamos y esta exportara y conectara a xcode con nuestro proyecto para compilarlo. Esperaremos un momento hasta que xCode se abra.
 
-3.	Una vez abierto, en deployment info asegurarnos que este en la versión 14.1 de IOS.
+3)	Una vez abierto, en deployment info asegurarnos que este en la versión 14.1 de IOS.
 
-4.	Dentro de la tira de opciones encontraremos una pestaña llamada “Singinig & capabilities” 
+4)	Dentro de la tira de opciones encontraremos una pestaña llamada “Singinig & capabilities” 
 
-5.	En la sección que dice “Team” deberemos agregar nuestra cuenta de desarrollador* (Probar con icloud). 
+5)	En la sección que dice “Team” deberemos agregar nuestra cuenta de desarrollador* (Probar con icloud). 
 
-6.	*En caso de querer ver la aplicación en nuestro dispositivo iphone”: Una vez realizado esto, podemos conectar nuestro dispositivo iphone a nuestra macOS, en la parte superior debemos seleccionar nuestro dispositivo y luego darle en el botón de play.
+6)	*En caso de querer ver la aplicación en nuestro dispositivo iphone”: Una vez realizado esto, podemos conectar nuestro dispositivo iphone a nuestra macOS, en la parte superior debemos seleccionar nuestro dispositivo y luego darle en el botón de play.
 
-7.	*Para compilar la aplicación*: En la parte superior en la opción “product”, buscaremos “destinations”, y escogeremos en “any Ios Devices (arm64)”.
+7)	*Para compilar la aplicación*: En la parte superior en la opción “product”, buscaremos “destinations”, y escogeremos en “any Ios Devices (arm64)”.
 
-8.	Iremos nuevamente a la opción “product” y escogemos la opción archive. Con eso se empezará a generar un archivo, esperaremos hasta que finalice.
+8)	Iremos nuevamente a la opción “product” y escogemos la opción archive. Con eso se empezará a generar un archivo, esperaremos hasta que finalice.
 
-9.	Una vez finalizado nos mostrara el archivo en una ventana de archivos. A la derecha nos mostrara dos botones, escogeremos el que dice “Distribute App”
+9)	Una vez finalizado nos mostrara el archivo en una ventana de archivos. A la derecha nos mostrara dos botones, escogeremos el que dice “Distribute App”
 
-10.	Seleccionamos el método iOS App Store y presionamos en Next.
+10)	Seleccionamos el método iOS App Store y presionamos en Next.
 
-11.	Seleccionamos el destino en Export y presionamos en Next.
+11)	Seleccionamos el destino en Export y presionamos en Next.
 
-12.	En App Store distribution opios, dejamos igual y presionamos Next.
+12)	En App Store distribution opios, dejamos igual y presionamos Next.
 
-13.	En Re-sign Runner, seleccionamos “Automatically manage signing” y presionamos next.
+13)	En Re-sign Runner, seleccionamos “Automatically manage signing” y presionamos next.
 
-14.	Por último, esperaremos y presionaremos el botón export.
+14)	Por último, esperaremos y presionaremos el botón export.
 
-15.	Seleccionamos a donde quieren ser exportados nuestros archivos y damos en el botón Export.
+15)	Seleccionamos a donde quieren ser exportados nuestros archivos y damos en el botón Export.
 
-16.	Nos dirigimos a la carpeta creada y ahí encontraremos los archivos para la instalación. El más importante es el archivo .ipa que lo usaremos para instalar en nuestros dispositivos iphone.
+16)	Nos dirigimos a la carpeta creada y ahí encontraremos los archivos para la instalación. El más importante es el archivo .ipa que lo usaremos para instalar en nuestros dispositivos iphone.
 
 Una vez compilada la aplicación va a quedar así:
 
 
 **Investigar**
 
-1.	¿Qué otros fameworks tienen características similares a flutter?
+1)	¿Qué otros fameworks tienen características similares a flutter?
 
 **TAREA DESAFÍO**
-1.	Agregar un nuevo widget a la aplicación, puede ser oficial de flutter: https://docs.flutter.dev/development/ui/widgets/material o creado por la comunidad: https://pub.dev/packages/flutter_rating_bar https://pub.dev/packages/photo_view https://pub.dev/packages/video_player 
+1)	Agregar un nuevo widget a la aplicación, puede ser oficial de flutter: https://docs.flutter.dev/development/ui/widgets/material o creado por la comunidad: https://pub.dev/packages/flutter_rating_bar https://pub.dev/packages/photo_view https://pub.dev/packages/video_player 
 Más paquetes en: https://pub.dev/packages
-2.	Modificar la aplicación con sus propios colores e imágenes, cambiar la temática de la tienda. Ejemplo: En esta práctica es una tienda de ropa, se puede variar a tienda de mascotas, de comida, de dulces, etc.
+2)	Modificar la aplicación con sus propios colores e imágenes, cambiar la temática de la tienda. Ejemplo: En esta práctica es una tienda de ropa, se puede variar a tienda de mascotas, de comida, de dulces, etc.
 
 **EXTRA:**
 
