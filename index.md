@@ -45,7 +45,8 @@
 
 
 ## MICROSESIONES
-* [MICROSESION 2](microsesiones/microsesion2_nonrelational.md)
+* [MICROSESIÓN 1](microsesiones/microsesion1_software_scrum.md)
+* [MICROSESION 2](microsesiones/microsesion2_software_noSQL.md)
 
 # MANUALES
 * [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)
