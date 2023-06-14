@@ -5,7 +5,7 @@ plugins:
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# Prácticas de Laboratorio 4
+# Práctica de Laboratorio 4
 ## DESARROLLO DE APLICACIÓN MÓVIL HÍBRIDA BÁSICA CON FLUTTER
 
 ## 🎯 Objetivo de Aprendizaje

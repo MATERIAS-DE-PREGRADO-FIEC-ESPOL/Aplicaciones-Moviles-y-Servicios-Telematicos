@@ -5,7 +5,7 @@ plugins:
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# Prácticas de Laboratorio 3
+# Práctica de Laboratorio 3
 ## DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNAS Y PRIVADAS UTILIZANDO REST API
 
 ## 🎯 Objetivo de Aprendizaje
