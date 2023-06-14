@@ -8,8 +8,8 @@ plugins:
 # Prácticas de Laboratorio 4
 ## DESARROLLO DE APLICACIÓN MÓVIL HÍBRIDA BÁSICA CON FLUTTER
 
-**Objetivo de Aprendizaje:** 
-Desarrollar aplicaciones móviles híbridas sencillas considerando las características de la programación de dispositivos móviles.
+## 🎯 Objetivo de Aprendizaje
+Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
 
 **Recursos:** 
 Android Studio.
