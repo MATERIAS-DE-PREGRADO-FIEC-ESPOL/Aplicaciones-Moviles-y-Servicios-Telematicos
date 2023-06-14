@@ -76,8 +76,15 @@ a.	https://flutter.dev/docs/development/tools/sdk/releases
 - En MacOS podemos dar click derecho al archivo y dar click en abrir, con esto de descomprimirá el archivo.
 
 3) La carpeta extraída la alojamos en la siguiente localización. (En caso de no existir el directorio, crearlo).
-- En Windows:         C:\Users\<tu-nombre-de-usuario>\Documents.
-- En Mac: <Disco Principal>/Users/<tu-nombre-de-usuario>/development
+- En Windows: 
+```
+C:\Users\<tu-nombre-de-usuario>\Documents
+```
+
+- En Mac: 
+```
+<Disco Principal>/Users/<tu-nombre-de-usuario>/development
+```
 
 4)	Debemos agregar el path a las variables del sistema:
 
@@ -96,11 +103,11 @@ a.	https://flutter.dev/docs/development/tools/sdk/releases
 - Escribiremos la ruta donde se alojó la carpeta de flutter. Ejemplo: C:\Users\<tu-nombre-de-usuario>\Documents\flutter\bin
 - Daremos en aceptar en las ventanas hasta cerrarlas todas.
 
-**En MacOS.**
+**En MacOS**
 
 - Abriremos una terminal.
 - Nos dirigiremos al directorio del usuario con el comando: cd /Users/<tu-nombre-de-usuario>
-- Una vez dentro, realizaremos el comando vim .bash_profile
+- Edita el archivo rc para su shell. Si escribes echo $SHELL en tu Terminal te dirá qué shell estás usando. Si estás usando Bash, edita $HOME/.bash_profile o $HOME/.bashrc. Si utilizas el shell Z, edita $HOME/.zshrc. Si utilizas un shell distinto, la ruta y el nombre del archivo serán diferentes en tu máquina.
 - Presionamos la tecla i para empezar a editar el archivo creado.
 - Escribiremos: export PATH=”$PATH:/Users/<tu-nombre-de-usuario>/development/flutter/bin” (el path agregado debe coincidir con el path donde se encuentra la carpeta de flutter alojada.)
 - Para salir de vim escribiremos “:wq!”
@@ -108,11 +115,70 @@ a.	https://flutter.dev/docs/development/tools/sdk/releases
 
 5)	Para verificar que hemos agregado correctamente flutter a nuestro path abriremos una instancia de cmd en Windows o una nueva terminal en MacOS.
 6)	Escribimos el comando flutter --version, deberá aparecer la versión actualmente instalada de flutter, en caso de error verificar los pasos anteriores.
-7)	Una vez verificado, ejecutamos el siguiente comando: flutter doctor
+
+```
+adi@host-200-126-27-205 ~ % flutter --version
+Flutter 3.10.5 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision 796c8ef792 (19 hours ago) • 2023-06-13 15:51:02 -0700
+Engine • revision 45f6e00911
+Tools • Dart 3.0.5 • DevTools 2.23.1
+
+  ╔════════════════════════════════════════════════════════════════════════════╗
+  ║                 Welcome to Flutter! - https://flutter.dev                  ║
+  ║                                                                            ║
+  ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+  ║ statistics and basic crash reports. This data is used to help improve      ║
+  ║ Flutter tools over time.                                                   ║
+  ║                                                                            ║
+  ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+  ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+  ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+  ║ event will be sent, and then no further information will be sent by the    ║
+  ║ Flutter tool.                                                              ║
+  ║                                                                            ║
+  ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+  ║ Note: The Google Privacy Policy describes how data is handled in this      ║
+  ║ service.                                                                   ║
+  ║                                                                            ║
+  ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+  ║ crash reports to Google.                                                   ║
+  ║                                                                            ║
+  ║ Read about data we send with crash reports:                                ║
+  ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+  ║                                                                            ║
+  ║ See Google's privacy policy:                                               ║
+  ║ https://policies.google.com/privacy                                        ║
+  ╚════════════════════════════════════════════════════════════════════════════╝
+
+
+The Flutter CLI developer tool uses Google Analytics to report usage and
+diagnostic data
+along with package dependencies, and crash reporting to send basic crash
+reports.
+This data is used to help improve the Dart platform, Flutter framework, and
+related tools.
+
+Telemetry is not sent on the very first run.
+To disable reporting of telemetry, run this terminal command:
+
+flutter --disable-telemetry.
+If you opt out of telemetry, an opt-out event will be sent,
+and then no further information will be sent.
+This data is collected in accordance with the
+Google Privacy Policy (https://policies.google.com/privacy).
+
+You have received two consent messages because the flutter tool is migrating to
+a new analytics system. Disabling analytics collection will disable both the
+legacy and new analytics collection systems. You can disable analytics reporting
+by running `flutter --disable-telemetry`
+```
+
+7)	Una vez verificado, ejecutamos el siguiente comando:
+```flutter doctor```
+
 8)	En caso de pedir aceptar algunas opciones de firmas y datos lo hacemos.
 
 ### **Paso 2: Configuración de Android Studio**
-
 
 Para esto ya deben tener instalado Android Studio y actualizado a la última versión.
 
@@ -121,10 +187,18 @@ Para esto ya deben tener instalado Android Studio y actualizado a la última ver
 3)	En la parte derecha seleccionaremos la pestaña Plugins.
 4)	Buscaremos el Marketplace el nombre el plugin llamado “flutter”
 5)	Una vez encontrado presionaremos en el icono de Install, para instalar el plugin.
-
 6)	En caso de mostrarnos un mensaje de que existe dependencia con dart, le damos a install también.
-7)	Esperamos a que termine y se mostrará un botón de reiniciar ide, presionamos y esperamos.
-8)	Para verificar que la instalación fue correcta en la página de inicio nos aparecerá una nueva pestaña que dice: “Create new flutter Project”.
+7)	Esperamos a que termine y se mostrará un botón de reiniciar IDE de Andrid Studio, presionamos y esperamos.
+
+<p align="center">
+  <img src="../imagenes/amst_lab4_flutter_installed.png" alt="appAMST" width="100%">
+</p>
+
+8)	Para verificar que la instalación fue correcta en la página de inicio nos aparecerá una nueva pestaña que dice: ***New Flutter Project***.
+
+<p align="center">
+  <img src="../imagenes/amst_lab4_flutter_newproject_flutter.png" alt="appAMST" width="100%">
+</p>
 
 ### **Paso 3: Crear nuevo proyecto**
 Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
@@ -2014,3 +2088,6 @@ El trabajo autónomo será desarrollado en el siguiente formato:
 - Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
 
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
+
+Referencias
+https://docs.flutter.dev/get-started/install/macos?gclid=CjwKCAjwyqWkBhBMEiwAp2yUFhGrLPNrs9s4X4M4g7wirHc39ACojm1-x1WmEZlCzipePgIPSywDPBoCx6AQAvD_BwE&gclsrc=aw.ds
