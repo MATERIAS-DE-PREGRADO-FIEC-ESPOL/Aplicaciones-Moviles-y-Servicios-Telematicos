@@ -42,6 +42,24 @@ Los marcos de referencia que nos ayudan a escribir software que está "más cerc
   <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
 </p>
 
+**1. Conceptualización**
+El resultado de esta etapa es una idea de aplicación, que tiene en cuenta las necesidades y problemas de los usuarios. La idea responde a una investigación preliminar y a la posterior comprobación de la viabilidad del concepto.
+Ideación
+Investigación
+Formalización de la idea
+
+**2. Definición (usuario y funcional)**
+En este paso del proceso se describe con detalle a los usuarios para quienes se diseñará la aplicación, usando metodologías como «Personas» y «Viaje del usuario». También aquí se sientan las bases de la funcionalidad, lo cual determinará el alcance del proyecto y la complejidad de diseño y programación de la app.
+
+**3. Diseño**
+En la etapa de diseño se llevan a un plano tangible los conceptos y definiciones anteriores, primero en forma de wireframes, que permiten crear los primeros prototipos para ser probados con usuarios, y posteriormente, en un diseño visual acabado que será provisto al desarrollador, en forma de archivos separados y pantallas modelo, para la programación del código. Incluyendo wireframes, prototipos, test con usuarios, y diseño visual.
+
+**4. Desarrollo**
+El programador se encarga de dar vida a los diseños y crear la estructura sobre la cual se apoyará el funcionamiento de la aplicación. Una vez que existe la versión inicial, dedica gran parte del tiempo a corregir errores funcionales para asegurar el correcto desempeño de la app y la prepara para su aprobación en las tiendas. Esto incluye programación del código y corrección de bugs.
+
+**5. Publicación**
+La aplicación es finalmente puesta a disposición de los usuarios en las tiendas. Luego de este paso trascendental se realiza un seguimiento a través de analíticas, estadísticas y comentarios de usuarios, para evaluar el comportamiento y desempeño de la app, corregir errores, realizar mejoras y actualizarla en futuras versiones.
+
 
 <a name="tipos"> </a>
 
