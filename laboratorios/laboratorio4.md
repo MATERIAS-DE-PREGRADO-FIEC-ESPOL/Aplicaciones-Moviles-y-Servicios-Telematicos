@@ -2069,7 +2069,7 @@ Referencia para el desarrollo de la aplicación:
 https://github.com/OERS-libraries/laboratorio-5
 
 
-### **FORMATO DE LA PRÁCTICA**
+### **Formato del Trabajo**
 El trabajo autónomo será desarrollado en el siguiente formato:
 
 - Nombre del archivo: AMST_Práctica de Laboratorio A_Grupo B_Apellido1_Apellido2_Apellido3
