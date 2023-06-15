@@ -193,13 +193,13 @@ Para esto ya deben tener instalado Android Studio y actualizado a la última ver
 7)	Esperamos a que termine y se mostrará un botón de reiniciar IDE de Andrid Studio, presionamos y esperamos.
 
 <p align="center">
-  <img src="../imagenes/amst_lab4_flutter_installed.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab4_flutter_installed.png" alt="appAMST" width="100%">
 </p>
 
 8)	Para verificar que la instalación fue correcta en la página de inicio nos aparecerá una nueva pestaña que dice: ***New Flutter Project***.
 
 <p align="center">
-  <img src="../imagenes/amst_lab4_flutter_newproject_flutter.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab4_flutter_newproject_flutter.png" alt="appAMST" width="100%">
 </p>
 
 ### **Paso 3: Crear nuevo proyecto**

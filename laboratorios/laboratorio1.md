@@ -26,13 +26,13 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 
 1. Al abrir Android Studio, podemos crear, abrir, o importar proyectos. Seleccione “New Project”.
 <p align="center">
-  <img src="../imagenes/amst_lab1_newproject.png" alt="newproyect" width="100%">
+  <img src="imagenes/amst_lab1_newproject.png" alt="newproyect" width="100%">
 </p>
 
 2. Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña **Phone and Tablet > Empty Views Activity.** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="100%">
+  <img src="imagenes/amst_lab1_emptyactivity.png" alt="emptyactivity" width="100%">
 </p>
 
 3.  Configuración inicial del proyecto.
@@ -46,7 +46,7 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 4. Seleccionamos Finish.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_appAMST0.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_appAMST0.png" alt="appAMST" width="90%">
 </p>
 
 (*) Como resultado se creará un proyecto, el cual solo presenta el mensaje “Hello World”.
@@ -56,21 +56,21 @@ Desarrolle un aplicativo móvil usando componentes avanzados como menú, y cargu
 6. En la parte superior seleccione la pestaña “Design” para comenzar a diseñar la interfaz de usuario de la aplicación usando controles personalizados.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_emptylayout.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_emptylayout.png" alt="appAMST" width="90%">
 </p>
 
 
 7. En la pestaña de Design encontrará la “Palette” que contiene los controles para agregar a la aplicación, si conoce el nombre del control puede iniciar una búsqueda.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_palette.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_palette.png" alt="appAMST" width="30%">
 </p>
 
 
 8.	Crear la interfaz de usuario con: 2 cuadros de texto (Plain Text), uno para el nombre del usuario y otro para la clave del usuario; y 2 botones (Button), uno para logearse y otro para registrarse como nuevo usuario.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_screen1.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_screen1.png" alt="appAMST" width="30%">
 </p>
 
 
@@ -193,11 +193,11 @@ public class MainActivity extends AppCompatActivity {
 +	activity_formulario_registro.xml
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_newactivity.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_newactivity.png" alt="appAMST" width="90%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_formulario_registro.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_formulario_registro.png" alt="appAMST" width="90%">
 </p>
 
 12.	Modifique el archivo formulario_registro.java para poder enviar la notificación de registro.
@@ -467,7 +467,7 @@ public class formulario_registro extends AppCompatActivity {
 ```
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_screen2_registro.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_screen2_registro.png" alt="appAMST" width="50%">
 </p>
 
 ### Paso 2: Ejecución de la aplicación móvil. (30 puntos)
@@ -475,7 +475,7 @@ public class formulario_registro extends AppCompatActivity {
 14.	Ejecutar el aplicativo móvil “appAMST#” seleccionando el device selecter al lado de la opción Run ‘app’, en la cual se puede escoger entre 2 opciones: el dispositivo móvil conectado a través del cable USB de datos, o el emulador que usa los dispositivos virtuales disponibles.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_run.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_run.png" alt="appAMST" width="50%">
 </p>
 
 15.	Para la primera opción de ejecución de la aplicación se usa un teléfono móvil conectado vía USB a la computadora que contiene la aplicación móvil, posterior indicará que instale un apk que contiene la ejecución de la aplicación. Se puede ver más de eso a partir del Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android.
@@ -485,26 +485,26 @@ public class formulario_registro extends AppCompatActivity {
 **Nota: Verificar que la API del dispositivo sea mayor a 26, caso contrario continuar al literal 17.**
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_avd.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_avd.png" alt="appAMST" width="90%">
 </p>
 
 16.1 Durante la ejecución de la aplicación mediconline se debe ingresar un usuario y contraseña. No hay usuarios registrados para la aplicación por lo que debe salir el mensaje: “Usted no cuenta con un usuario”
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_nousuario.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_nousuario.png" alt="appAMST" width="50%">
 </p>
 
 16.2 Cuando da clic en el botón Registrarse, debe ingresar sus datos y dar click a grabar para que aparezca la notificación. La interfaz de usuario se encuentra diseñada en el archivo activity_formulario_registro.xml.
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_mensajeregistro.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_mensajeregistro.png" alt="appAMST" width="50%">
 </p>
 
 17. Si no tiene instalado una versión de SDK para emular la ejecución de la aplicación en un dispositivo móvil, seleccione la opción AVD Manager (Android Virtual Device Manager).
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_menuavd.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab1_menuavd.png" alt="appAMST" width="80%">
 </p>
 
 18.	Crear un dispositivo virtual.
@@ -512,19 +512,19 @@ public class formulario_registro extends AppCompatActivity {
 19.	Seleccionar el hardware “Pixel 6 PRO”, luego dar click en el botón siguiente. El hardware seleccionado no es relevante para la práctica, pero es recomendable escoger aquellos con símbolo del Play Store.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_newavd.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_newavd.png" alt="appAMST" width="90%">
 </p>
 
 20.	Seleccionar la imagen del API 33, luego dar click en el botón siguiente.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_avdapi33.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_avdapi33.png" alt="appAMST" width="90%">
 </p>
 
 21. En caso de no tener activado el botón next, dar clic a Download para descargar el API 33 y aceptar el acuerdo de la licencia de Android Software Development Kit.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_api33download.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_api33download.png" alt="appAMST" width="90%">
 </p>
 
 
@@ -534,17 +534,17 @@ public class formulario_registro extends AppCompatActivity {
 (*) Este archivo permite ejecutar la aplicación desde el celular.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_buildapk.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_buildapk.png" alt="appAMST" width="90%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_locateapk.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_locateapk.png" alt="appAMST" width="90%">
 </p>
 
 2.	Cuando se da clic en el enlace “locate” o en la advertencia podrá ingresar a la ruta donde se encuentra el archivo apk.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_fileapk.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_fileapk.png" alt="appAMST" width="90%">
 </p>
 
 ### Paso 4: Habilitación de opciones para el desarrollador en el teléfono móvil con sistema operativo Android. (5 puntos)
@@ -555,7 +555,7 @@ public class formulario_registro extends AppCompatActivity {
 3.	Buscamos la opción “Número de compilación” o “Número de versión” y presionamos 7 veces seguidas sobre esta opción.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_compilacion.png" alt="appAMST" width="70%">
+  <img src="imagenes/amst_lab1_compilacion.png" alt="appAMST" width="70%">
 </p>
 
 **Habilitar depuración por USB**
@@ -565,14 +565,14 @@ public class formulario_registro extends AppCompatActivity {
 3.	Cuando se conecte el celular mediante USB, aparecerá el mensaje “Permitir depuración por USB” o “Allow USB Debugging”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_usbdebugging.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_usbdebugging.png" alt="appAMST" width="90%">
 </p>
 
 ### Paso 5: Ejecución de la aplicación en el teléfono móvil. (5 puntos)
 En el Select Device del menú se puede observar como ya está configurado su dispositivo móvil, al hacer click en “run” puede observar cómo se ejecuta la aplicación en el mismo.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_celular.png" alt="appAMST" width="40%">
+  <img src="imagenes/amst_lab1_celular.png" alt="appAMST" width="40%">
 </p>
 
 
@@ -581,19 +581,19 @@ En el Select Device del menú se puede observar como ya está configurado su dis
 1.	Dentro de la carpeta del proyecto creado en el paso anterior, abra la línea de comandos de GIT (GIT CLI). Podemos encontrarlo dando clic derecho en la carpeta y escogiendo la opción “GIT BASH HERE”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_gitbash.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_gitbash.png" alt="appAMST" width="90%">
 </p>
 
 - En caso de que no se disponga de GIT CLI, también se puede utilizar CMD de Windows/Ubuntu. Para probar que GIT ha sido instalado correctamente, utilice el comando “git --version”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_gitbash2.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_gitbash2.png" alt="appAMST" width="90%">
 </p>
 
 ***GIT en línea de comandos de Windows***
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_gitenlinea.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_gitenlinea.png" alt="appAMST" width="90%">
 </p>
 
 ***GIT BASH propia***
@@ -601,7 +601,7 @@ En el Select Device del menú se puede observar como ya está configurado su dis
 2.	Para crear un nuevo repositorio, utilice el siguiente comando “git init”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_gitinit.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_gitinit.png" alt="appAMST" width="90%">
 </p>
 
 ***Esto creará un archivo oculto [.git] para el manejo del repositorio y nos ubicará directamente en la rama “master”***
@@ -609,13 +609,13 @@ En el Select Device del menú se puede observar como ya está configurado su dis
 3.	Agregamos todos los archivos del proyecto a nuestro repositorio local con el comando: “git add --all”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_gitaddall.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_gitaddall.png" alt="appAMST" width="90%">
 </p>
 
 4.	Ahora realizamos un commit, esto realizará nuestros cambios permanentes en el repositorio local. Pero debemos asignarle un mensaje [-m “mensaje”] para indicar los cambios que hemos realizado.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_commit.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_commit.png" alt="appAMST" width="90%">
 </p>
 
 **Importante:** Para poder realizar un commit es necesario configurar previamente su correo y nombre de usuario, por lo que debe poseer un usuario de GitHub. Los comandos por utilizar para configurar sus credenciales son: 
@@ -626,13 +626,13 @@ git config --global user.name "Tu nombre"
 Una vez configurado su usuario en git podrá subir su commit.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_newrepository.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab1_newrepository.png" alt="appAMST" width="80%">
 </p>
 
 5.	Creamos un repositorio en línea. Ahora usaremos GitHub (Requerirá una cuenta gratuita). Del lado superior izquierdo, encontrara el botón “NEW”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_createrep.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_createrep.png" alt="appAMST" width="90%">
 </p>
 
 6.	La información requerida para crear un repositorio se muestra a continuación:
@@ -650,13 +650,13 @@ Una vez configurado su usuario en git podrá subir su commit.
 **Licencia** Tipo de licencia: OpenSouce, MIT, Apache, etc.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_repvacio.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab1_repvacio.png" alt="appAMST" width="90%">
 </p>
 
   Una vez ingresados todos los campos, se da clic en “Create repository”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_code.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab1_code.png" alt="appAMST" width="80%">
 </p>
 
 ***Vista del repositorio vacío.***
@@ -664,7 +664,7 @@ Una vez configurado su usuario en git podrá subir su commit.
 7.	Damos clic en el botón verde “Code” donde estará visible el **URL** para su manejo y presionamos el botón de copiar.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 8.	Para obtener el repositorio en línea, obtenemos la rama de externa con el comando:
@@ -675,20 +675,20 @@ $ git remote add origin [link URL del repositorio]
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 9.	Ahora tendremos que publicar los cambios:
 
 $ git push -u origin main
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 10.	Se puede observar como ahora el repositorio está actualizado
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 **Preguntas de investigación:**
@@ -708,14 +708,14 @@ $ git push -u origin main
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 3.	Una vez agregados, es necesario aceptar las invitaciones para poder realizar PUSH (cambios al repositorio). Puede revisar las invitaciones en la campana a lado del usuario o en su correo electrónico para aceptarlas.
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 ## Paso 8: Crear una rama [Branch] (Trabajo individual) (15 puntos)
@@ -730,14 +730,14 @@ git checkout -b “nombre_rama”
 ***Para este taller, crearemos una rama de la siguiente forma: “nombre_apellido1”***
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 3.	Ahora realizamos algunos cambios en nuestro proyecto local. 
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 
@@ -750,14 +750,14 @@ git checkout -b “nombre_rama”
   **Git push origin [nombre rama]** Subimos los cambios al repositorio (pero solo dentro de la página).
 
   <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 
 5.	Podemos revisar todas las ramas dentro de GitHub (así mismo podemos cambiar entre ramas para revisar diferentes versiones de código).
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 ### Paso 8: Unir ramas al proyecto principal [Branch] (15 puntos).
@@ -765,7 +765,7 @@ Las ramas funcionan como proyectos paralelos del proyecto principal, pero para a
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_unirramas.png" alt="appAMST" width="1000%">
+  <img src="imagenes/amst_lab1_unirramas.png" alt="appAMST" width="1000%">
 </p>
 
 1.	En caso de realizar algún cambio en el repositorio principal.
@@ -779,7 +779,7 @@ a.	git merge [nombre rama]
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 ***Nota: Esto indica los archivos que han sido modificados.***
@@ -787,19 +787,19 @@ a.	git merge [nombre rama]
 4.	Ahora de vuelta al repositorio, los cambios han sido actualizados. En caso de que salga el siguiente mensaje, dar clic en el mismo (Compare & pull request).
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 5.	Llenar con una descripción y hacer clic en create pull request.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 6.	Una vez hecho eso se debe aceptar el pull request, y automáticamente se agregarán los cambios.
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_.png" alt="appAMST" width="30%">
+  <img src="imagenes/amst_lab1_.png" alt="appAMST" width="30%">
 </p>
 
 
@@ -821,19 +821,19 @@ Preguntas de investigación
 - Menú con botón flotante
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_botonflotante.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_botonflotante.png" alt="appAMST" width="50%">
 </p>
 
 - Menú lateral
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_menulateral.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_menulateral.png" alt="appAMST" width="50%">
 </p>
 
 - Menú de opciones
 
 <p align="center">
-  <img src="../imagenes/amst_lab1_menuopciones.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab1_menuopciones.png" alt="appAMST" width="50%">
 </p>
 
 ### FORMATO DEL TRABAJO

@@ -35,37 +35,37 @@ Android Studio, Google Cloud, FireBase.
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_newproject.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_newproject.png" alt="appAMST" width="100%">
 </p>
 
 2.	Acceder a la [consola de FireBase](https://console.firebase.google.com/) usando una cuenta de gmail o de FIEC. Luego selecciona ***Crear un nuevo proyecto*** en que se mostrará el siguiente proceso.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_firebase_new_project.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_firebase_new_project.png" alt="appAMST" width="100%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_google_analytics.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_google_analytics.png" alt="appAMST" width="100%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_googleanalytics_account.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_googleanalytics_account.png" alt="appAMST" width="100%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_readyproject.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_readyproject.png" alt="appAMST" width="100%">
 </p>
 
 3.	Dentro del proyecto de FireBase creado recientemente, añadimos nuestra aplicación de Android en la consola, dando clic al icono de Android Studio.  
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_appandroid.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_appandroid.png" alt="appAMST" width="100%">
 </p>
 
 ***En caso de que ya existan proyectos en el repositorio de Firebase, hacer clic en el siguiente botón de Agregar app:***
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_menu_addapp.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab2_menu_addapp.png" alt="appAMST" width="50%">
 </p>
 
 4.	Para completar los datos de la sección de Añadir Firebase a tu aplicación de Android, en Android Studio puedes encontrar el nombre del paquete de Android en el archivo de **build.gradde (module:app)** en la variable applicationId.
@@ -98,19 +98,19 @@ android {
 6. Para obtener el certificado de firma de depuración SHA-1 de Android Studio, debemos acceder a la ruta de File -> Settings -> Experimental. Luego, desmarcar la opción ***Only include test tasks in the Gradle task list generated during Gradle Sync***
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_certificado_firma.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_certificado_firma.png" alt="appAMST" width="100%">
 </p>
 
 7. Ahora para actualizar el proyecto, selecciona Files -> Sync Project with Gradle Files.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_syncproject.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_syncproject.png" alt="appAMST" width="80%">
 </p>
 
 8.	Luego, ubicar la pestaña Gradle que se encuentra en la esquina superior derecha de la ventana, seleccionar la ruta Gradle -> app -> Tasks -> android -> signingReport, donde se encuentra el certificado de firma de depuración SHA-1.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_sha1.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_sha1.png" alt="appAMST" width="100%">
 </p>
 
 9.	Ahora si puede completar todos los datos (nombre del paquete, apodo, y el certificado de firma SHA-1 de depuración) en la consola de Firebase, ventana de Agrega Firebase a tú aplicación Android, y dar clic en ***Register Add***.
@@ -123,25 +123,25 @@ android {
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_addfirebasetoandroid.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_addfirebasetoandroid.png" alt="appAMST" width="100%">
 </p>
 
 10.	Descargamos y agregamos el archivo de configuración ***google-services.json***.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_googleservices.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_googleservices.png" alt="appAMST" width="80%">
 </p>
 
 11.	En Android Studio cambiamos a la vista Proyecto, agregamos el archivo ***google-services.json*** dentro de la carpeta app de nuestro proyecto, tal como se muestra en la imagen.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_project_app_google.png" alt="appAMST" width="70%">
+  <img src="imagenes/amst_lab2_project_app_google.png" alt="appAMST" width="70%">
 </p>
 
 12.	Listo, ahora está sincronizado el proyecto y se puede ir a la consola.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_readygoogle.png" alt="appAMST" width="70%">
+  <img src="imagenes/amst_lab2_readygoogle.png" alt="appAMST" width="70%">
 </p>
 
 13.	Para que los SDK de Firebase puedan acceder a los valores de configuración de google-services.json, necesitas el complemento Gradle de los servicios de Google. Agrega el complemento como una dependencia buildscript a tu archivo build.gradle de nivel de proyecto. Luego, en el archivo build.gradle del módulo (nivel de app) agrega los complementos google-services y cualquier SDK de Firebase que quieras usar en tu app:
@@ -246,11 +246,11 @@ dependencies {
 **Pre-requisito:** Habilitar el método de inicio de sesión mediante Google. Dentro de la consola del proyecto en FireBase seleccione del lado izquierdo la ruta de Build -> Authentication. Luego se mostrará el menú de Users, dar clic en el botón de Set up sign-in method y entre los proveedores adicionales habilitar ***Google***. 
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_console_autenticacion.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_console_autenticacion.png" alt="appAMST" width="100%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_console_provider.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_console_provider.png" alt="appAMST" width="100%">
 </p>
 
 1.	Agregamos nuevas dependencias en build.gradle (module:app), y luego sincronizamos.
@@ -273,7 +273,7 @@ dependencies {
 2.	Creamos una vista de inicio. Dentro de app/res/layout/activity_main.xml diseñamos la primera vista de la aplicación. Para esta vista agregaremos: ImageView, TextView, Button. Dentro de un Linear Layout.  
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_activity_main_xml.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_activity_main_xml.png" alt="appAMST" width="100%">
 </p>
 
 Código de archivo: activity_main.xml
@@ -438,7 +438,7 @@ Ahora mostraremos la información de un del usuario en una nueva actividad e imp
 3.	En app/res/layout/activity_perfil_usuario.xml, diseñamos la vista para el perfil de usuario donde colocaremos la información que del cliente.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_perfilusuario_xml.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_perfilusuario_xml.png" alt="appAMST" width="100%">
 </p>
 
 **Código de archivo: activity_perfil_usuario.xml**
@@ -591,25 +591,25 @@ dependencies {
 2.	Este paso es totalmente informativo, para la práctica seguirán al paso 3. Estructuraremos la base de datos. (Una base NO RELACIONAL, estructura de árbol). Para ello accedemos a la consola del proyecto en Firebase, en el menú del lado izquierdo seleccionar Build > Realtime Database. Luego dar clic en Create Database.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_real_database.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_real_database.png" alt="appAMST" width="100%">
 </p>
 
 3. Ahora configuramos la base de datos seleccionando su ubicación, luego dar clic en Next.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_configure_database.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_configure_database.png" alt="appAMST" width="80%">
 </p>
 
 4. Configurar las reglas de seguridad de la base de datos.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_rules_db.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_rules_db.png" alt="appAMST" width="80%">
 </p>
 
 5. Definir el esquema de la base de datos. Nos ubicamos en en el nombre de la base de datos (https://amst-laba-firebase-default-rtdb.firebaseio.com/) y damos clic en [+] para agregar un nodo (child) en formato JSON con key y value.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_db_newschema.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_db_newschema.png" alt="appAMST" width="80%">
 </p>
 
 - Nombre: Grupo	Valor: Vacio, damos click en [+] para agregar otro nodo.
@@ -635,13 +635,13 @@ Base de datos {
 ```
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_db_schema.png" alt="appAMST" width="80%">
+  <img src="imagenes/amst_lab2_db_schema.png" alt="appAMST" width="80%">
 </p>
 	
 Se crea el siguiente árbol de estructura:
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_.png" alt="appAMST" width="100%">
 </p>
 
 ***Importante: Así fue creado un árbol de estructura de forma gráfica. En los siguientes pasos se mostrará como hacerlo desde la aplicación.***
@@ -735,15 +735,15 @@ public void cerrarSesion(View view) {
 11. Finalmente, ejecute la aplicación móvil amstfirebaseapp.
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_pantalla1.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab2_pantalla1.png" alt="appAMST" width="50%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_pantalla2_login.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab2_pantalla2_login.png" alt="appAMST" width="50%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_pantalla3_perfilusuario.png" alt="appAMST" width="50%">
+  <img src="imagenes/amst_lab2_pantalla3_perfilusuario.png" alt="appAMST" width="50%">
 </p>
 
 ### **Desafíos (20 puntos)**:

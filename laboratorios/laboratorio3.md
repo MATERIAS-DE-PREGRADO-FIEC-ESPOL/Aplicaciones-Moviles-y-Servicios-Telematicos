@@ -30,14 +30,14 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
 1)	Al abrir Android Studio seleccione ***New project*.**
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_newproject.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_newproject.png" alt="appAMST" width="100%">
 </p>
 
 2)	Seleccionar el tipo de proyecto: Para esta práctica escogeremos la pestaña Phone and Tablet **> Empty Activity**. 
 **Nota:** Otro tipo de actividades viene por defecto con componentes no necesarios para este taller.
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_emptyviewsactivity.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_emptyviewsactivity.png" alt="appAMST" width="100%">
 </p>
 
 3) Configuración inicial del proyecto.
@@ -50,11 +50,11 @@ Para lograr la integración de aplicaciones móviles con bases de datos externas
 4) Seleccionamos FINISH. Como resultado se creará un proyecto vacío, solo presentado el mensaje “Hello World”.
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_configproject.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_configproject.png" alt="appAMST" width="100%">
 </p>
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab2_.png" alt="appAMST" width="100%">
 </p>
 
 ### **Paso 2:** Crear interfaz de usuario
@@ -123,7 +123,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 ```
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_layout1.png" alt="appAMST" width="60%">
+  <img src="imagenes/amst_lab3_layout1.png" alt="appAMST" width="60%">
 </p>
 
 **Importante:**
@@ -143,7 +143,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 - Seleccionar New > Activity > Empty Activity.
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_activity_menu.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_activity_menu.png" alt="appAMST" width="100%">
 </p>
 
 - Ingresamos un el nombre para la nueva actividad [menu], lo que generara dos archivos:
@@ -213,7 +213,7 @@ Para esta aplicación crearemos una interfaz de usuario de inicio de sesión y u
 ```
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_vista_menu.png" alt="appAMST" width="60%">
+  <img src="imagenes/amst_lab3_vista_menu.png" alt="appAMST" width="60%">
 </p>
 
 4)	Creamos una transición de una actividad a otra para (De inicio de sesión -> Menú principal)
@@ -227,7 +227,7 @@ Una REST API o API de desarrollo permite interactuar con una base de datos exter
 
 
 <p align="center">
-  <img src="../imagenes/amst_lab2_.png" alt="appAMST" width="60%">
+  <img src="imagenes/amst_lab2_.png" alt="appAMST" width="60%">
 </p>
 
 La REST API que usaremos para este taller será https://amst-lab-api.herokuapp.com/db. Esta API está desarrollada en Django Python con autenticación JWT.  De esta manera, el teléfono puede acceder a grandes cantidades de información sin tener que alojarla de forma interna. A cambio requiere conexión a internet (lo cual en casos puede llegar a ser costosa).
@@ -286,25 +286,25 @@ private RequestQueue mQueue = null;
 Usuario: estudiante, contraseña:stud3ntam5t
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_api_login.png" alt="appAMST" width="90%">
+  <img src="imagenes/amst_lab3_api_login.png" alt="appAMST" width="90%">
 </p>
 
 Cree un usuario, y esas serán las credenciales que usará para su aplicación (tabla Users > +Add).
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_api_users_django.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_api_users_django.png" alt="appAMST" width="100%">
 </p>
 
 Ingrese el nombre del usuario y una clave.
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_api_newuser.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_api_newuser.png" alt="appAMST" width="100%">
 </p>
 
 Al hacer clic en guardar el usuario estará creado. Aparecerá otro formulario. Modificar solamente los campos a continuación:
 
 <p align="center">
-  <img src="../imagenes/amst_lab3_more_data_user.png" alt="appAMST" width="100%">
+  <img src="imagenes/amst_lab3_more_data_user.png" alt="appAMST" width="100%">
 </p>
 
 - Dirigirse al final y presionar el botón SAVE.  
