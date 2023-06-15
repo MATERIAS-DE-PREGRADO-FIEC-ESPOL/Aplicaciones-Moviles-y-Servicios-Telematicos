@@ -14,9 +14,9 @@ Al finalizar la clase el estudiante será capaz de:
 
 <a name="arquitectura"> </a>
 
-# 📲 Arquitectura de sofrware para servicios móviles
+# 📲 Arquitectura de sotfware para servicios móviles
 El primer paso para crear una aplicación de software, después del proceso de recopilación de requisitos, es establecer un plan de alto nivel sobre cómo será la aplicación cuando finalice. Se conoce a este plan de alto nivel de la aplicación móvil una "arquitectura de software móvil”.
 
 <p align="center">
-  <img src="../imagenes/computacionmovil.jpg" style="width: 40%; height: 200px; float: right; padding: 15px;" alt="redhat">
+  <img src="../imagenes/arquitectura_software.png" alt="tiempo" width="80%">
 </p>

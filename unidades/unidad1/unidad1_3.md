@@ -53,12 +53,9 @@ Los marcos de referencia que nos ayudan a escribir software que está "más cerc
 - Aplicaciones avanzadas
 
 <p align="center">
-  <img src="../imagenes/tipos_apps.png" style="width: 60%; height: 200px; float: right; padding: 15px;" alt="tipo_apps">
+  <img src="../imagenes/tipos_apps.png" style="width: 60%; height: 200px; float: center; padding: 15px;" alt="tipo_apps">
 </p>
 
-
-
-<br>
 <br>
 
 <a name="patrones"> </a>
@@ -99,10 +96,6 @@ https://www.adobe.com/la/products/xd.html
 
 ## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7bf527c98a88d9720cb4b2c1fcff891a6340f233
 1. Aplicaciones escritas en Java.
 2. Arquitectura diseñada para simplificar la reutilización de componentes.
 3. Incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema
