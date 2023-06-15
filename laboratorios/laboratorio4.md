@@ -75,12 +75,14 @@ a.	https://flutter.dev/docs/development/tools/sdk/releases
 - En MacOS podemos dar click derecho al archivo y dar click en abrir, con esto de descomprimirá el archivo.
 
 3) La carpeta extraída la alojamos en la siguiente localización. (En caso de no existir el directorio, crearlo).
-- En Windows: 
+- En Windows:
+
 ```
 C:\Users\<tu-nombre-de-usuario>\Documents
 ```
 
-- En Mac: 
+- En Mac:
+
 ```
 <Disco Principal>/Users/<tu-nombre-de-usuario>/development
 ```
@@ -113,6 +115,7 @@ C:\Users\<tu-nombre-de-usuario>\Documents
 - Cerramos y volvemos a abrir la terminal.
 
 5)	Para verificar que hemos agregado correctamente flutter a nuestro path abriremos una instancia de cmd en Windows o una nueva terminal en MacOS.
+
 6)	Escribimos el comando flutter --version, deberá aparecer la versión actualmente instalada de flutter, en caso de error verificar los pasos anteriores.
 
 ```
@@ -173,6 +176,7 @@ by running `flutter --disable-telemetry`
 ```
 
 7)	Una vez verificado, ejecutamos el siguiente comando:
+
 ```flutter doctor```
 
 8)	En caso de pedir aceptar algunas opciones de firmas y datos lo hacemos.
