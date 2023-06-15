@@ -12,10 +12,13 @@ Al finalizar la clase el estudiante será capaz de:
 # 1.3 Interfaz de usuario y ciclo de vida de actividades
 - [Metodología de desarrollo de aplicaciones móviles](#metodologia)
 - [Proceso de diseño y desarrollo de una aplicación](#proceso)
-- [Tipos de aplicaciones](#tipos)
 - [Patrones de diseño](#patrones)
 - [Prototipado móvil](#prototipado)
-- [Modelo Vista Controlador en Android](#modelo)
+- [Tipos de aplicaciones](#tipos)
+- [Arquitectura de Android](#arquitectura)
+- [Estructura de un proyecto](#estructura)
+- [Componentes de una aplicación](#componenes)
+- [Ciclo de vida de la actidad](#ciclo)
 
 <a name="metodologia"> </a>
 
@@ -60,22 +63,6 @@ El programador se encarga de dar vida a los diseños y crear la estructura sobre
 **5. Publicación**
 La aplicación es finalmente puesta a disposición de los usuarios en las tiendas. Luego de este paso trascendental se realiza un seguimiento a través de analíticas, estadísticas y comentarios de usuarios, para evaluar el comportamiento y desempeño de la app, corregir errores, realizar mejoras y actualizarla en futuras versiones.
 
-
-<a name="tipos"> </a>
-
-## 📲 Tipos de aplicaciones
-
-- Aplicaciones nativas
-- Aplicaciones web
-- Aplicaciones híbridas
-- Aplicaciones avanzadas
-
-<p align="center">
-  <img src="../imagenes/tipos_apps.png" style="width: 60%; height: 200px; float: center; padding: 15px;" alt="tipo_apps">
-</p>
-
-<br>
-
 <a name="patrones"> </a>
 
 ## 📲 Patrones de diseño
@@ -93,98 +80,200 @@ La ***Ley del pulgar*** se refiere a la superficie de pantalla a la que este ded
 
 Las herramientas para el diseño del prototipado móvil son las siguientes:
 
-Proto.io
-https://proto.io
+- [Proto.io](https://proto.io)
 
-Marvelapp
-https://marvelapp.com
+- [Marvelapp](https://marvelapp.com)
 
-https://spaces.proto.io/project/BFCB3D3D-0E94-EEFC-B26C-10502C54FB41/TeenTa-universal/
+- [Adobe XD](https://www.adobe.com/la/products/xd.html)
 
-Adobe XD
-https://www.adobe.com/la/products/xd.html
+<a name="tipos"> </a>
 
+## 📲 Tipos de aplicaciones
 
-<a name="modelo"> </a>
+- Aplicaciones nativas
+- Aplicaciones web
+- Aplicaciones híbridas
+- Aplicaciones avanzadas
 
-## 📲 Modelo Vista Controlador en Android
+<p align="center">
+  <img src="../imagenes/tipos_apps.png" style="width: 60%; height: 200px; float: center; padding: 15px;" alt="tipo_apps">
+</p>
 
-- Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
-- Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
-- En las aplicaciones de Android, las clases de modelos son generalmente clases personalizadas que crea. 
-- Todos los objetos modelo en su aplicación componen su capa modelo.
-- La capa de modelo de GeoQuiz consiste en la clase TrueFalse.
+<a name="arquitectura"> </a>
 
+## 📲 Arquitectura de Android
 
-## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
+Android es una pila de software de código abierto basado en Linux creada para una variedad amplia de dispositivos y factores de forma.
 
-1. Aplicaciones escritas en Java.
-2. Arquitectura diseñada para simplificar la reutilización de componentes.
-3. Incluye un conjunto de bibliotecas de C/C++ usadas por varios componentes del sistema
-4. Incluye un set de bibliotecas base que proporcionan la mayor parte de las funciones disponibles en las bibliotecas base del lenguaje Java.
-5. Android depende de Linux para los servicios base del sistema como seguridad, gestión de memoria, gestión de procesos, pila de red y modelo de controladores.
-
-imagen
-
-## VERSIONES DE ANDROID
-
-imagen
-Los datos recogidos durante un período final de 7 días, el 6 de Junio 2016. 
+<p align="center">
+  <img src="../imagenes/software_android.png" alt="tiempo" width="100%">
+</p>
 
 
-## ENTORNO DE DESARROLLO
+<a name="estructura"> </a>
 
-+ Java JDK 1.6+
-(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-+ IDE Eclipse 
-(http://www.eclipse.org/downloads/)
-+ Android SDK
-(http://developer.android.com/sdk/index.html)
-+ AVD Manager
-+ Android Development Tools
-( https://dll-ssl.google.com/android/eclipse/ )
+## 📲 Estructura de un proyecto
 
+<p align="center">
+  <img src="../imagenes/estructura_proyecto_android.png" alt="tiempo" width="100%">
+</p>
 
-1. Android SDK Tools
-2. Android SDK Platform-tools
-3. Android SDK Build-tools (la versión más reciente disponible)
-4. Una o más versiones de la plataforma Android
-5. Android Support Repository (extras)
-6. Google Repository (extras)
-7. Google Play Services (extras)
+**app > java > com.example.myfirstapp > MainActivity**
 
-## ESTRUCTURA DE UN PROYECTO
-
-app>java>com.example.myfirstapp>MainActivity
 Esta es la actividad principal (el punto de entrada para tu app). Cuando compilas y ejecutas la app, el sistema inicia una instancia de esta Activity y carga su diseño.
 
-app>res>layout>activity_main.xml
-Este archivo XML define el diseño correspondiente a la IU de la actividad. Contiene elementos editText y Button.
+**app > res > layout > activity_main.xml**
 
-Gradle Scripts > build.gradle
-Dos archivos con este nombre: uno para el proyecto ("Project: MyFirstApp") y otro para el módulo de la "app" ("Module: app"). Cada módulo tiene su propio archivo build.gradle, pero este proyecto por el momento tiene un solo módulo. Trabajarás principalmente con el archivo build.gradle del módulo para configurar la forma en que las herramientas de Gradle compilan y crean tu app.
+Contiene recursos de aplicación, como archivos de elementos de diseño, de diseño y de strings de IU.
 
-app>manifests>AndroidManifest.xml
-El archivo de manifiesto describe las características fundamentales de la app y define cada uno de sus componentes.
+**Gradle Scripts > build.gradle (Module: app)**
 
-Diseño de la interfaz de usuario
+Este archivo define las configuraciones de compilación específicas para el módulo.
 
-## COMPONENTES DE UNA APLICACIÓN
+**Gradle Scripts > build.gradle (Project: appAMST)**
 
-+ ### Activity: 
-Las actividades (activities) representan el componente principal de la interfaz gráfica de una aplicación Android.
-+ ### View: 
-Son los componentes básicos con los que se construyen la interfaz gráfica de la aplicación.
-+ ### Service: 
-Son los componentes sin interfaz gráfica que se ejecutan en segundo plano.
-+ ### Content Provider: 
-Es el mecanismo que se ha definido en Android para compartir datos entre aplicaciones.
-+ ### Broadcast Receiver:
-Es un componente destinado a detectar y reaccionar ante determinados mensajes o eventos globales generados por el sistema.
-+ ### Widget: 
-Son elementos visuales, interactivos, que pueden mostrarse en la pantalla principal.
-+ ### Intent:
-Es el elemento básico de comunicación entre los distintos componentes Android que hemos descrito anteriormente.
+Este archivo define tu configuración de compilación que se aplica a todos los módulos.
+
+**app > manifests > AndroidManifest.xml**
+
+Describe la naturaleza de la aplicación y cada uno de sus componentes
+
+
+<a name="componentes"> </a>
+
+## 📲 Componentes de una aplicación
+
+- Activity: Una Actividad comprende los componentes visuales ("vistas") para una pantalla, así como el código que muestra los datos en esa pantalla y puede responder a los eventos del usuario en esa pantalla. Casi todas las aplicaciones tienen al menos una clase Activity.
+
+- View: Son los componentes básicos con los que se construyen la interfaz gráfica de la aplicación.
+
+- Service: Es un componente que no tiene interfaz de usuario, y puede ejecutarse durante un período de tiempo más largo que una Actividad.
+
+- Content Provider: Los proveedores de contenido también son relativamente raros, y se utilizan cuando una aplicación necesita compartir sus datos con otras aplicaciones; también pueden utilizarse con adaptadores de sincronización.
+
+- Broadcast Receiver: Los receptores de emisión son menos comunes, y se utilizan para responder a eventos que afectan a todo el sistema, como la pérdida o recuperación de la conectividad de la red, el agotamiento de la batería, el reinicio del sistema, etcétera.
+
+- Widget: Son elementos visuales, interactivos, que pueden mostrarse en la pantalla principal.
+
+- Intent: Es el elemento básico de comunicación entre los distintos componentes Android que hemos descrito anteriormente.
+
+
+<a name="ciclo"> </a>
+
+## 📲 Ciclo de vida de la actidad
+Cuando un usuario navega por tu app, sale de ella y vuelve a entrar, las instancias de ```Activity``` de tu app pasan por diferentes estados de su ciclo de vida. La clase ```Activity``` proporciona una serie de devoluciones de llamada que permiten a la actividad saber que cambió un estado, es decir, que el sistema está creando, deteniendo o reanudando una actividad, o finalizando el proceso en el que se encuentra.
+
+Dentro de los métodos de devolución de llamada de ciclo de vida, puedes declarar el comportamiento que tendrá tu actividad cuando el usuario la abandone y la reanude. Por ejemplo, si creas un reproductor de video en streaming, puedes pausar el video y cancelar la conexión de red cuando el usuario cambia a otra app. Cuando el usuario vuelve, puedes volver a establecer la conexión con la red y permitir que el usuario reanude el video desde el mismo punto. En otras palabras, cada devolución de llamada te permite realizar un trabajo específico que es apropiado para un cambio de estado en particular. Hacer el trabajo preciso en el momento adecuado y administrar las transiciones correctamente hace que tu app sea más sólida y eficiente. Por ejemplo, una buena implementación de las devoluciones de llamada de un ciclo de vida puede ayudar a garantizar que tu app:
+
+- No falle si el usuario recibe una llamada telefónica o cambia a otra app mientras usa la tuya.
+- No consuma recursos valiosos del sistema cuando el usuario no la use de forma activa.
+- No pierda el progreso del usuario si este abandona tu app y regresa a ella posteriormente.
+- No falle ni pierda el progreso del usuario cuando se gire la pantalla entre la orientación horizontal y la vertical.
+
+Para navegar por las transiciones entre las etapas del ciclo de vida de una actividad, la clase Activity proporciona un conjunto básico de seis devoluciones de llamadas: ```onCreate()```, ```onStart()```, ```onResume()```, ```onPause()```, ```onStop()```, y ```onDestroy()```. El sistema invoca cada una de estas devoluciones de llamada cuando una operación entra en un nuevo estado. Es decir, que la aplicación móvil pasará de un estado a otro si Android llama a los siguientes métodos en la Actividad actual en el momento adecuado.
+
+<p align="center">
+  <img src="../imagenes/ciclo_vida.png" alt="ciclo" width="90%">
+</p>
+
+```setContentView()```: Establece el contenido de la actividad a partir de un recurso de diseño. El recurso se inflará, añadiendo todas las vistas de nivel superior a la actividad.
+
+
+```onCreate()```: Es la devolución de llamada que se activa cuando el sistema crea la actividad por primera vez. Se hace el trabajo de constructor, como configurar la "ventana principal" con ```setContentView()```. añadiendo listeners a los botones para que hagan su trabajo (incluyendo iniciar Actividades adicionales), y así sucesivamente. Este es el único método que incluso la actividad más simple de Android necesita.
+
+
+***Código fuente: MainActivity.java***
+
+```
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //Referencias a los controles del diseño
+        edtUsuario = (EditText) findViewById(R.id.edtUsuario);
+        edtClave = (EditText) findViewById(R.id.edtClave);
+
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnRegistro = (Button) findViewById(R.id.btnRegistro);
+    }
+```
+
+```onStart()```: Hace que el usuario pueda ver la actividad mientras la app se prepara para que esta entre en primer plano y se convierta en interactiva. Por ejemplo, este método es donde la app inicializa el código que mantiene la IU.
+
+
+```onResume()```: Cuando la actividad entra en el estado Resumed, pasa al primer plano y, a continuación, el sistema invoca la devolución de llamada onResume(). Este es el estado en el que la app interactúa con el usuario. La app permanece en este estado hasta que ocurre algún evento que la quita de foco. Tal evento podría ser, por ejemplo, recibir una llamada telefónica, que el usuario navegue a otra actividad o que se apague la pantalla del dispositivo.
+
+```
+public class CameraComponent implements LifecycleObserver {
+
+    ...
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
+    public void initializeCamera() {
+        if (camera == null) {
+            getCamera();
+        }
+    }
+
+    ...
+}
+```
+
+```onPause()```: El sistema llama a este método a modo de primera indicación de que el usuario está abandonando tu actividad (aunque no siempre significa que está finalizando la actividad); esto indica que la actividad ya no está en primer plano (aunque puede seguir siendo visible si el usuario está en el modo multiventana). Utiliza el método onPause() para pausar o ajustar las operaciones que no deben continuar (o que deben continuar con moderación) mientras Activity se encuentra en estado Paused y que esperas reanudar en breve. Hay varias razones por las que una actividad puede entrar en este estado. Por ejemplo:
+
+- Algunos eventos interrumpen la ejecución de la app, como se describe en la sección onResume(). Este es el caso más común.
+- En Android 7.0 (API nivel 24) o versiones posteriores, varias apps se ejecutan en el modo multiventana. Debido a que solo una de las apps (ventanas) tiene foco en cualquier momento, el sistema pausa todas las demás.
+- Se abre una nueva actividad semitransparente (como un diálogo). Mientras la actividad siga siendo parcialmente visible, pero no esté en foco, se mantendrá pausada.
+
+```
+public class JavaCameraComponent implements LifecycleObserver {
+
+    ...
+
+    @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+    public void releaseCamera() {
+        if (camera != null) {
+            camera.release();
+            camera = null;
+        }
+    }
+
+    ...
+}
+```
+
+```onStop()```: Cuando el usuario ya no puede ver tu actividad, significa que ha entrado en el estado Stopped, y el sistema invoca la devolución de llamada onStop(). Esto puede ocurrir, por ejemplo, cuando una actividad recién lanzada cubre toda la pantalla. El sistema también puede llamar a onStop() cuando haya terminado la actividad y esté a punto de finalizar.
+
+```
+@Override
+protected void onStop() {
+    // call the superclass method first
+    super.onStop();
+
+    // save the note's current draft, because the activity is stopping
+    // and we want to be sure the current note progress isn't lost.
+    ContentValues values = new ContentValues();
+    values.put(NotePad.Notes.COLUMN_NAME_NOTE, getCurrentNoteText());
+    values.put(NotePad.Notes.COLUMN_NAME_TITLE, getCurrentNoteTitle());
+
+    // do this update in background on an AsyncQueryHandler or equivalent
+    asyncQueryHandler.startUpdate (
+            mToken,  // int token to correlate calls
+            null,    // cookie, not used here
+            uri,    // The URI for the note to update.
+            values,  // The map of column names and new values to apply to them.
+            null,    // No SELECT criteria are used.
+            null     // No WHERE columns are used.
+    );
+}
+```
+
+```onDestroy()```: Se llama onDestroy() antes de que finalice la actividad. El sistema invoca esta devolución de llamada por los siguientes motivos:
+
+- La actividad está terminando, debido a que el usuario la descarta por completo o a que se llama a ```finish()```.
+- El sistema está finalizando temporalmente la actividad debido a un cambio de configuración (como la rotación del dispositivo o el modo multiventana).
+
 
 ## DISEÑO DE UNA APLICACIÓN MÓVIL
 
@@ -841,11 +930,7 @@ Enlace
 
 imagen 
 
-# RECOMENDACIONES DE ESTUDIO DE LA PROFESORA
-
-+ Asiste regularmente a las clases del componente teórico y práctico del Itinerario de Aplicaciones Móviles y Sistemas Telemáticos.
-+ Participa en clase, en las actividades conjuntamente con la profesora.
-+ Investiga pro-activamente, para que aportes con ideas innovadoras.
-
-“Leer y practicar es la mejor forma de aprender los fundamentos teóricos”.
-### Ángel Collaguazo
+Referencias
+https://developer.android.com/guide/platform?hl=es-419
+https://developer.android.com/reference/android/app/Activity#setContentView(int)
+[Cómo interpretar el ciclo de vida de una actividad](https://developer.android.com/guide/components/activities/activity-lifecycle?hl=es-419#java)
