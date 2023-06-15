@@ -152,7 +152,6 @@ Tools • Dart 3.0.5 • DevTools 2.23.1
   ║ https://policies.google.com/privacy                                        ║
   ╚════════════════════════════════════════════════════════════════════════════╝
 
-
 The Flutter CLI developer tool uses Google Analytics to report usage and
 diagnostic data
 along with package dependencies, and crash reporting to send basic crash
