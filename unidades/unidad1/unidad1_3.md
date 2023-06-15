@@ -83,7 +83,7 @@ La aplicación es finalmente puesta a disposición de los usuarios en las tienda
 La ***Ley del pulgar*** se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
 
 <p align="center">
-  <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
+  <img src="../imagenes/ley_pulgar.png" alt="tiempo" width="100%">
 </p>
 
 
