@@ -931,6 +931,7 @@ Enlace
 imagen 
 
 Referencias
-https://developer.android.com/guide/platform?hl=es-419
-https://developer.android.com/reference/android/app/Activity#setContentView(int)
+[Arquitectura de la plataforma](https://developer.android.com/guide/platform?hl=es-419)
+[Descripción general de Proyectos](https://developer.android.com/studio/projects?hl=es-419)
+[Activity](https://developer.android.com/reference/android/app/Activity#setContentView)
 [Cómo interpretar el ciclo de vida de una actividad](https://developer.android.com/guide/components/activities/activity-lifecycle?hl=es-419#java)
