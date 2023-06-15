@@ -35,18 +35,18 @@
     * 4.4. Aplicaciones telemáticas móviles y su impacto en la sociedad
 
 ## PRÁCTICAS DE LABORATORIO
-* [AMST LAB1 DESARROLLO DE UNA APLICACIÓN MÓVIL USANDO CONTROLES AVANZADOS](laboratorios/laboratorio1.md)
+* [[AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio1.md)
 
-* [AMST LAB2 DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNA EN GOOGLE](laboratorios/laboratorio2.md)
+* [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio2.md)
 
-* [AMST LAB3 DESARROLLO DE UNA APLICACIÓN MÓVIL CON INTEGRACIÓN DE BASE DE DATOS EXTERNAS UTILIZANDO REST API](laboratorios/laboratorio3.md)
+* [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio3.md)
 
-* [AMST LAB4 DESARROLLO DE APLICACIÓN MÓVIL HÍBRIDA BÁSICA CON FLUTTER](laboratorios/laboratorio4.md)
+* [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio4.md)
 
 
 ## MICROSESIONES
-* [MICROSESIÓN 1 DE SOFTWARE PRINCIPIOS ÁGILES Y SCRUM](microsesiones/microsesion1_software_scrum.md)
-* [MICROSESION 2 DE SOFTWARE BASE DE DATOS NO RELACIONES](microsesiones/microsesion2_software_noSQL.md)
+* [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
+* [AMST MT2 SOFT Base de datos No Relacionales](microsesiones/microsesion2_software_noSQL.md)
 
 # MANUALES
 * [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)
