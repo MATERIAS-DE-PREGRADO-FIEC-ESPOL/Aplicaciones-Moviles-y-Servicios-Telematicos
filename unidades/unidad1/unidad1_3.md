@@ -43,7 +43,7 @@ Los marcos de referencia que nos ayudan a escribir software que está "más cerc
 </p>
 
 
-<a name="proceso"> </a>
+<a name="tipos"> </a>
 
 ## 📲 Tipos de aplicaciones
 
