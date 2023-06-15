@@ -15,7 +15,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [Tipos de aplicaciones](#tipos)
 - [Patrones de diseño](#patrones)
 - [Prototipado móvil](#prototipado)
-
+- [Modelo Vista Controlador en Android](#modelo)
 
 <a name="metodologia"> </a>
 
@@ -86,12 +86,16 @@ https://spaces.proto.io/project/BFCB3D3D-0E94-EEFC-B26C-10502C54FB41/TeenTa-univ
 Adobe XD
 https://www.adobe.com/la/products/xd.html
 
-## MODELO-VISTA-CONTROLADOR EN ANDROID
-1. Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
-2. Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
-3. En las aplicaciones de Android, las clases de modelos son generalmente clases personalizadas que crea. 
-4. Todos los objetos modelo en su aplicación componen su capa modelo.
-5. La capa de modelo de GeoQuiz consiste en la clase TrueFalse.
+
+<a name="modelo"> </a>
+
+## 📲 Modelo Vista Controlador en Android
+
+- Las clases de modelos están diseñadas para modelar las cosas que conciernen a su aplicación, como un usuario.
+- Los objetos modelo no tienen conocimiento de la interfaz de usuario; su único propósito es mantener y administrar datos.
+- En las aplicaciones de Android, las clases de modelos son generalmente clases personalizadas que crea. 
+- Todos los objetos modelo en su aplicación componen su capa modelo.
+- La capa de modelo de GeoQuiz consiste en la clase TrueFalse.
 
 
 ## ESTRUCTURA DEL SISTEMA OPERATIVO ANDROID
