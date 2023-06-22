@@ -12,17 +12,21 @@ Al finalizar la clase el estudiante será capaz de:
 # 1.3 Interfaz de usuario y ciclo de vida de actividades
 - [Metodología de desarrollo de aplicaciones móviles](#metodologia)
 - [Proceso de diseño y desarrollo de una aplicación](#proceso)
-- [Patrones de diseño](#patrones)
 - [Prototipado móvil](#prototipado)
+- [Patrones de diseño](#patrones)
+- [Diseño de la pantalla de inicio](#inicio)
 - [Tipos de aplicaciones](#tipos)
 - [Arquitectura de Android](#arquitectura)
 - [Estructura de un proyecto](#estructura)
 - [Componentes de una aplicación](#componenes)
 - [Ciclo de vida de la actidad](#ciclo)
+- [Diseño en las vistas](#layout)
+    -[Ejemplo de Relative Layout](#sample_relative)
+- [Controles básicos](#📲controles_básicos)
 
 <a name="metodologia"> </a>
 
-## 📲 Metodología de desarrollo de aplicaciones móviles
+# 📲 Metodología de desarrollo de aplicaciones móviles
 
 **¿Podemos o no podemos usar las mismas metodologías, marcos y herramientas para el desarrollo de aplicaciones móviles?**
 
@@ -39,7 +43,7 @@ Los marcos de referencia que nos ayudan a escribir software que está "más cerc
 
 <a name="proceso"> </a>
 
-## 📲 Proceso de diseño y desarrollo de una aplicación
+# 📲 Proceso de diseño y desarrollo de una aplicación
 
 <p align="center">
   <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
@@ -63,20 +67,10 @@ El programador se encarga de dar vida a los diseños y crear la estructura sobre
 **5. Publicación**
 La aplicación es finalmente puesta a disposición de los usuarios en las tiendas. Luego de este paso trascendental se realiza un seguimiento a través de analíticas, estadísticas y comentarios de usuarios, para evaluar el comportamiento y desempeño de la app, corregir errores, realizar mejoras y actualizarla en futuras versiones.
 
-<a name="patrones"> </a>
-
-## 📲 Patrones de diseño
-
-La ***Ley del pulgar*** se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
-
-<p align="center">
-  <img src="../imagenes/ley_pulgar.png" alt="tiempo" width="100%">
-</p>
-
 
 <a name="prototipado"> </a>
 
-## 📲 Prototipado móvil
+# 📲 Prototipado móvil
 
 Las herramientas para el diseño del prototipado móvil son las siguientes:
 
@@ -86,9 +80,32 @@ Las herramientas para el diseño del prototipado móvil son las siguientes:
 
 - [Adobe XD](https://www.adobe.com/la/products/xd.html)
 
+
+<a name="patrones"> </a>
+
+# 📲 Patrones de diseño
+
+La ***Ley del pulgar*** se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
+
+<p align="center">
+  <img src="../imagenes/ley_pulgar.png" alt="tiempo" width="100%">
+</p>
+
+
+<a name="inicio"> </a>
+
+# 📲 Diseño de la pantalla de inicio
+
+El splash de bienvenida que corresponde a la pantalla de inicio, es la primera pantalla que verá el usuario al iniciar la aplicación móvil. Su uso está siendo cada vez más limitado, por lo que generalmente se muestra rápidamente la primera vez que se abre la aplicación. Esta pantalla sirve como presentación del contenido mientras se realiza la carga inicial, por tanto, es normal que se incluya un elemento indicativo de carga junto a los demás elementos gráficos.
+
+<p align="center">
+  <img src="../imagenes/diseno_inicio_heating_controller_mobile_app.png" alt="inicio" width="100%">
+</p>
+
+
 <a name="tipos"> </a>
 
-## 📲 Tipos de aplicaciones
+# 📲 Tipos de aplicaciones
 
 - Aplicaciones nativas
 - Aplicaciones web
@@ -99,9 +116,10 @@ Las herramientas para el diseño del prototipado móvil son las siguientes:
   <img src="../imagenes/tipos_apps.png" style="width: 60%; height: 200px; float: center; padding: 15px;" alt="tipo_apps">
 </p>
 
+
 <a name="arquitectura"> </a>
 
-## 📲 Arquitectura de Android
+# 📲 Arquitectura de Android
 
 Android es una pila de software de código abierto basado en Linux creada para una variedad amplia de dispositivos y factores de forma.
 
@@ -112,7 +130,7 @@ Android es una pila de software de código abierto basado en Linux creada para u
 
 <a name="estructura"> </a>
 
-## 📲 Estructura de un proyecto
+# 📲 Estructura de un proyecto
 
 <p align="center">
   <img src="../imagenes/estructura_proyecto_android.png" alt="tiempo" width="100%">
@@ -141,7 +159,7 @@ Describe la naturaleza de la aplicación y cada uno de sus componentes
 
 <a name="componentes"> </a>
 
-## 📲 Componentes de una aplicación
+# 📲 Componentes de una aplicación
 
 - Activity: Una Actividad comprende los componentes visuales ("vistas") para una pantalla, así como el código que muestra los datos en esa pantalla y puede responder a los eventos del usuario en esa pantalla. Casi todas las aplicaciones tienen al menos una clase Activity.
 
@@ -160,7 +178,7 @@ Describe la naturaleza de la aplicación y cada uno de sus componentes
 
 <a name="ciclo"> </a>
 
-## 📲 Ciclo de vida de la actidad
+# 📲 Ciclo de vida de la actidad
 Cuando un usuario navega por tu app, sale de ella y vuelve a entrar, las instancias de ```Activity``` de tu app pasan por diferentes estados de su ciclo de vida. La clase ```Activity``` proporciona una serie de devoluciones de llamada que permiten a la actividad saber que cambió un estado, es decir, que el sistema está creando, deteniendo o reanudando una actividad, o finalizando el proceso en el que se encuentra.
 
 Dentro de los métodos de devolución de llamada de ciclo de vida, puedes declarar el comportamiento que tendrá tu actividad cuando el usuario la abandone y la reanude. Por ejemplo, si creas un reproductor de video en streaming, puedes pausar el video y cancelar la conexión de red cuando el usuario cambia a otra app. Cuando el usuario vuelve, puedes volver a establecer la conexión con la red y permitir que el usuario reanude el video desde el mismo punto. En otras palabras, cada devolución de llamada te permite realizar un trabajo específico que es apropiado para un cambio de estado en particular. Hacer el trabajo preciso en el momento adecuado y administrar las transiciones correctamente hace que tu app sea más sólida y eficiente. Por ejemplo, una buena implementación de las devoluciones de llamada de un ciclo de vida puede ayudar a garantizar que tu app:
@@ -275,157 +293,121 @@ protected void onStop() {
 - El sistema está finalizando temporalmente la actividad debido a un cambio de configuración (como la rotación del dispositivo o el modo multiventana).
 
 
-## DISEÑO DE UNA APLICACIÓN MÓVIL
+<a name="layout"> </a>
 
-El splash/pantalla de bienvenida/pantalla de inicio, es la primera pantalla que verá el usuario al iniciar la app. Su uso está siendo cada vez más limitado, por lo que generalmente se muestra rápidamente la primera vez que se abre la aplicación. Esta pantalla sirve como presentación del contenido mientras se realiza la carga inicial, por tanto, es normal que se incluya un elemento indicativo de carga junto a los demás elementos gráficos.
+# 📲 Diseño en las vistas
 
-imagen
+**Linear Layout:** Un diseño que organiza a sus hijos en una única fila horizontal o vertical. Crea una barra de desplazamiento si la longitud de la ventana supera la longitud de la pantalla.
 
-+ Crear una aplicación donde se ingresa el nombre del usuario y la clave, al dar click en “Login” el usuario accederá a la aplicación.
-
-imagen
-
-## PROCESO DE CONSTRUCCIÓN DE ANDROID
-
-imagen
-
-## INTERFAZ DE USUARIO: LAYOUTS
-
-### FrameLayout
-
-imagen
-
-Un FrameLayout coloca todos sus controles hijos alineados con su esquina superior izquierda, de forma que cada control quedará oculto por el control siguiente. 
-
-### LinearLayout
-imagen
-Este layout apila uno tras otro todos sus  Elementos hijos de forma horizontal o Vertical según se establezca su propiedad Android:orientation
+<p align="center">
+  <img src="../imagenes/linearlayout.png" alt="ciclo" width="40%">
+</p>
 
 
-### TableLayout
+**Relative Layout:** Permite especificar la ubicación de los objetos hijos entre sí (hijo A a la izquierda de hijo B) o con respecto al padre (alineado con la parte superior del padre).
 
-imagen
-Un TableLayout permite distribuir sus elementos hijos de forma tabular, definiendo las filas y columnas necesarias, y la posición de cada componente dentro de la tabla.
-
-### RelativeLayout
-
-imagen
-Este layout permite especificar la posición de cada elemento de forma relativa a su elemento padre o a cualquier otro elemento incluido en el propio layout.
-
-## INTERFAZ DE USUARIO: LAYOUTS
-
-imagen
-
-## LAYOUTS PROPIEDADES
-
-+ ### Posición relativa a otro control:
-
-Android:layout_above
-Android:layout_below
-Android:layout_toLeftOf
-Android:layout_toRightOf
-Android:layout_alignLeft
-Android:layout_alignRight
-Android:layout_alignTop
-Android:layout_alignBottom
-Android:layout_alignBaseline
-
-+ ### Posición relativa al layout padre:
-
-Android:layout_alignParentLeft
-Android:layout_alignParentRight
-android:layout_alignParentTop.
-android:layout_alignParentBotto
-android:layout_centerHorizontal.
-android:layout_centerVertical
-android:layout_centerInParent.
-
-## LAYOUTS PROPIEDADES
-
-+ ### Opciones de margen
-
-android:layout_margin
-android:layout_marginBottom
-android:layout_marginTop
-android:layout_marginLeft
-android:layout_marginRight
-
-### Opciones de espaciado o padding
-
-android:padding
-android:paddingBottom
-android:paddingTop
-android:paddingLeft
-android:paddingRight
-
-## INTERFAZ DE USUARIO: CONTROLES BÁSICOS
-
-+ El SDK de Android nos proporciona tres tipos de botones:
-+ El clásico (Button)
-+ El de tipo on/off (ToggleButton)
-+ El que puede contener una imagen (Imagebutton)
+<p align="center">
+  <img src="../imagenes/relativelayout.png" alt="ciclo" width="40%">
+</p>
 
 
+**List View:** Muestra una lista desplegable de una sola columna.
+
+<p align="center">
+  <img src="../imagenes/listview.png" alt="ciclo" width="40%">
+</p>
+
+
+**Grid View:** Muestra una cuadrícula desplazable de columnas y filas.
+
+<p align="center">
+  <img src="../imagenes/gridview.png" alt="ciclo" width="40%">
+</p>
+
+
+<a name="sample_relative"> </a>
+
+## 🌐 Ejemplo de Relative Layout
+
+<p align="center">
+  <img src="../imagenes/sample-relativelayout.png" style="width: 40%; height: 300px; float: right; padding: 15px;" alt="redhat">
+</p>
+
+```
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   xmlns:app="http://schemas.android.com/apk/res-auto"
-   xmlns:tools="http://schemas.android.com/tools"
-   android:id="@+id/linearLayout"
-   android:layout_width="match_parent"
-   android:layout_height="match_parent"
-   android:orientation="vertical"
-   tools:context=".MainActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reminder" />
+    <Spinner
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times" />
+    <Spinner
+        android:id="@id/times"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentRight="true" />
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:layout_alignParentRight="true"
+        android:text="@string/done" />
+</RelativeLayout>
+```
 
-   <Button
-       android:id="@+id/btnPulsame"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_marginStart="156dp"
-       android:layout_marginTop="24dp"
-       android:text="@string/pulsame" />
+<a name="controles_basicos"> </a>
 
-   <ToggleButton
-       android:id="@+id/tgbuttonEstado"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_marginStart="156dp"
-       android:layout_marginTop="100dp"
-       android:checked="true"
-       android:textOff="@string/off"
-       android:textOn="@string/on" />
+# 📲 Controles básicos
 
-   <ImageButton
-       android:id="@+id/imageButton3"
-       android:layout_width="wrap_content"
-       android:layout_height="269dp"
-       android:layout_marginStart="156dp"
-       android:layout_marginTop="100dp"
-       android:layout_weight="1"
-       android:contentDescription="@string/app_name"
-       tools:srcCompat="@tools:sample/avatars" />
+**Botones:** Un botón consiste en un texto o un ícono (o ambos) que comunica la acción que ocurrirá cuando el usuario lo toque.
 
-</LinearLayout>
+<p align="center">
+  <img src="../imagenes/button_types.png" alt="ciclo" width="40%">
+</p>
 
-## Eventos de un botón
+En función de si deseas un botón con texto, un ícono o ambos, puedes crear el botón en tu diseño de tres maneras:
 
-btnBoton1 = (Button)findViewById(R.id.BtnBoton1);
-btnBoton1.setOnClickListener(new View.OnClickListener() {
-		    public void onClick(View arg0) {
-		        lblMensaje.setText("Botón 1 pulsado!");
-		    }
-		});
+- Con texto, usando la clase ```Button```:
 
+```
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_text"
+    ... />
+```
 
-btnBoton2 = (ToggleButton)findViewById(R.id.BtnBoton2);
-btnBoton2.setOnClickListener(new View.OnClickListener() {
-	public void onClick(View arg0) {
-		if(btnBoton2.isChecked())
-		            lblMensaje.setText("Botón 2: ON");
-		        else
-		            lblMensaje.setText("Botón 2: OFF");
-		    }
-		});
+- Con un ícono, usando la clase ```ImageButton```:
 
+```
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/button_icon"
+    android:contentDescription="@string/button_icon_desc"
+    ... />
+```
+
+- Con texto y un ícono, usando la clase ```Button``` y el ```atributo android:drawableLeft```:
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_text"
+    android:drawableLeft="@drawable/button_icon"
+    ... />
 
 ## Control ImageView
 
