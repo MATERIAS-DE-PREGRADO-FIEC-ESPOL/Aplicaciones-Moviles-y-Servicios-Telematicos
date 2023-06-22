@@ -22,7 +22,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [Ciclo de vida de la actidad](#ciclo)
 - [Diseño en las vistas](#layout)
     -[Ejemplo de Relative Layout](#sample_relative)
-- [Controles básicos](#📲controles_básicos)
+- [Controles básicos](#controles_basicos)
 
 <a name="metodologia"> </a>
 
