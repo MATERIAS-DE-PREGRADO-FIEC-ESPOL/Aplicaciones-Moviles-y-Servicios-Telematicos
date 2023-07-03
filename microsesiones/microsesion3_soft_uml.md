@@ -1,6 +1,6 @@
 # **Micro-Sesión de Software #3**
 
-# **Diseño de una solución con diagramas de Lenguaje Unificado de Modelado (UML)**
+## **Diseño de una solución con diagramas de Lenguaje Unificado de Modelado (UML)**
 
 Itinerario de Aplicaciones Móviles y Servicios Telemáticos
 Docente: Adriana Collaguazo Jaramillo 
@@ -23,7 +23,6 @@ Un lenguaje de modelado visual común y sintácticamente rico para la arquitectu
 </p>
 
 ## **Caso de estudio**
-
 
 
 
