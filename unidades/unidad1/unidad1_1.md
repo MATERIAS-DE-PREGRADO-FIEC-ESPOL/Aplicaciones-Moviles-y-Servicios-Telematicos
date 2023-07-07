@@ -89,5 +89,5 @@ Entre los principios de computación móvil los usuarios presentan las siguiente
 Es absolutamente crucial que se entienda las dimensiones de la movilidad y las tenga en cuenta durante todo el proceso de diseño e implementación de la aplicación móvil.
 
 <p align="center">
-  <img src="../imagenes/dimensiones_movilidad.png" style="width: 40%; height: 200px; float: right; padding: 15px;" alt="dimensiones">
+  <img src="../imagenes/dimensiones_movilidad.png" alt="tiempo" width="80%">
 </p>
