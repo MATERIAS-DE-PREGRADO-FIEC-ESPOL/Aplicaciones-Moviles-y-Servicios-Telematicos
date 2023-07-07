@@ -38,14 +38,26 @@ Al finalizar la clase el estudiante será capaz de:
   <img src="../imagenes/tiempo.png" alt="tiempo" width="70%">
 </p>
 
+
+<a name="portabilidad"> </a>
+
 ## 🌐 Portabilidad
 Dispositivos/nodos conectados dentro del sistema de computación móvil facilitan la movilidad.
+
+
+<a name="conectividad"> </a>
 
 ## 🌐 Conectividad
  Esto define la calidad de servicio (QoS) de la conectividad de la red. 
 
+
+<a name="interactividad"> </a>
+
 ## 🌐 Interactividad
  Los nodos que pertenecen a un sistema de computación móvil están conectados entre sí.
+
+
+<a name="individualidad"> </a>
 
 ## 🌐 Individualidad
 Un dispositivo portátil conectado a una red móvil a menudo denota un individuo.
@@ -69,7 +81,9 @@ Entre los principios de computación móvil los usuarios presentan las siguiente
 
 - El usuario móvil puede requerir acceso al sistema en cualquier lugar y en cualquier momento.
 
+
 <a name="dimensiones"> </a>
+
 # 📲 Dimensiones de la movilidad
 
 Es absolutamente crucial que se entienda las dimensiones de la movilidad y las tenga en cuenta durante todo el proceso de diseño e implementación de la aplicación móvil.
