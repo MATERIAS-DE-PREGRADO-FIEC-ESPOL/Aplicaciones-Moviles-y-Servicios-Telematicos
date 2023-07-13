@@ -16,10 +16,10 @@
     * [1.4. Hilos, servicios y alarmas](unidades/unidad1/unidad1_4.md)
 
 * Unidad 2: Recursos en red para aplicaciones avanzadas
-    * 2.1. Principios de Internet móvil
-    * 2.2. Programación de sockets
-    * 2.3. Servicios web: API REST
-    * 2.4. Almacenamiento de datos y proveedores de contenido
+    * [2.1. Principios de Internet móvil](unidades/unidad2/unidad2_1.md)
+    * [2.2. Programación de sockets](unidades/unidad2/unidad2_2.md)
+    * [2.3. Servicios web: API REST](unidades/unidad2/unidad2_3.md)
+    * [2.4. Almacenamiento de datos y proveedores de contenido](unidades/unidad2/unidad2_4.md)
 
 * Unidad 3. Sensores embebidos
     * 3.1. Sensores embebidos en dispositivos móviles

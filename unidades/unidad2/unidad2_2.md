@@ -1,20 +1,22 @@
-# Unidad 2. Recursos en red para aplicaciones avanzadas
-2.1 Principios de Internet móvil
-2.2 Programación de sockets
-2.3 Servicios web: API REST
-2.4 Almacenamiento de datos y proveedores de contenido
+---
+remote_theme: pages-themes/cayman@v0.2.0
+---
+[Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-## OBJETIVO DE APRENDIZAJE
+# Unidad 2 Recursos en red para aplicaciones avanzadas
 
-Al finalizar la sesión de clase, el estudiante será capaz de:
+## 🎯 Objetivo de Aprendizaje
+Al finalizar la clase el estudiante será capaz de:
+- Demostrar el acceso a los recursos en red para la programación de aplicaciones móviles avanzadas.
 
-Demostrar el acceso a los recursos en red para la programación de aplicaciones móviles avanzadas.
+# 2.2 Programación de sockets
+- [Programación de sockets](#sockets)
+- [Servicios web: API REST](#api)
+- [Almacenamiento de datos y proveedores de contenido](#proveedores)
 
-## PRINCIPIOS DE INTERNET MÓVIL
+<a name="sockets"> </a>
 
-## PRINCIPIOS DE INTERNET MÓVIL
-
-## SOCKETS
+# 📲 Sockets
 
 + **Socket** define las reglas que un programa ha de seguir para utilizar los servicios del nivel de transporte en una red TCP/IP. Esta interfaz se basa en el concepto de socket. 
 + Un socket es el punto final de una comunicación bidireccional entre dos programas que intercambian información a través de Internet.
@@ -28,13 +30,6 @@ https://www.iana.org/assignments/service-names-port-numbers/service-names-port-n
 
 
 ## ARQUITECTURA DEL MODELO DE ENSEÑANZA BASADO EN LA NUBE DE APLICACIONES MÓVILES AVANZADAS
-
-RECOMENDACIONES DE ESTUDIO DE LA PROFESORA
-
-+ Asiste regularmente a las clases del componente teórico y práctico del Itinerario de Aplicaciones Móviles y Sistemas Telemáticos.
-+ Participa en clase, en las actividades conjuntamente con la profesora.
-+ Asiste a las ayudantías de docencia (hardware y software).
-+ Investiga pro-activamente, para que aportes con ideas innovadoras.
 
 
 ## FRONTEND AND BACKEND
