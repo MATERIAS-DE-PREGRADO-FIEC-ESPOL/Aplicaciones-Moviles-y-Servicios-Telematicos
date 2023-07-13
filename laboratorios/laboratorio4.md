@@ -6,7 +6,7 @@ plugins:
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
 # Práctica de Laboratorio 4
-## DESARROLLO DE APLICACIÓN MÓVIL HÍBRIDA BÁSICA CON FLUTTER
+## DESARROLLO DE APLICACIÓN MÓVIL MULTIPLATAFORMA CON FLUTTER
 
 ## 🎯 Objetivo de Aprendizaje
 Desarrollar aplicaciones móviles sencillas considerando las características de la programación de dispositivos móviles.
