@@ -1,3 +1,10 @@
+---
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+[Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
+
 # **Micro-Sesión de Software #3**
 
 ## **Diseño de una solución con diagramas de Lenguaje Unificado de Modelado (UML)**

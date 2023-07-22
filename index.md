@@ -46,7 +46,11 @@
 
 ## MICROSESIONES
 * [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
+
 * [AMST MT2 SOFT Base de datos No Relacionales](microsesiones/microsesion2_software_noSQL.md)
+
+* [AMST MT3 SOFT DISEÑO DE UNA SOLUCIÓN CON DIAGRAMAS DE LENGUAJE UNIFICADO DE MODELADO UML](microsesiones/microsesion3_software_uml.md)
+
 
 # MANUALES
 * [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)

@@ -1,3 +1,10 @@
+---
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+[Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
+
 # MICRO-SESIÓN DE SOFTWARE #3 
 
 ## **BASE DE DATOS NO RELACIONAL**
