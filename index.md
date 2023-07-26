@@ -43,6 +43,8 @@
 
 * [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio4.md)
 
+* [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio5.md)
+
 
 ## MICROSESIONES
 * [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
