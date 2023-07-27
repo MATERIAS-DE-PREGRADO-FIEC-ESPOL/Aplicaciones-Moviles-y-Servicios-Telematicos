@@ -300,7 +300,7 @@ import 'package:app_flutter_db/pages/home_page.dart';
   <img src="imagenes/amst_lab5_realtime_reglas_true.png" alt="appAMST" width="90%">
 </p>
 
-6.	Importar el json con los datos que les fue provisto.
+6.	Importar el archivo [amst_lab5-ac69-default-rtdb-export.json](laboratorios/amst_lab5-ac69-default-rtdb-export.json) a la Realtime Database mediante la consola de Firebase.
 
 <p align="center">
   <img src="imagenes/amst_lab5_realtime_importar.png" alt="appAMST" width="90%">
@@ -322,7 +322,7 @@ import 'package:app_flutter_db/pages/home_page.dart';
 sh-3.2# npm install -g firebase-tools
 ```
 
-***Nota: De no tener npm puede ir al siguiente link para buscar otras alternativas de instalación: https://firebase.google.com/docs/cli#windows-npm***
+***Nota: En caso de no tener instalado el gestor de paquetes npm puede ir al siguiente enlace para buscar otras alternativas de instalación: https://firebase.google.com/docs/cli#windows-npm***
 
 9.	Puede acceder a Firebase con la cuenta de Google con la que creamos el proyecto en la consola ejecutando el siguiente comando:
 
@@ -752,13 +752,13 @@ Para compilar nuestra aplicación para IOS necesitamos obligatoriamente tener un
 
 16.	Nos dirigimos a la carpeta creada y ahí encontraremos los archivos para la instalación. El más importante es el archivo .ipa que lo usaremos para instalar en nuestros dispositivos iphone.
 
-**TAREA DESAFIO**
+**Desafío**
 1.	Investigar
 a.	¿Qué otros fameworks tienen características similares a flutter?
 b.	¿De qué otras manera pueden mostrar datos de forma gráfica?
 
 
-### **Formato del Trabajo**
+### **Formato de la práctica**
 La práctica de laboratorio será desarrollado en el siguiente formato:
 
 - Nombre del archivo: AMST_Práctica de Laboratorio A_Grupo B_Apellido1_Apellido2_Apellido3
@@ -771,9 +771,6 @@ La práctica de laboratorio será desarrollado en el siguiente formato:
 - Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
 - Fecha de inicio y fin del trabajo
 - Resultados de las actividades planteadas: 
-
 - Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Además, incluir el enlace del repositorio del proyecto en Github y el archivo ejecutable (apk) de la aplicación móvil.
-
 - Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
-
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
