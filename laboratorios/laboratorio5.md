@@ -300,7 +300,7 @@ import 'package:app_flutter_db/pages/home_page.dart';
   <img src="imagenes/amst_lab5_realtime_reglas_true.png" alt="appAMST" width="90%">
 </p>
 
-6.	Importar el archivo [amst_lab5-ac69-default-rtdb-export.json](laboratorios/amst_lab5-ac69-default-rtdb-export.json) a la Realtime Database mediante la consola de Firebase.
+6.	Importar el [archivo json](amst_lab5-ac69-default-rtdb-export.json) a la Realtime Database mediante la consola de Firebase.
 
 <p align="center">
   <img src="imagenes/amst_lab5_realtime_importar.png" alt="appAMST" width="90%">
