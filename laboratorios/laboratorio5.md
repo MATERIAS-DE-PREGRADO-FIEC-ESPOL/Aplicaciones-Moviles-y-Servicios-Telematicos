@@ -315,7 +315,12 @@ import 'package:app_flutter_db/pages/home_page.dart';
 </p>
 
 7.	Antes de continuar, revisar que la configuración de versiones de SDK en Android/app/build.graddle esté de la siguiente manera:
- 
+
+```
+minSdkVersion 21
+targetSdkVersion 31
+```
+
 8.	En caso de no haber trabajado antes con flutter-firebase, se ejecuta el siguiente comando en el CMD para instalar Firebase CLI con npm:
 
 ```
