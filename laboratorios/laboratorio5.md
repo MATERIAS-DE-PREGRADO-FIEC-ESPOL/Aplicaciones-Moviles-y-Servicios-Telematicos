@@ -31,7 +31,8 @@ Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
   <img src="imagenes/amst_lab5_new_project_flutter.png" alt="appAMST" width="100%">
 </p>
 
-3.	Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
+
+3. Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
 a.	Presionar en los 3 puntos a la derecha.
 b.	Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guardó cuando se instaló).
 4.	Le damos click en Next.
@@ -40,7 +41,8 @@ b.	Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guar
 <p align="center">
   <img src="imagenes/amst_lab5_app_flutter_db.png" alt="appAMST" width="100%">
 </p>
- 
+
+
 6.	Dar clic en Create.
 7.	Se nos abrirá la app de ejemplo que viene por defecto en Flutter.
 8.	Para correrla debemos de tener un dispositivo Android conectado, o iniciado un dispositivo virtual.
@@ -259,3 +261,102 @@ import 'package:app_flutter_db/pages/home_page.dart';
 12.	Continuaremos ahora con la página de los datos, así mismo crearemos en la carpeta “pages” un nuevo archivo llamado “data.dart”.
 
 ### Paso 3. Conexión con Firebase.
+
+- Un miembro del grupo crea un proyecto en la [consola de FireBase](https://console.firebase.google.com/) usando una cuenta de gmail. Siga los pasos de las imágenes mostradas:
+
+<p align="center">
+  <img src="imagenes/amst_lab5_console_firebase.png" alt="appAMST" width="90%">
+</p>
+
+<p align="center">
+  <img src="imagenes/amst_lab5_firebase_google_analytics.png" alt="appAMST" width="90%">
+</p>
+
+<p align="center">
+  <img src="imagenes/amst_lab5_firebase_google_cuenta.png" alt="appAMST" width="90%">
+</p>
+
+2.	Una vez creado el proyecto dirigirse a Realtime Database y dar click en crear una base de datos.
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_database.png" alt="appAMST" width="90%">
+</p>
+
+3.	Seleccionen los datos de la ubicación de Realtime Database como Estados Unidos (us-central1) y dar clic en Siguiente.
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_ubicacion.png" alt="appAMST" width="90%">
+</p>
+
+4.  Luego colocar las reglas de seguridad por defecto.
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_reglas.png" alt="appAMST" width="90%">
+</p>
+
+5.	Una vez creada cambiar las reglas de seguridad a true como se muestra:
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_reglas_true.png" alt="appAMST" width="90%">
+</p>
+
+6.	Importar el json con los datos que les fue provisto.
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_importar.png" alt="appAMST" width="90%">
+</p>
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_importar_json.png" alt="appAMST" width="60%">
+</p>
+
+<p align="center">
+  <img src="imagenes/amst_lab5_realtime_data.png" alt="appAMST" width="100%">
+</p>
+
+7.	Antes de continuar, revisar que la configuración de versiones de SDK en Android/app/build.graddle esté de la siguiente manera:
+ 
+8.	En caso de no haber trabajado antes con flutter-firebase, se ejecuta el siguiente comando en el CMD para instalar Firebase CLI con npm:
+
+```
+sh-3.2# npm install -g firebase-tools
+```
+
+***Nota: De no tener npm puede ir al siguiente link para buscar otras alternativas de instalación: https://firebase.google.com/docs/cli#windows-npm***
+
+9.	Puede acceder a Firebase con la cuenta de Google con la que creamos el proyecto en la consola ejecutando el siguiente comando:
+
+```
+sh-3.2# firebase login
+i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? Yes
+i  To change your data collection preference at any time, run `firebase logout` and log in again.
+
+Visit this URL on this device to log in:
+https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=301795975&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+
+Waiting for authentication...
+
+✔  Success! Logged in as amst.investigacion@gmail.com
+```
+
+<p align="center">
+  <img src="imagenes/amst_lab5_firebase_cli.png" alt="appAMST" width="70%">
+</p>
+
+10.	Para instalar la CLI de FlutterFire, ejecutamos el siguiente comando desde cualquier directorio:
+
+```
+sh-3.2# dart pub global activate flutterfire_cli
+```
+
+11.	Desde el directorio del proyecto de Flutter, ejecutaremos el siguiente comando para iniciar el flujo de trabajo de configuración de la app:
+
+```
+adi@Adrianas-MacBook-Pro ~ % flutterfire configure
+```
+
+Nota: En caso de problemas con este comando agregar: C:\Users\*username*\AppData\Local\Pub\Cache\bin a las variables del sistema y reiniciar el equipo.
+
+11.	Aparecerá una lista. Ahora debemos seleccionar el proyecto en el cual vamos a trabajar.
