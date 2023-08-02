@@ -1,11 +1,17 @@
-## Práctica de Laboratorio 7
+---
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme
+---
+[Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-### Aplicación Móvil usando sensores IoT con conexión a la red de Lorawan midiante Callbacks
+# Práctica de Laboratorio 6
+## DESARROLLO DE UNA APLICACIÓN MÓVIL AVANZADA INTEGRANDO HARDWARE IoT CON CONEXIÓN A LA RED DE LORAWAN
 
 **Objetivo de Aprendizaje:** Diseñar aplicaciones que utilicen los sensores embebidos en dispositivos móviles para la entrega de información a los usuarios en tiempo real.
+
 **Recursos:** Sensores IoT simulados, Backend de LoRaWan, Android Studio, FireBase, Ubidots.
 Duración: 7 horas
-
 
 **Introducción:** 
 Los microcontroladores mbed son una serie de placas de desarrollo de microcontroladores ARM diseñadas para la creación rápida de prototipos. 
@@ -53,7 +59,7 @@ Este tipo de dispositivos tiene las ventanas de recepción con base a tiempos pr
 Este tipo de clase ofrece el menor ahorro de energía debido a que siempre está en modo escucha y solo cuando es necesario en modo transmitir, la recomendación es usarlo en dispositivos que cuentan con una fuente externa de alimentación.
 
 ### Actividades:
-**Paso 1:** Creación de cuenta y configuración de dispositivos en The Things Network (TTN) (10 puntos).
+### Paso 1. Creación de cuenta y configuración de dispositivos en The Things Network (TTN) (10 puntos).
 
 - Abra una nueva pestaña en el navegador web e ingrese a la dirección: https://www.thethingsnetwork.org/
 - Dé clic en Log in e ingrese las siguientes credenciales:

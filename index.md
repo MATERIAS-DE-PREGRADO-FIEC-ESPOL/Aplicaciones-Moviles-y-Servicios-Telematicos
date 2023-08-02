@@ -45,6 +45,8 @@
 
 * [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio5.md)
 
+* [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio6.md)
+
 
 ## MICROSESIONES
 * [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
