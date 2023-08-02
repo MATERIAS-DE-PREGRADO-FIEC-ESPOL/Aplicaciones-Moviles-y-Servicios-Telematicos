@@ -3,7 +3,11 @@ remote_theme: pages-themes/cayman@v0.2.0
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
+<<<<<<< Updated upstream:unidades/unidad2/unidad2_2.md
 # Unidad 2 Recursos en red para aplicaciones avanzadas
+=======
+## Objetivo de aprendizaje
+>>>>>>> Stashed changes:unidades/unidad2/unidad2.md
 
 ## 🎯 Objetivo de Aprendizaje
 Al finalizar la clase el estudiante será capaz de:
@@ -14,9 +18,15 @@ Al finalizar la clase el estudiante será capaz de:
 - [Servicios web: API REST](#api)
 - [Almacenamiento de datos y proveedores de contenido](#proveedores)
 
+<<<<<<< Updated upstream:unidades/unidad2/unidad2_2.md
 <a name="sockets"> </a>
 
 # 📲 Sockets
+=======
+## Principios de internet móvil
+
+## Sockets
+>>>>>>> Stashed changes:unidades/unidad2/unidad2.md
 
 + **Socket** define las reglas que un programa ha de seguir para utilizar los servicios del nivel de transporte en una red TCP/IP. Esta interfaz se basa en el concepto de socket. 
 + Un socket es el punto final de una comunicación bidireccional entre dos programas que intercambian información a través de Internet.
@@ -29,21 +39,30 @@ https://www.iana.org/assignments/service-names-port-numbers/service-names-port-n
 
 
 
-## ARQUITECTURA DEL MODELO DE ENSEÑANZA BASADO EN LA NUBE DE APLICACIONES MÓVILES AVANZADAS
+## Arquitectura del modelo de enseñanza basado en la nube de aplicaciones móviles avanzadas.
+
+<<<<<<< Updated upstream:unidades/unidad2/unidad2_2.md
+=======
+Recomendaciones de estudio de la profesora 
+
++ Asiste regularmente a las clases del componente teórico y práctico del Itinerario de Aplicaciones Móviles y Sistemas Telemáticos.
++ Participa en clase, en las actividades conjuntamente con la profesora.
++ Asiste a las ayudantías de docencia (hardware y software).
++ Investiga pro-activamente, para que aportes con ideas innovadoras.
+
+>>>>>>> Stashed changes:unidades/unidad2/unidad2.md
+
+## Fronted and Backend
 
 
-## FRONTEND AND BACKEND
-
-
-## THE API CONCEPT
-
+## The API concept
 + An API (Application Programming Interface) is software that allows other applications to access its data or services. It is a set of rules describing how one application can interact with another, and the instructions to allow the interaction to occur. The user sends an API request to a server asking for specific information and receives an API response in return from the server along with the requested information.
 
 + APIs are found almost everywhere. Amazon Web Services, Facebook, and home automation devices such as thermostats, refrigerators, and wireless lighting systems, all use APIs. They are also used for building programmable network automation.
 
-## OPEN, INTERNAL, AND PARTNER APIS
+## Open, Internal, and partner APIS
 
-## TYPES OF WEB SERVICE APIS
+## Types of web service APIS
 
 A web service is a service that is available over the internet, using the World Wide Web. There are four types of web service APIs:
 + Simple Object Access Protocol (SOAP)
@@ -66,13 +85,13 @@ It is a collection of resources with four defined aspects:
 + The set of operations supported by the web service using HTTP methods.
 + The API must be hypertext driven.
 
-## SERVICES
+## Services
 
 
-## HTTP STATUS MESSAGES
+## HTTP staus messages
 
 
-## USING POSTMAN WITH THE ASANA API
+## Using postman with the Asana API
 
 The Asana API is a RESTful interface, providing programmatic access to much of the data in the system. It provides predictable URLs for accessing resources, and uses built-in HTTP features to receive commands and return responses.
 The API accepts JSON or form-encoded content in requests and returns JSON content in all of its responses, including errors.
@@ -87,56 +106,55 @@ Click "+ Create New Personal Access Token"
 + Click "Create"
 Copy your token. You will only see this one time, but you can always create another PAT later.
 
-## APLICACIÓN “POSTMAN”
+## Alicación “Postman”
 
 
 Un completo entorno de desarrollo API REST.
 
-## “POSTMAN” USER INTERFACE (UI)
+## “Postman” User Interface (UI)
 
 **Note:** The UI may vary depending on your platform and version of Postman.
 
-## REQUEST METHOD
+## Request Method
 
 + HTTP request method drop-down box.
 + GET is the default.
 
-## REQUEST URL
+## Request URL
 
 Enter request URL.
 
 
-## AUTHORIZATION
+## Authorization
 
 
 + Includes various types of authorization including Bearer Token and Oauth.
 + Cisco Webex Teams uses Bearer Token.
 
-## TYPE: BEARER TOKEN
+## Type: Bearer token
 
 Copy and paste your access token from Cisco Webex Teams for Developers or your text editor.
 
-## HEADERS: CONTENT TYPE
+## Headers: Content Type
 
 + Content-Type: application/json
 + Designates that the content be in JSON format (default)
 + Postman uses autocomplete for header values and keys.
 
-## PARAMS
+## Params
 
 Query Parameters can be entered using the Params tab or can be added to the URL using a ? followed by the key/value pair.
 
-## SENDING THE URL REQUEST
+## Sending the URL Request
 
 
-## USING POSTMAN WITH THE WEBEX TEAMS API 
-### LIST ROOMS USING POSTMAN
+## Using postman with the webex teams API 
+### List rooms using postman
 
 **Cisco Webex for Developers**
 
 **Postman**
 
-## LIST ROOMS USING POSTMAN
 
 1 **GET** method
 2 URL of the API /rooms resource
@@ -145,17 +163,18 @@ Query Parameters can be entered using the Params tab or can be added to the URL 
 5 Your access token
 6 **Send** request.
 
-## RESPONSE/VERIFICATION
+## Response/Verification
 
 + **Status: 200 OK**
 + Response Body tab: JSON response
 
-## RESPONSE DATA
+## Response data
 
 
-## RESPONSE BODY
+## Response body
 
 To see the response data in the proper format choose:
 1 ***Body***
 2 Pretty 
 3 JSON
+
