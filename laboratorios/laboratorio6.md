@@ -577,4 +577,4 @@ La práctica de laboratorio será desarrollado en el siguiente formato:
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
 
 
-Importar el [archivo json](amst-lab6_practica-de-laboratorio-ac69-default-rtdb-export) a la Realtime Database mediante la consola de Firebase.
+Importar el [archivo json](amst-lab6_practica-de-laboratorio-ac69-default-rtdb-export.json) a la Realtime Database mediante la consola de Firebase.
