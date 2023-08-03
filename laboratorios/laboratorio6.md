@@ -559,18 +559,19 @@ Donde solamente copiará el <PLUGIN-ID>
 Nota: (Adjunte capturas de pantalla del detalle de la actividad de las variables humedad y temperatura).
 
 
-**FORMATO DEL TRABAJO**
-La práctica de laboratorio será desarrollada en el siguiente formato:
+### **Formato de la práctica**
+La práctica de laboratorio será desarrollado en el siguiente formato:
 
-- Nombre del archivo: AMST_LabA_GrupoB_Apellido1_Apellido2_Apellido3
-- (*) Siendo A el número del trabajo y B el número del grupo
+- Nombre del archivo: AMST_Práctica de Laboratorio A_Grupo B_Apellido1_Apellido2_Apellido3
+
+- (*) Siendo A el número de la práctica y B el número del grupo
 - Nombre de la materia
-- Título del trabajo: Ejemplo: Práctica de laboratorio A - Tema
+- Título de la práctica: Ejemplo: Trabajo Autónomo A - Tema
 - Nombre de la profesora
 - Número de grupo
 - Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
 - Fecha de inicio y fin del trabajo
-- Resultados de las actividades planteadas: Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Además, incluir el enlace del repositorio del proyecto en Github y el archivo ejecutable (apk) de la aplicación móvil.
+- Resultados de las actividades planteadas: 
+- Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Además, incluir el enlace del repositorio del proyecto en Github y el archivo ejecutable (apk) de la aplicación móvil.
 - Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
-
