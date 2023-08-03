@@ -1,0 +1,3819 @@
+{
+  "Grupos": {
+    "Grupo0": {
+      "-NLalYXUWTRIaokhpG2t": {
+        "correlation_ids": [
+          "as:up:01GPKCCE0F35F07WWW69J2VTZB",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCDSSHZ7XF6G1DV6HXJ8Z",
+          "ns:uplink:01GPKCCDSSZ85MDQDJQ0JTAJQG",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCDSS5QJ60TYH7RXWHA6E",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCE0E3GQRHYDHN7QPA5XJ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:06.478571018Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 45.8984375,
+            "temp": 23.40087890625
+          },
+          "f_port": 1,
+          "frm_payload": "fW9Ydw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:06.265854051Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -78,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:06.047926885Z",
+              "rssi": -78,
+              "snr": 8.25,
+              "time": "2023-01-12T16:18:05.878746032Z",
+              "timestamp": 1205451868,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENz45r4EGgsIvuWAngYQ4dmhfiDgjp/UiiM="
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:18:05.878746032Z",
+            "timestamp": 1205451868
+          }
+        }
+      },
+      "-NLalZsBlioT0cuW9NNb": {
+        "correlation_ids": [
+          "as:up:01GPKCCKC5N81QP16PQ1CE9HC1",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCK5HWE8571YG3VT7D9XJ",
+          "ns:uplink:01GPKCCK5JV2ZBCMHECXHNA14P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCK5J3J0T08DMHQR0Q1BN",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCKC5EM83Z44H88R1XQRQ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:11.973477075Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:11.762504981Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -81,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:11.546413198Z",
+              "rssi": -81,
+              "snr": 11,
+              "time": "2023-01-12T16:18:11.544292926Z",
+              "timestamp": 1211111652,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOSxwMEEGgwIw+WAngYQyIeO6wIgoPWE358j"
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:18:11.544292926Z",
+            "timestamp": 1211111652
+          }
+        }
+      },
+      "-NLam0luy75x-rbMR0CB": {
+        "correlation_ids": [
+          "as:up:01GPKCG717B1323B1B4MGAE6PJ",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCG6TK9ZTR4GFFKBCBHY6D",
+          "ns:uplink:01GPKCG6TM70Y6VWZZ279D8B0P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCG6TKKDQ8BVJJRY2BY375",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCG71778E41NE9XWNV2ZJH"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:10.407740854Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.900390625,
+            "temp": 23.49853515625
+          },
+          "f_port": 1,
+          "frm_payload": "hW+qdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:10.196189541Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:10.039806Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:20:10.011147022Z",
+              "timestamp": 1329561644,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKyA/vkEGgsIuuaAngYQrK+CXSDg17KA2SY="
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904100000",
+            "time": "2023-01-12T16:20:10.011147022Z",
+            "timestamp": 1329561644
+          }
+        }
+      },
+      "-NLam2OFnw35FaMeDwAC": {
+        "correlation_ids": [
+          "as:up:01GPKCGDFFMBGWA5CWPKV94NV0",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCGD8Y5J752QH0BRE6NCVE",
+          "ns:uplink:01GPKCGD8ZD1VB3TNNP3FXBMSB",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCGD8ZN5RC9SYHVG71WKXQ",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCGDFFKR6Q44H12NRJXTT3"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:17.007466109Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:16.799944004Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:16.614245003Z",
+              "rssi": -77,
+              "snr": 12.25,
+              "time": "2023-01-12T16:20:15.636691093Z",
+              "timestamp": 1335221636,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEIS71/wEGgwIwOaAngYQxazi/AIgoJeli+4m"
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:20:15.636691093Z",
+            "timestamp": 1335221636
+          }
+        }
+      },
+      "-NLamd7mzg4oTK4HB8C0": {
+        "correlation_ids": [
+          "as:up:01GPKCN4D5AEQQPYBEDSJP2H6M",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCN46ERA8YC092RJ17XC12",
+          "ns:uplink:01GPKCN46FT368S9CBD3XT7ZE6",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCN46FCKJ23EZRYRN65EVP",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCN4D4E5NAB8CRSSKN311G"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CFA4C",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:22:51.556413407Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.998046875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm+udw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:22:51.343475294Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:22:51.129102701Z",
+              "rssi": -79,
+              "snr": 8.75,
+              "time": "2023-01-12T16:22:49.239656925Z",
+              "timestamp": 1488814916,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEMSG9sUFGgwI2+eAngYQ5c6iowEgoIOjoqor"
+            }
+          ],
+          "session_key_id": "AYWmynQppi4yi5Vl1mMQSg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:22:49.239656925Z",
+            "timestamp": 1488814916
+          }
+        }
+      },
+      "-NLamid4mHdFQawZPDHq": {
+        "correlation_ids": [
+          "as:up:01GPKCNTDH2VWWQ286NSN43DZC",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCNT6V30ZSZ7HTKP5RJY5Q",
+          "ns:uplink:01GPKCNT6W5915RZ569ZW4D9SP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCNT6WY8CDRPS8WYTBQ5F7",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCNTDHVV0Y7XVK42HQK8Z6"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C0585",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:14.097457285Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 49.0966796875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm/bdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:13.884553578Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:13.692399117Z",
+              "rssi": -75,
+              "snr": 11,
+              "time": "2023-01-12T16:23:13.678272962Z",
+              "timestamp": 1513261292,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOyRytEFGgwI8eeAngYQ5d+mpQMg4LObq4Us"
+            }
+          ],
+          "session_key_id": "AYWmytOEbXEegOf5a8Yi3A==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904500000",
+            "time": "2023-01-12T16:23:13.678272962Z",
+            "timestamp": 1513261292
+          }
+        }
+      },
+      "-NLamp2hmodUbnkOCTPM": {
+        "correlation_ids": [
+          "as:up:01GPKCPM6DY9SFVGN6VAT6JTRW",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPKZR1S954CV29QMY31JH",
+          "ns:uplink:01GPKCPKZSFK2AX6QS9FVX6QS1",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPKZS2KTDFMWW483MZTT8",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPM6DBBK8B6PQP081YP5W"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:40.493201468Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.8037109375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Pdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:40.281571439Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -71,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:40.117118665Z",
+              "rssi": -71,
+              "snr": 10.75,
+              "time": "2023-01-12T16:23:40.072793960Z",
+              "timestamp": 1539642460,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENyolN4FGgwIjOiAngYQ1YjhhQEg4I7ezucs"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905100000",
+            "time": "2023-01-12T16:23:40.072793960Z",
+            "timestamp": 1539642460
+          }
+        }
+      },
+      "-NLamqQs389o89C6G8DU": {
+        "correlation_ids": [
+          "as:up:01GPKCPSNCPP7RKPX5H0D57328",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPSEYHX197G3GBS22199H",
+          "ns:uplink:01GPKCPSEZ19TN1306GPMHNHEA",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPSEZ7CTPV8AGNGH8DCBX",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPSNBCH278PGMB56HC4GG"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:46.091977105Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:45.887292210Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -72,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:45.721942578Z",
+              "rssi": -72,
+              "snr": 6.75,
+              "time": "2023-01-12T16:23:45.700197935Z",
+              "timestamp": 1545266339,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKPJ6+AFGgwIkeiAngYQ3dyxpgMguLm0yPws"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:23:45.700197935Z",
+            "timestamp": 1545266339
+          }
+        }
+      },
+      "-NLannjCq1UjLD3wHNw8": {
+        "correlation_ids": [
+          "as:up:01GPKCYETCBQFNGJQ04C6XC27K",
+          "gs:conn:01GPKCWJEKZVMXRMZECSHVAFXC",
+          "gs:up:host:01GPKCWJK8VZA1NX0Y8Y4DWR94",
+          "gs:uplink:01GPKCYEKNPCRPQWQKSM51AR4C",
+          "ns:uplink:01GPKCYEKPFK5H4BXJ9T7PFNKE",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCYEKP4CV82WCMR79GHA0N",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCYETB605YH75BKN17R9QS"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CB6F7",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:27:57.131431785Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.6083984375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Hdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:27:56.918223907Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:27:56.468236697Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:27:56.704791069Z",
+              "timestamp": 60255852,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOzc3RwaDAiM6oCeBhD9xZu1AyDgq5284AE="
+            }
+          ],
+          "session_key_id": "AYWmzyUT9M27QRtBKCPBWQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905300000",
+            "time": "2023-01-12T16:27:56.704791069Z",
+            "timestamp": 60255852
+          }
+        }
+      },
+      "-NLap3lSJqqe5Kp7Kd0v": {
+        "correlation_ids": [
+          "as:up:01GPKD8JYAB183K6BEVBTNP5DH",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8JQW0DVJCN9G29PSNP3W",
+          "ns:uplink:01GPKD8JQXZN5599SCMP6Y1ERP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8JQXH367YK5EYJAP6ZKK",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8JY9JNSN6K1N7XJTN60P"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:29.034030585Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 96.09375,
+            "temp": 25.09765625
+          },
+          "f_port": 1,
+          "frm_payload": "BHSwfw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:28.829593645Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:28.693361534Z",
+              "rssi": -79,
+              "snr": 12,
+              "time": "2023-01-12T16:33:28.658027887Z",
+              "timestamp": 210361020,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELy1p2QaDAjY7ICeBhCkp4WLAyDg3PnTjwY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:33:28.658027887Z",
+            "timestamp": 210361020
+          }
+        }
+      },
+      "-NLap58XypybVhOmnJrz": {
+        "correlation_ids": [
+          "as:up:01GPKD8RJ5Y6YMEMJPD6YRWR13",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8RBGKH31MDFF3R8KGJRZ",
+          "ns:uplink:01GPKD8RBHM5PR7X3EZ9WP8K0W",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8RBHEYP11FQ7CZ6HY9VY",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8RJ4KABZSZBFDHH9S6EF"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:34.789030814Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:34.577940487Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:34.428403440Z",
+              "rssi": -77,
+              "snr": 9.25,
+              "time": "2023-01-12T16:33:34.306500911Z",
+              "timestamp": 215984947,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELPW/mYaDAje7ICeBhD65vySAiC4/tLNpAY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904700000",
+            "time": "2023-01-12T16:33:34.306500911Z",
+            "timestamp": 215984947
+          }
+        }
+      }
+    },
+    "Grupo1": {
+      "-NLalYXYUTEsIfhkfOA4": {
+        "correlation_ids": [
+          "as:up:01GPKCCE0F35F07WWW69J2VTZB",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCDSSHZ7XF6G1DV6HXJ8Z",
+          "ns:uplink:01GPKCCDSSZ85MDQDJQ0JTAJQG",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCDSS5QJ60TYH7RXWHA6E",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCE0E3GQRHYDHN7QPA5XJ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:06.478571018Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 45.8984375,
+            "temp": 23.40087890625
+          },
+          "f_port": 1,
+          "frm_payload": "fW9Ydw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:06.265854051Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -78,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:06.047926885Z",
+              "rssi": -78,
+              "snr": 8.25,
+              "time": "2023-01-12T16:18:05.878746032Z",
+              "timestamp": 1205451868,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENz45r4EGgsIvuWAngYQ4dmhfiDgjp/UiiM="
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:18:05.878746032Z",
+            "timestamp": 1205451868
+          }
+        }
+      },
+      "-NLalZsEfZrfA-71Byqo": {
+        "correlation_ids": [
+          "as:up:01GPKCCKC5N81QP16PQ1CE9HC1",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCK5HWE8571YG3VT7D9XJ",
+          "ns:uplink:01GPKCCK5JV2ZBCMHECXHNA14P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCK5J3J0T08DMHQR0Q1BN",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCKC5EM83Z44H88R1XQRQ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:11.973477075Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:11.762504981Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -81,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:11.546413198Z",
+              "rssi": -81,
+              "snr": 11,
+              "time": "2023-01-12T16:18:11.544292926Z",
+              "timestamp": 1211111652,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOSxwMEEGgwIw+WAngYQyIeO6wIgoPWE358j"
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:18:11.544292926Z",
+            "timestamp": 1211111652
+          }
+        }
+      },
+      "-NLam0lwYRHmCLJT6ZsP": {
+        "correlation_ids": [
+          "as:up:01GPKCG717B1323B1B4MGAE6PJ",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCG6TK9ZTR4GFFKBCBHY6D",
+          "ns:uplink:01GPKCG6TM70Y6VWZZ279D8B0P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCG6TKKDQ8BVJJRY2BY375",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCG71778E41NE9XWNV2ZJH"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:10.407740854Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.900390625,
+            "temp": 23.49853515625
+          },
+          "f_port": 1,
+          "frm_payload": "hW+qdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:10.196189541Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:10.039806Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:20:10.011147022Z",
+              "timestamp": 1329561644,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKyA/vkEGgsIuuaAngYQrK+CXSDg17KA2SY="
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904100000",
+            "time": "2023-01-12T16:20:10.011147022Z",
+            "timestamp": 1329561644
+          }
+        }
+      },
+      "-NLam2NDCk4b9pW5UaKZ": {
+        "correlation_ids": [
+          "as:up:01GPKCGDFFMBGWA5CWPKV94NV0",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCGD8Y5J752QH0BRE6NCVE",
+          "ns:uplink:01GPKCGD8ZD1VB3TNNP3FXBMSB",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCGD8ZN5RC9SYHVG71WKXQ",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCGDFFKR6Q44H12NRJXTT3"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:17.007466109Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:16.799944004Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:16.614245003Z",
+              "rssi": -77,
+              "snr": 12.25,
+              "time": "2023-01-12T16:20:15.636691093Z",
+              "timestamp": 1335221636,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEIS71/wEGgwIwOaAngYQxazi/AIgoJeli+4m"
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:20:15.636691093Z",
+            "timestamp": 1335221636
+          }
+        }
+      },
+      "-NLamd7i_wKUr5ym93-2": {
+        "correlation_ids": [
+          "as:up:01GPKCN4D5AEQQPYBEDSJP2H6M",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCN46ERA8YC092RJ17XC12",
+          "ns:uplink:01GPKCN46FT368S9CBD3XT7ZE6",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCN46FCKJ23EZRYRN65EVP",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCN4D4E5NAB8CRSSKN311G"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CFA4C",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:22:51.556413407Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.998046875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm+udw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:22:51.343475294Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:22:51.129102701Z",
+              "rssi": -79,
+              "snr": 8.75,
+              "time": "2023-01-12T16:22:49.239656925Z",
+              "timestamp": 1488814916,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEMSG9sUFGgwI2+eAngYQ5c6iowEgoIOjoqor"
+            }
+          ],
+          "session_key_id": "AYWmynQppi4yi5Vl1mMQSg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:22:49.239656925Z",
+            "timestamp": 1488814916
+          }
+        }
+      },
+      "-NLamid-QEHB3I-QEQv9": {
+        "correlation_ids": [
+          "as:up:01GPKCNTDH2VWWQ286NSN43DZC",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCNT6V30ZSZ7HTKP5RJY5Q",
+          "ns:uplink:01GPKCNT6W5915RZ569ZW4D9SP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCNT6WY8CDRPS8WYTBQ5F7",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCNTDHVV0Y7XVK42HQK8Z6"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C0585",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:14.097457285Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 49.0966796875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm/bdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:13.884553578Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:13.692399117Z",
+              "rssi": -75,
+              "snr": 11,
+              "time": "2023-01-12T16:23:13.678272962Z",
+              "timestamp": 1513261292,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOyRytEFGgwI8eeAngYQ5d+mpQMg4LObq4Us"
+            }
+          ],
+          "session_key_id": "AYWmytOEbXEegOf5a8Yi3A==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904500000",
+            "time": "2023-01-12T16:23:13.678272962Z",
+            "timestamp": 1513261292
+          }
+        }
+      },
+      "-NLamp3PL6Yb0eyeazq5": {
+        "correlation_ids": [
+          "as:up:01GPKCPM6DY9SFVGN6VAT6JTRW",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPKZR1S954CV29QMY31JH",
+          "ns:uplink:01GPKCPKZSFK2AX6QS9FVX6QS1",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPKZS2KTDFMWW483MZTT8",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPM6DBBK8B6PQP081YP5W"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:40.493201468Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.8037109375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Pdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:40.281571439Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -71,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:40.117118665Z",
+              "rssi": -71,
+              "snr": 10.75,
+              "time": "2023-01-12T16:23:40.072793960Z",
+              "timestamp": 1539642460,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENyolN4FGgwIjOiAngYQ1YjhhQEg4I7ezucs"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905100000",
+            "time": "2023-01-12T16:23:40.072793960Z",
+            "timestamp": 1539642460
+          }
+        }
+      },
+      "-NLamqQBBUm44OzXpkWM": {
+        "correlation_ids": [
+          "as:up:01GPKCPSNCPP7RKPX5H0D57328",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPSEYHX197G3GBS22199H",
+          "ns:uplink:01GPKCPSEZ19TN1306GPMHNHEA",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPSEZ7CTPV8AGNGH8DCBX",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPSNBCH278PGMB56HC4GG"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:46.091977105Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:45.887292210Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -72,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:45.721942578Z",
+              "rssi": -72,
+              "snr": 6.75,
+              "time": "2023-01-12T16:23:45.700197935Z",
+              "timestamp": 1545266339,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKPJ6+AFGgwIkeiAngYQ3dyxpgMguLm0yPws"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:23:45.700197935Z",
+            "timestamp": 1545266339
+          }
+        }
+      },
+      "-NLannjABhb0asiPNaTu": {
+        "correlation_ids": [
+          "as:up:01GPKCYETCBQFNGJQ04C6XC27K",
+          "gs:conn:01GPKCWJEKZVMXRMZECSHVAFXC",
+          "gs:up:host:01GPKCWJK8VZA1NX0Y8Y4DWR94",
+          "gs:uplink:01GPKCYEKNPCRPQWQKSM51AR4C",
+          "ns:uplink:01GPKCYEKPFK5H4BXJ9T7PFNKE",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCYEKP4CV82WCMR79GHA0N",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCYETB605YH75BKN17R9QS"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CB6F7",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:27:57.131431785Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.6083984375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Hdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:27:56.918223907Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:27:56.468236697Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:27:56.704791069Z",
+              "timestamp": 60255852,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOzc3RwaDAiM6oCeBhD9xZu1AyDgq5284AE="
+            }
+          ],
+          "session_key_id": "AYWmzyUT9M27QRtBKCPBWQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905300000",
+            "time": "2023-01-12T16:27:56.704791069Z",
+            "timestamp": 60255852
+          }
+        }
+      },
+      "-NLap3ltlYcqiWmJhVjH": {
+        "correlation_ids": [
+          "as:up:01GPKD8JYAB183K6BEVBTNP5DH",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8JQW0DVJCN9G29PSNP3W",
+          "ns:uplink:01GPKD8JQXZN5599SCMP6Y1ERP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8JQXH367YK5EYJAP6ZKK",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8JY9JNSN6K1N7XJTN60P"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:29.034030585Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 96.09375,
+            "temp": 25.09765625
+          },
+          "f_port": 1,
+          "frm_payload": "BHSwfw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:28.829593645Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:28.693361534Z",
+              "rssi": -79,
+              "snr": 12,
+              "time": "2023-01-12T16:33:28.658027887Z",
+              "timestamp": 210361020,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELy1p2QaDAjY7ICeBhCkp4WLAyDg3PnTjwY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:33:28.658027887Z",
+            "timestamp": 210361020
+          }
+        }
+      },
+      "-NLap59ESYNUb004oTzT": {
+        "correlation_ids": [
+          "as:up:01GPKD8RJ5Y6YMEMJPD6YRWR13",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8RBGKH31MDFF3R8KGJRZ",
+          "ns:uplink:01GPKD8RBHM5PR7X3EZ9WP8K0W",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8RBHEYP11FQ7CZ6HY9VY",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8RJ4KABZSZBFDHH9S6EF"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:34.789030814Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:34.577940487Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:34.428403440Z",
+              "rssi": -77,
+              "snr": 9.25,
+              "time": "2023-01-12T16:33:34.306500911Z",
+              "timestamp": 215984947,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELPW/mYaDAje7ICeBhD65vySAiC4/tLNpAY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904700000",
+            "time": "2023-01-12T16:33:34.306500911Z",
+            "timestamp": 215984947
+          }
+        }
+      }
+    },
+    "Grupo2": {
+      "-NLalYXWOGOlTmJ2P5g3": {
+        "correlation_ids": [
+          "as:up:01GPKCCE0F35F07WWW69J2VTZB",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCDSSHZ7XF6G1DV6HXJ8Z",
+          "ns:uplink:01GPKCCDSSZ85MDQDJQ0JTAJQG",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCDSS5QJ60TYH7RXWHA6E",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCE0E3GQRHYDHN7QPA5XJ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:06.478571018Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 45.8984375,
+            "temp": 23.40087890625
+          },
+          "f_port": 1,
+          "frm_payload": "fW9Ydw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:06.265854051Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -78,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:06.047926885Z",
+              "rssi": -78,
+              "snr": 8.25,
+              "time": "2023-01-12T16:18:05.878746032Z",
+              "timestamp": 1205451868,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENz45r4EGgsIvuWAngYQ4dmhfiDgjp/UiiM="
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:18:05.878746032Z",
+            "timestamp": 1205451868
+          }
+        }
+      },
+      "-NLalZsEfZrfA-71Byqn": {
+        "correlation_ids": [
+          "as:up:01GPKCCKC5N81QP16PQ1CE9HC1",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCK5HWE8571YG3VT7D9XJ",
+          "ns:uplink:01GPKCCK5JV2ZBCMHECXHNA14P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCK5J3J0T08DMHQR0Q1BN",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCKC5EM83Z44H88R1XQRQ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:11.973477075Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:11.762504981Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -81,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:11.546413198Z",
+              "rssi": -81,
+              "snr": 11,
+              "time": "2023-01-12T16:18:11.544292926Z",
+              "timestamp": 1211111652,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOSxwMEEGgwIw+WAngYQyIeO6wIgoPWE358j"
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:18:11.544292926Z",
+            "timestamp": 1211111652
+          }
+        }
+      },
+      "-NLam0lwYRHmCLJT6ZsO": {
+        "correlation_ids": [
+          "as:up:01GPKCG717B1323B1B4MGAE6PJ",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCG6TK9ZTR4GFFKBCBHY6D",
+          "ns:uplink:01GPKCG6TM70Y6VWZZ279D8B0P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCG6TKKDQ8BVJJRY2BY375",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCG71778E41NE9XWNV2ZJH"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:10.407740854Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.900390625,
+            "temp": 23.49853515625
+          },
+          "f_port": 1,
+          "frm_payload": "hW+qdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:10.196189541Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:10.039806Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:20:10.011147022Z",
+              "timestamp": 1329561644,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKyA/vkEGgsIuuaAngYQrK+CXSDg17KA2SY="
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904100000",
+            "time": "2023-01-12T16:20:10.011147022Z",
+            "timestamp": 1329561644
+          }
+        }
+      },
+      "-NLam2O-4ceCGuFGLljl": {
+        "correlation_ids": [
+          "as:up:01GPKCGDFFMBGWA5CWPKV94NV0",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCGD8Y5J752QH0BRE6NCVE",
+          "ns:uplink:01GPKCGD8ZD1VB3TNNP3FXBMSB",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCGD8ZN5RC9SYHVG71WKXQ",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCGDFFKR6Q44H12NRJXTT3"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:17.007466109Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:16.799944004Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:16.614245003Z",
+              "rssi": -77,
+              "snr": 12.25,
+              "time": "2023-01-12T16:20:15.636691093Z",
+              "timestamp": 1335221636,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEIS71/wEGgwIwOaAngYQxazi/AIgoJeli+4m"
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:20:15.636691093Z",
+            "timestamp": 1335221636
+          }
+        }
+      },
+      "-NLamd8Aa84MFPPMyYgc": {
+        "correlation_ids": [
+          "as:up:01GPKCN4D5AEQQPYBEDSJP2H6M",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCN46ERA8YC092RJ17XC12",
+          "ns:uplink:01GPKCN46FT368S9CBD3XT7ZE6",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCN46FCKJ23EZRYRN65EVP",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCN4D4E5NAB8CRSSKN311G"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CFA4C",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:22:51.556413407Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.998046875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm+udw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:22:51.343475294Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:22:51.129102701Z",
+              "rssi": -79,
+              "snr": 8.75,
+              "time": "2023-01-12T16:22:49.239656925Z",
+              "timestamp": 1488814916,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEMSG9sUFGgwI2+eAngYQ5c6iowEgoIOjoqor"
+            }
+          ],
+          "session_key_id": "AYWmynQppi4yi5Vl1mMQSg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:22:49.239656925Z",
+            "timestamp": 1488814916
+          }
+        }
+      },
+      "-NLamid4mHdFQawZPDHp": {
+        "correlation_ids": [
+          "as:up:01GPKCNTDH2VWWQ286NSN43DZC",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCNT6V30ZSZ7HTKP5RJY5Q",
+          "ns:uplink:01GPKCNT6W5915RZ569ZW4D9SP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCNT6WY8CDRPS8WYTBQ5F7",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCNTDHVV0Y7XVK42HQK8Z6"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C0585",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:14.097457285Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 49.0966796875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm/bdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:13.884553578Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:13.692399117Z",
+              "rssi": -75,
+              "snr": 11,
+              "time": "2023-01-12T16:23:13.678272962Z",
+              "timestamp": 1513261292,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOyRytEFGgwI8eeAngYQ5d+mpQMg4LObq4Us"
+            }
+          ],
+          "session_key_id": "AYWmytOEbXEegOf5a8Yi3A==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904500000",
+            "time": "2023-01-12T16:23:13.678272962Z",
+            "timestamp": 1513261292
+          }
+        }
+      },
+      "-NLamp3TsR2kL4pRf5i9": {
+        "correlation_ids": [
+          "as:up:01GPKCPM6DY9SFVGN6VAT6JTRW",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPKZR1S954CV29QMY31JH",
+          "ns:uplink:01GPKCPKZSFK2AX6QS9FVX6QS1",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPKZS2KTDFMWW483MZTT8",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPM6DBBK8B6PQP081YP5W"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:40.493201468Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.8037109375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Pdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:40.281571439Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -71,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:40.117118665Z",
+              "rssi": -71,
+              "snr": 10.75,
+              "time": "2023-01-12T16:23:40.072793960Z",
+              "timestamp": 1539642460,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENyolN4FGgwIjOiAngYQ1YjhhQEg4I7ezucs"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905100000",
+            "time": "2023-01-12T16:23:40.072793960Z",
+            "timestamp": 1539642460
+          }
+        }
+      },
+      "-NLamqQwpZyB7u5wSoCD": {
+        "correlation_ids": [
+          "as:up:01GPKCPSNCPP7RKPX5H0D57328",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPSEYHX197G3GBS22199H",
+          "ns:uplink:01GPKCPSEZ19TN1306GPMHNHEA",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPSEZ7CTPV8AGNGH8DCBX",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPSNBCH278PGMB56HC4GG"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:46.091977105Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:45.887292210Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -72,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:45.721942578Z",
+              "rssi": -72,
+              "snr": 6.75,
+              "time": "2023-01-12T16:23:45.700197935Z",
+              "timestamp": 1545266339,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKPJ6+AFGgwIkeiAngYQ3dyxpgMguLm0yPws"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:23:45.700197935Z",
+            "timestamp": 1545266339
+          }
+        }
+      },
+      "-NLannjABhb0asiPNaTt": {
+        "correlation_ids": [
+          "as:up:01GPKCYETCBQFNGJQ04C6XC27K",
+          "gs:conn:01GPKCWJEKZVMXRMZECSHVAFXC",
+          "gs:up:host:01GPKCWJK8VZA1NX0Y8Y4DWR94",
+          "gs:uplink:01GPKCYEKNPCRPQWQKSM51AR4C",
+          "ns:uplink:01GPKCYEKPFK5H4BXJ9T7PFNKE",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCYEKP4CV82WCMR79GHA0N",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCYETB605YH75BKN17R9QS"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CB6F7",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:27:57.131431785Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.6083984375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Hdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:27:56.918223907Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:27:56.468236697Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:27:56.704791069Z",
+              "timestamp": 60255852,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOzc3RwaDAiM6oCeBhD9xZu1AyDgq5284AE="
+            }
+          ],
+          "session_key_id": "AYWmzyUT9M27QRtBKCPBWQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905300000",
+            "time": "2023-01-12T16:27:56.704791069Z",
+            "timestamp": 60255852
+          }
+        }
+      },
+      "-NLap3lUnmULXnNLw-Lp": {
+        "correlation_ids": [
+          "as:up:01GPKD8JYAB183K6BEVBTNP5DH",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8JQW0DVJCN9G29PSNP3W",
+          "ns:uplink:01GPKD8JQXZN5599SCMP6Y1ERP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8JQXH367YK5EYJAP6ZKK",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8JY9JNSN6K1N7XJTN60P"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:29.034030585Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 96.09375,
+            "temp": 25.09765625
+          },
+          "f_port": 1,
+          "frm_payload": "BHSwfw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:28.829593645Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:28.693361534Z",
+              "rssi": -79,
+              "snr": 12,
+              "time": "2023-01-12T16:33:28.658027887Z",
+              "timestamp": 210361020,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELy1p2QaDAjY7ICeBhCkp4WLAyDg3PnTjwY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:33:28.658027887Z",
+            "timestamp": 210361020
+          }
+        }
+      },
+      "-NLap59K1A_TI82gSbW0": {
+        "correlation_ids": [
+          "as:up:01GPKD8RJ5Y6YMEMJPD6YRWR13",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8RBGKH31MDFF3R8KGJRZ",
+          "ns:uplink:01GPKD8RBHM5PR7X3EZ9WP8K0W",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8RBHEYP11FQ7CZ6HY9VY",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8RJ4KABZSZBFDHH9S6EF"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:34.789030814Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:34.577940487Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:34.428403440Z",
+              "rssi": -77,
+              "snr": 9.25,
+              "time": "2023-01-12T16:33:34.306500911Z",
+              "timestamp": 215984947,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELPW/mYaDAje7ICeBhD65vySAiC4/tLNpAY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904700000",
+            "time": "2023-01-12T16:33:34.306500911Z",
+            "timestamp": 215984947
+          }
+        }
+      }
+    },
+    "Grupo3": {
+      "-NLalYXWOGOlTmJ2P5g1": {
+        "correlation_ids": [
+          "as:up:01GPKCCE0F35F07WWW69J2VTZB",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCDSSHZ7XF6G1DV6HXJ8Z",
+          "ns:uplink:01GPKCCDSSZ85MDQDJQ0JTAJQG",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCDSS5QJ60TYH7RXWHA6E",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCE0E3GQRHYDHN7QPA5XJ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:06.478571018Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 45.8984375,
+            "temp": 23.40087890625
+          },
+          "f_port": 1,
+          "frm_payload": "fW9Ydw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:06.265854051Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -78,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:06.047926885Z",
+              "rssi": -78,
+              "snr": 8.25,
+              "time": "2023-01-12T16:18:05.878746032Z",
+              "timestamp": 1205451868,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENz45r4EGgsIvuWAngYQ4dmhfiDgjp/UiiM="
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:18:05.878746032Z",
+            "timestamp": 1205451868
+          }
+        }
+      },
+      "-NLalZsChlx-JwH9IhXE": {
+        "correlation_ids": [
+          "as:up:01GPKCCKC5N81QP16PQ1CE9HC1",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCK5HWE8571YG3VT7D9XJ",
+          "ns:uplink:01GPKCCK5JV2ZBCMHECXHNA14P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCK5J3J0T08DMHQR0Q1BN",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCKC5EM83Z44H88R1XQRQ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:11.973477075Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:11.762504981Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -81,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:11.546413198Z",
+              "rssi": -81,
+              "snr": 11,
+              "time": "2023-01-12T16:18:11.544292926Z",
+              "timestamp": 1211111652,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOSxwMEEGgwIw+WAngYQyIeO6wIgoPWE358j"
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:18:11.544292926Z",
+            "timestamp": 1211111652
+          }
+        }
+      },
+      "-NLam0lyGjfAczfDj_sp": {
+        "correlation_ids": [
+          "as:up:01GPKCG717B1323B1B4MGAE6PJ",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCG6TK9ZTR4GFFKBCBHY6D",
+          "ns:uplink:01GPKCG6TM70Y6VWZZ279D8B0P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCG6TKKDQ8BVJJRY2BY375",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCG71778E41NE9XWNV2ZJH"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:10.407740854Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.900390625,
+            "temp": 23.49853515625
+          },
+          "f_port": 1,
+          "frm_payload": "hW+qdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:10.196189541Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:10.039806Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:20:10.011147022Z",
+              "timestamp": 1329561644,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKyA/vkEGgsIuuaAngYQrK+CXSDg17KA2SY="
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904100000",
+            "time": "2023-01-12T16:20:10.011147022Z",
+            "timestamp": 1329561644
+          }
+        }
+      },
+      "-NLam2NzdhFlyNQVm8yI": {
+        "correlation_ids": [
+          "as:up:01GPKCGDFFMBGWA5CWPKV94NV0",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCGD8Y5J752QH0BRE6NCVE",
+          "ns:uplink:01GPKCGD8ZD1VB3TNNP3FXBMSB",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCGD8ZN5RC9SYHVG71WKXQ",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCGDFFKR6Q44H12NRJXTT3"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:17.007466109Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:16.799944004Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:16.614245003Z",
+              "rssi": -77,
+              "snr": 12.25,
+              "time": "2023-01-12T16:20:15.636691093Z",
+              "timestamp": 1335221636,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEIS71/wEGgwIwOaAngYQxazi/AIgoJeli+4m"
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:20:15.636691093Z",
+            "timestamp": 1335221636
+          }
+        }
+      },
+      "-NLamd7l2KR7h-6X7XuN": {
+        "correlation_ids": [
+          "as:up:01GPKCN4D5AEQQPYBEDSJP2H6M",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCN46ERA8YC092RJ17XC12",
+          "ns:uplink:01GPKCN46FT368S9CBD3XT7ZE6",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCN46FCKJ23EZRYRN65EVP",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCN4D4E5NAB8CRSSKN311G"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CFA4C",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:22:51.556413407Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.998046875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm+udw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:22:51.343475294Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:22:51.129102701Z",
+              "rssi": -79,
+              "snr": 8.75,
+              "time": "2023-01-12T16:22:49.239656925Z",
+              "timestamp": 1488814916,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEMSG9sUFGgwI2+eAngYQ5c6iowEgoIOjoqor"
+            }
+          ],
+          "session_key_id": "AYWmynQppi4yi5Vl1mMQSg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:22:49.239656925Z",
+            "timestamp": 1488814916
+          }
+        }
+      },
+      "-NLamidUaT8Q7pmqNcA8": {
+        "correlation_ids": [
+          "as:up:01GPKCNTDH2VWWQ286NSN43DZC",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCNT6V30ZSZ7HTKP5RJY5Q",
+          "ns:uplink:01GPKCNT6W5915RZ569ZW4D9SP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCNT6WY8CDRPS8WYTBQ5F7",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCNTDHVV0Y7XVK42HQK8Z6"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C0585",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:14.097457285Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 49.0966796875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm/bdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:13.884553578Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:13.692399117Z",
+              "rssi": -75,
+              "snr": 11,
+              "time": "2023-01-12T16:23:13.678272962Z",
+              "timestamp": 1513261292,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOyRytEFGgwI8eeAngYQ5d+mpQMg4LObq4Us"
+            }
+          ],
+          "session_key_id": "AYWmytOEbXEegOf5a8Yi3A==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904500000",
+            "time": "2023-01-12T16:23:13.678272962Z",
+            "timestamp": 1513261292
+          }
+        }
+      },
+      "-NLamp3OQLPJxC4Puuzi": {
+        "correlation_ids": [
+          "as:up:01GPKCPM6DY9SFVGN6VAT6JTRW",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPKZR1S954CV29QMY31JH",
+          "ns:uplink:01GPKCPKZSFK2AX6QS9FVX6QS1",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPKZS2KTDFMWW483MZTT8",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPM6DBBK8B6PQP081YP5W"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:40.493201468Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.8037109375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Pdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:40.281571439Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -71,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:40.117118665Z",
+              "rssi": -71,
+              "snr": 10.75,
+              "time": "2023-01-12T16:23:40.072793960Z",
+              "timestamp": 1539642460,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENyolN4FGgwIjOiAngYQ1YjhhQEg4I7ezucs"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905100000",
+            "time": "2023-01-12T16:23:40.072793960Z",
+            "timestamp": 1539642460
+          }
+        }
+      },
+      "-NLamqQs389o89C6G8DT": {
+        "correlation_ids": [
+          "as:up:01GPKCPSNCPP7RKPX5H0D57328",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPSEYHX197G3GBS22199H",
+          "ns:uplink:01GPKCPSEZ19TN1306GPMHNHEA",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPSEZ7CTPV8AGNGH8DCBX",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPSNBCH278PGMB56HC4GG"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:46.091977105Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:45.887292210Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -72,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:45.721942578Z",
+              "rssi": -72,
+              "snr": 6.75,
+              "time": "2023-01-12T16:23:45.700197935Z",
+              "timestamp": 1545266339,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKPJ6+AFGgwIkeiAngYQ3dyxpgMguLm0yPws"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:23:45.700197935Z",
+            "timestamp": 1545266339
+          }
+        }
+      },
+      "-NLannj90ZTkxOa99uoP": {
+        "correlation_ids": [
+          "as:up:01GPKCYETCBQFNGJQ04C6XC27K",
+          "gs:conn:01GPKCWJEKZVMXRMZECSHVAFXC",
+          "gs:up:host:01GPKCWJK8VZA1NX0Y8Y4DWR94",
+          "gs:uplink:01GPKCYEKNPCRPQWQKSM51AR4C",
+          "ns:uplink:01GPKCYEKPFK5H4BXJ9T7PFNKE",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCYEKP4CV82WCMR79GHA0N",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCYETB605YH75BKN17R9QS"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CB6F7",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:27:57.131431785Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.6083984375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Hdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:27:56.918223907Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:27:56.468236697Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:27:56.704791069Z",
+              "timestamp": 60255852,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOzc3RwaDAiM6oCeBhD9xZu1AyDgq5284AE="
+            }
+          ],
+          "session_key_id": "AYWmzyUT9M27QRtBKCPBWQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905300000",
+            "time": "2023-01-12T16:27:56.704791069Z",
+            "timestamp": 60255852
+          }
+        }
+      },
+      "-NLap3lSJqqe5Kp7Kd0w": {
+        "correlation_ids": [
+          "as:up:01GPKD8JYAB183K6BEVBTNP5DH",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8JQW0DVJCN9G29PSNP3W",
+          "ns:uplink:01GPKD8JQXZN5599SCMP6Y1ERP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8JQXH367YK5EYJAP6ZKK",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8JY9JNSN6K1N7XJTN60P"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:29.034030585Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 96.09375,
+            "temp": 25.09765625
+          },
+          "f_port": 1,
+          "frm_payload": "BHSwfw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:28.829593645Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:28.693361534Z",
+              "rssi": -79,
+              "snr": 12,
+              "time": "2023-01-12T16:33:28.658027887Z",
+              "timestamp": 210361020,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELy1p2QaDAjY7ICeBhCkp4WLAyDg3PnTjwY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:33:28.658027887Z",
+            "timestamp": 210361020
+          }
+        }
+      },
+      "-NLap59Fm53ZqjY66jYL": {
+        "correlation_ids": [
+          "as:up:01GPKD8RJ5Y6YMEMJPD6YRWR13",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8RBGKH31MDFF3R8KGJRZ",
+          "ns:uplink:01GPKD8RBHM5PR7X3EZ9WP8K0W",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8RBHEYP11FQ7CZ6HY9VY",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8RJ4KABZSZBFDHH9S6EF"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:34.789030814Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:34.577940487Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:34.428403440Z",
+              "rssi": -77,
+              "snr": 9.25,
+              "time": "2023-01-12T16:33:34.306500911Z",
+              "timestamp": 215984947,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELPW/mYaDAje7ICeBhD65vySAiC4/tLNpAY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904700000",
+            "time": "2023-01-12T16:33:34.306500911Z",
+            "timestamp": 215984947
+          }
+        }
+      }
+    },
+    "Grupo4": {
+      "-NLalYXWOGOlTmJ2P5g2": {
+        "correlation_ids": [
+          "as:up:01GPKCCE0F35F07WWW69J2VTZB",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCDSSHZ7XF6G1DV6HXJ8Z",
+          "ns:uplink:01GPKCCDSSZ85MDQDJQ0JTAJQG",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCDSS5QJ60TYH7RXWHA6E",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCE0E3GQRHYDHN7QPA5XJ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:06.478571018Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 45.8984375,
+            "temp": 23.40087890625
+          },
+          "f_port": 1,
+          "frm_payload": "fW9Ydw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:06.265854051Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -78,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:06.047926885Z",
+              "rssi": -78,
+              "snr": 8.25,
+              "time": "2023-01-12T16:18:05.878746032Z",
+              "timestamp": 1205451868,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENz45r4EGgsIvuWAngYQ4dmhfiDgjp/UiiM="
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:18:05.878746032Z",
+            "timestamp": 1205451868
+          }
+        }
+      },
+      "-NLalZsHfINp_bBUJRwX": {
+        "correlation_ids": [
+          "as:up:01GPKCCKC5N81QP16PQ1CE9HC1",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCCK5HWE8571YG3VT7D9XJ",
+          "ns:uplink:01GPKCCK5JV2ZBCMHECXHNA14P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCCK5J3J0T08DMHQR0Q1BN",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCCKC5EM83Z44H88R1XQRQ"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C146A",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:18:11.973477075Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:18:11.762504981Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -81,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:18:11.546413198Z",
+              "rssi": -81,
+              "snr": 11,
+              "time": "2023-01-12T16:18:11.544292926Z",
+              "timestamp": 1211111652,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOSxwMEEGgwIw+WAngYQyIeO6wIgoPWE358j"
+            }
+          ],
+          "session_key_id": "AYWmxiLXCM6eT3x78o49Qg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:18:11.544292926Z",
+            "timestamp": 1211111652
+          }
+        }
+      },
+      "-NLam0luy75x-rbMR0CA": {
+        "correlation_ids": [
+          "as:up:01GPKCG717B1323B1B4MGAE6PJ",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCG6TK9ZTR4GFFKBCBHY6D",
+          "ns:uplink:01GPKCG6TM70Y6VWZZ279D8B0P",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCG6TKKDQ8BVJJRY2BY375",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCG71778E41NE9XWNV2ZJH"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:10.407740854Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.900390625,
+            "temp": 23.49853515625
+          },
+          "f_port": 1,
+          "frm_payload": "hW+qdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:10.196189541Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:10.039806Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:20:10.011147022Z",
+              "timestamp": 1329561644,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKyA/vkEGgsIuuaAngYQrK+CXSDg17KA2SY="
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904100000",
+            "time": "2023-01-12T16:20:10.011147022Z",
+            "timestamp": 1329561644
+          }
+        }
+      },
+      "-NLam2NrLkM_M4wrxuFI": {
+        "correlation_ids": [
+          "as:up:01GPKCGDFFMBGWA5CWPKV94NV0",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCGD8Y5J752QH0BRE6NCVE",
+          "ns:uplink:01GPKCGD8ZD1VB3TNNP3FXBMSB",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCGD8ZN5RC9SYHVG71WKXQ",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCGDFFKR6Q44H12NRJXTT3"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C59A1",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:20:17.007466109Z",
+        "uplink_message": {
+          "consumed_airtime": "0.082432s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:20:16.799944004Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:20:16.614245003Z",
+              "rssi": -77,
+              "snr": 12.25,
+              "time": "2023-01-12T16:20:15.636691093Z",
+              "timestamp": 1335221636,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEIS71/wEGgwIwOaAngYQxazi/AIgoJeli+4m"
+            }
+          ],
+          "session_key_id": "AYWmyAYHSvKbn8Pfy1ML3Q==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 8
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:20:15.636691093Z",
+            "timestamp": 1335221636
+          }
+        }
+      },
+      "-NLamd7l2KR7h-6X7XuO": {
+        "correlation_ids": [
+          "as:up:01GPKCN4D5AEQQPYBEDSJP2H6M",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCN46ERA8YC092RJ17XC12",
+          "ns:uplink:01GPKCN46FT368S9CBD3XT7ZE6",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCN46FCKJ23EZRYRN65EVP",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCN4D4E5NAB8CRSSKN311G"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CFA4C",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:22:51.556413407Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 47.998046875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm+udw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:22:51.343475294Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:22:51.129102701Z",
+              "rssi": -79,
+              "snr": 8.75,
+              "time": "2023-01-12T16:22:49.239656925Z",
+              "timestamp": 1488814916,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEMSG9sUFGgwI2+eAngYQ5c6iowEgoIOjoqor"
+            }
+          ],
+          "session_key_id": "AYWmynQppi4yi5Vl1mMQSg==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:22:49.239656925Z",
+            "timestamp": 1488814916
+          }
+        }
+      },
+      "-NLamid6m8nwJMhUg5p-": {
+        "correlation_ids": [
+          "as:up:01GPKCNTDH2VWWQ286NSN43DZC",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCNT6V30ZSZ7HTKP5RJY5Q",
+          "ns:uplink:01GPKCNT6W5915RZ569ZW4D9SP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCNT6WY8CDRPS8WYTBQ5F7",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCNTDHVV0Y7XVK42HQK8Z6"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C0585",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:14.097457285Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 49.0966796875,
+            "temp": 23.7060546875
+          },
+          "f_port": 1,
+          "frm_payload": "lm/bdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:13.884553578Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:13.692399117Z",
+              "rssi": -75,
+              "snr": 11,
+              "time": "2023-01-12T16:23:13.678272962Z",
+              "timestamp": 1513261292,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOyRytEFGgwI8eeAngYQ5d+mpQMg4LObq4Us"
+            }
+          ],
+          "session_key_id": "AYWmytOEbXEegOf5a8Yi3A==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "904500000",
+            "time": "2023-01-12T16:23:13.678272962Z",
+            "timestamp": 1513261292
+          }
+        }
+      },
+      "-NLamp2iYyhNywuJgMgz": {
+        "correlation_ids": [
+          "as:up:01GPKCPM6DY9SFVGN6VAT6JTRW",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPKZR1S954CV29QMY31JH",
+          "ns:uplink:01GPKCPKZSFK2AX6QS9FVX6QS1",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPKZS2KTDFMWW483MZTT8",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPM6DBBK8B6PQP081YP5W"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:40.493201468Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.8037109375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Pdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:40.281571439Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -71,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:40.117118665Z",
+              "rssi": -71,
+              "snr": 10.75,
+              "time": "2023-01-12T16:23:40.072793960Z",
+              "timestamp": 1539642460,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdENyolN4FGgwIjOiAngYQ1YjhhQEg4I7ezucs"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905100000",
+            "time": "2023-01-12T16:23:40.072793960Z",
+            "timestamp": 1539642460
+          }
+        }
+      },
+      "-NLamqQ9b6RrPpKKHsrU": {
+        "correlation_ids": [
+          "as:up:01GPKCPSNCPP7RKPX5H0D57328",
+          "gs:conn:01GPKB7JZGHKZXQZ8GZV9XK7XT",
+          "gs:up:host:01GPKB7K4824CNHQSP2THK5EY0",
+          "gs:uplink:01GPKCPSEYHX197G3GBS22199H",
+          "ns:uplink:01GPKCPSEZ19TN1306GPMHNHEA",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCPSEZ7CTPV8AGNGH8DCBX",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCPSNBCH278PGMB56HC4GG"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CDB59",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:23:46.091977105Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:23:45.887292210Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -72,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:23:45.721942578Z",
+              "rssi": -72,
+              "snr": 6.75,
+              "time": "2023-01-12T16:23:45.700197935Z",
+              "timestamp": 1545266339,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEKPJ6+AFGgwIkeiAngYQ3dyxpgMguLm0yPws"
+            }
+          ],
+          "session_key_id": "AYWmyzqiBn6jmjm4xXkPiQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904300000",
+            "time": "2023-01-12T16:23:45.700197935Z",
+            "timestamp": 1545266339
+          }
+        }
+      },
+      "-NLannjEL9KsBYbKCD-_": {
+        "correlation_ids": [
+          "as:up:01GPKCYETCBQFNGJQ04C6XC27K",
+          "gs:conn:01GPKCWJEKZVMXRMZECSHVAFXC",
+          "gs:up:host:01GPKCWJK8VZA1NX0Y8Y4DWR94",
+          "gs:uplink:01GPKCYEKNPCRPQWQKSM51AR4C",
+          "ns:uplink:01GPKCYEKPFK5H4BXJ9T7PFNKE",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKCYEKP4CV82WCMR79GHA0N",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKCYETB605YH75BKN17R9QS"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260CB6F7",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:27:57.131431785Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 48.6083984375,
+            "temp": 23.59619140625
+          },
+          "f_port": 1,
+          "frm_payload": "jW/Hdw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:27:56.918223907Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -75,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:27:56.468236697Z",
+              "rssi": -75,
+              "snr": 9.75,
+              "time": "2023-01-12T16:27:56.704791069Z",
+              "timestamp": 60255852,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdEOzc3RwaDAiM6oCeBhD9xZu1AyDgq5284AE="
+            }
+          ],
+          "session_key_id": "AYWmzyUT9M27QRtBKCPBWQ==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "905300000",
+            "time": "2023-01-12T16:27:56.704791069Z",
+            "timestamp": 60255852
+          }
+        }
+      },
+      "-NLap3lPfdPpM8CTuH-C": {
+        "correlation_ids": [
+          "as:up:01GPKD8JYAB183K6BEVBTNP5DH",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8JQW0DVJCN9G29PSNP3W",
+          "ns:uplink:01GPKD8JQXZN5599SCMP6Y1ERP",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8JQXH367YK5EYJAP6ZKK",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8JY9JNSN6K1N7XJTN60P"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:29.034030585Z",
+        "uplink_message": {
+          "consumed_airtime": "0.329728s",
+          "decoded_payload": {
+            "humedad": 96.09375,
+            "temp": 25.09765625
+          },
+          "f_port": 1,
+          "frm_payload": "BHSwfw==",
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:28.829593645Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -79,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:28.693361534Z",
+              "rssi": -79,
+              "snr": 12,
+              "time": "2023-01-12T16:33:28.658027887Z",
+              "timestamp": 210361020,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELy1p2QaDAjY7ICeBhCkp4WLAyDg3PnTjwY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 10
+              }
+            },
+            "frequency": "903900000",
+            "time": "2023-01-12T16:33:28.658027887Z",
+            "timestamp": 210361020
+          }
+        }
+      },
+      "-NLap58YvvBnfQdNGUHp": {
+        "correlation_ids": [
+          "as:up:01GPKD8RJ5Y6YMEMJPD6YRWR13",
+          "gs:conn:01GPKD2403K12YFZASK4FM4RZW",
+          "gs:up:host:01GPKD244N92K75WARQG0KDSDJ",
+          "gs:uplink:01GPKD8RBGKH31MDFF3R8KGJRZ",
+          "ns:uplink:01GPKD8RBHM5PR7X3EZ9WP8K0W",
+          "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01GPKD8RBHEYP11FQ7CZ6HY9VY",
+          "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01GPKD8RJ4KABZSZBFDHH9S6EF"
+        ],
+        "end_device_ids": {
+          "application_ids": {
+            "application_id": "amst-laboratorio7-pruebax"
+          },
+          "dev_addr": "260C5A36",
+          "dev_eui": "9876B60123108544",
+          "device_id": "eui-9876b60123108544",
+          "join_eui": "0000000000000000"
+        },
+        "received_at": "2023-01-12T16:33:34.789030814Z",
+        "uplink_message": {
+          "consumed_airtime": "0.046336s",
+          "f_cnt": 1,
+          "network_ids": {
+            "cluster_address": "nam1.cloud.thethings.network",
+            "cluster_id": "nam1",
+            "net_id": "000013",
+            "tenant_id": "ttn"
+          },
+          "received_at": "2023-01-12T16:33:34.577940487Z",
+          "rx_metadata": [
+            {
+              "channel_rssi": -77,
+              "gateway_ids": {
+                "eui": "C0EE40FFFF293B1D",
+                "gateway_id": "rg1xx293b1d"
+              },
+              "location": {
+                "altitude": 100,
+                "latitude": -2.145689287023237,
+                "longitude": -79.96702122694843,
+                "source": "SOURCE_REGISTRY"
+              },
+              "received_at": "2023-01-12T16:33:34.428403440Z",
+              "rssi": -77,
+              "snr": 9.25,
+              "time": "2023-01-12T16:33:34.306500911Z",
+              "timestamp": 215984947,
+              "uplink_token": "ChkKFwoLcmcxeHgyOTNiMWQSCMDuQP//KTsdELPW/mYaDAje7ICeBhD65vySAiC4/tLNpAY="
+            }
+          ],
+          "session_key_id": "AYWm1DXa0mgOvzY85ISMBA==",
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "coding_rate": "4/5",
+                "spreading_factor": 7
+              }
+            },
+            "frequency": "904700000",
+            "time": "2023-01-12T16:33:34.306500911Z",
+            "timestamp": 215984947
+          }
+        }
+      }
+    }
+  }
+}

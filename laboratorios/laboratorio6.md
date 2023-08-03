@@ -575,3 +575,6 @@ La práctica de laboratorio será desarrollado en el siguiente formato:
 - Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Además, incluir el enlace del repositorio del proyecto en Github y el archivo ejecutable (apk) de la aplicación móvil.
 - Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
+
+
+Importar el [archivo json](amst-lab6_practica-de-laboratorio-ac69-default-rtdb-export) a la Realtime Database mediante la consola de Firebase.
