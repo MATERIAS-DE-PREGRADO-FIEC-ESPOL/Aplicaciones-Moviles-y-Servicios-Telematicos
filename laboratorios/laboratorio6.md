@@ -94,13 +94,13 @@ Clave: Esp0L@m5t
 - Definimos el nombre de la aplicación como “amst-laboratorio7-grupoN” (siendo N el número de su grupo) y la creamos dando clic en “Create application”.
 
 <p align="center">
-  <img src="imagenes/amst.lab7.createaplications.png" alt="lab7" width="100%">
+  <img src="imagenes/amst.lab7.createaplications.png" alt="lab6" width="100%">
 </p>
 
 - Seleccionamos la opción “Add end device”
 
 <p align="center">
-  <img src="imagenes/amst.lab7.device.png" alt="lab7" width="100%">
+  <img src="imagenes/amst.lab7.device.png" alt="lab6" width="100%">
 </p>
 
 
@@ -116,7 +116,7 @@ AppKEY se genera aleatoriamente (Click en generate).
 Luego dar click en register end device.
 
 <p align="center">
-  <img src="imagenes/amst.lab7.register.device.png" alt="lab7" width="100%">
+  <img src="imagenes/amst.lab7.register.device.png" alt="lab6" width="100%">
 </p>
 
 - Una vez registrado el dispositivo, anotaremos el “Device EUI”, “Application EUI” y “App Key”
@@ -124,7 +124,7 @@ Luego dar click en register end device.
 
 
 <p align="center">
-  <img src="imagenes/amst.lab7.device2.png" alt="lab7" width="100%">
+  <img src="imagenes/amst.lab7.device2.png" alt="lab6" width="100%">
 </p>
 
 NOTA: Anotarlos en el formato
@@ -132,27 +132,32 @@ NOTA: Anotarlos en el formato
 Nota: Verificar que DevEUI esté en formato lsb o msb, respectivamente.
 
 **Paso 2:** Preparación del entorno de desarrollo
-a)	Abrir Arduino IDE e instalar las placas de desarrollo SAMD, tanto de Arduino como de Adafruit desde: “Herramientas -> Placa: "XXXXXXX" -> Gestor de tarjetas…”
+a)	Abrir Arduino IDE para instalar las placas de desarrollo **SAMD**, tanto de Arduino como de Adafruit seleccionando la ruta “Tools > Board > Boards Manager”.
 
 <p align="center">
-  <img src="imagenes/amst.lab7.arduino.png" alt="lab7" width="100%">
+  <img src="imagenes/amst_lab6_samd_arduino.png" alt="lab6" width="100%">
 </p>
 
+b) En caso de que no aparece la placa Adafruit SAMD Boards debe ingresar a [List of 3rd party Boards Manager URLs](https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls#list-of-3rd-party-boards-support-urls) para copiar este enlace [Adafruit](https://adafruit.github.io/arduino-board-index/package_adafruit_index.json). Luego ingresar a la ruta de Arduino IDE > Preferences para colocar el enlace copiado en la sección de Additional boards manager URLs y dar clic en OK, como sigue:
 
 <p align="center">
-  <img src="imagenes/amst.lab7.arduino2.png" alt="lab7" width="100%">
+  <img src="imagenes/amst_lab6_preferences_github.png" alt="lab6" width="100%">
 </p>
 
- 
-- Instalar librería MCCI LoRaWAN desde: “Programa -> Incluir Librería -> Administrar Bibliotecas…”
-
+c) Ahora si aparece la placa de Adafruit SAMD Boards
 
 <p align="center">
-  <img src="imagenes/amst.lab7.arduino3.png" alt="lab7" width="100%">
+  <img src="imagenes/amst_lab6_samd_arduino_adafruit.png" alt="lab6" width="100%">
+</p>
+
+- Instalar librería MCCI LoRaWAN desde la ruta Sketch > Include Library > Manager Libraries.
+
+<p align="center">
+  <img src="imagenes/amst_lab6_manage_libraries.png" alt="lab7" width="100%">
 </p>
 
 <p align="center">
-  <img src="imagenes/amst.lab7.arduino4.png" alt="lab7" width="100%">
+  <img src="imagenes/amst_lab6_library_mcci_lorawan.png" alt="lab7" width="100%">
 </p>
 
 **Paso 3:** Conexión del Adafruit Feather M0 con el sensor DHT22
