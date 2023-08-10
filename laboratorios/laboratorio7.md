@@ -491,7 +491,8 @@ Correo: amst.investigacion@gmail.com***
 
 ```
     </activity>
-    <service android:name=".Services.MyFirebaseInstanceService">
+    <service 
+    android:name="Services.MyFirebaseInstanceService">
         <intent-filter>
             <action android:name="com.google.firebase.MESSAGING_EVENT" />
         </intent-filter>
