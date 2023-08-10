@@ -13,7 +13,7 @@ plugins:
 **Recursos:** Sensores IoT simulados, Backend de LoRaWan, Android Studio, FireBase, Ubidots.
 Duración: 7 horas
 
-**Introducción:** 
+**Introducción:**
 Los microcontroladores mbed son una serie de placas de desarrollo de microcontroladores ARM diseñadas para la creación rápida de prototipos. 
 El microcontrolador mbed NXP LPC1768 en particular está diseñado para crear prototipos de todo tipo de dispositivos, especialmente aquellos que incluyen Ethernet, USB y la flexibilidad de muchas interfaces periféricas y memoria FLASH. Está empaquetado como un pequeño factor de forma DIP para la creación de prototipos con PCB, tableros y placas de prueba, e incluye un programador USB FLASH incorporado.
 
