@@ -6,7 +6,7 @@ plugins:
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
 # Práctica de Laboratorio 8
-## PUBLICACIÓN DE UNA APLICACIÓN MÓVIL AVANZADAS EN GOOGLE PLAY STORE
+## PUBLICACIÓN DE UNA APLICACIÓN MÓVIL AVANZADA EN GOOGLE PLAY STORE
  
 **Objetivo de Aprendizaje:** Objetivo de Aprendizaje: Describir las características de sistemas telemáticos contemporáneos mediante la identificación de funcionalidades basadas en red.
 Recursos: Android Studio. Google Play.
