@@ -47,118 +47,106 @@ Para que la publicación de la aplicación desarrollada en Android o Flutter est
  
 ## Paso 2: Preparamos nuestra aplicación en modo de producción
 
-1.	Removemos cualquier log o función de desarrollo (Ej: System.out.println  o    log.cat())
-2.	Dentro del archivo MANIFEST, remover (Si no se ha removido automaticamente):
+1.	Removemos cualquier log o función de desarrollo (Por ejemplo: System.out.println o log.cat()).
+
+2.	Dentro del archivo MANIFEST, remover (Si no se ha removido automáticamente):
+
+```
 (propiedad) android:debuggable
+```
 
 3.	Dentro de MANIFEST, agregamos la versión del código a lanzar a producción, en este caso primera versión.
-Version code, debe ser un número que automáticamente aumenta. Mientras que Version name, es el nombre que le damos a la versión lanzada y se muestra al usuario.
+- Version code, debe ser un número que automáticamente aumenta. 
+- Mientras que Version name, es el nombre que le damos a la versión lanzada y se muestra al usuario.
+
+```
 android:versionCode="1"
 android:versionName="1.0"
+```
 
-4.	Generamos un APP bundle listo para subir (Este debe ser firmado para autenticar a su o sus desarrolladores). Damos clic en Build > Generate Signed Bundle
- 
-
- 
+4.	Generamos un APP bundle listo para subir (Este debe ser firmado para autenticar a su o sus desarrolladores). Damos clic en Build > Generate Signed Bundle.
 
 5.	Seleccionamos > Crear una nueva llave. Creamos una contraseña única y llenamos el resto de la información que nos solicita crear una clave (Ubicación, organización y nombres). Damos click en ok.
  
+6.	Damos click en next, y luego nos pedirá seleccionar la ubicación de la app bundle y el variante de construcción donde indicaremos si es una versión de prueba o de producción. (Seleccionamos release por ser una versión de producción). Seleccionamos firmar v1. Damos click en finish.
  
- 
-
-6.	Damos click en next, y luego nos pedirá seleccionar la ubicación de la app bundle y el variante de construcción donde indicaremos si es una versión de prueba o de producción. (Seleccionamos reléase por ser una versión de producción). Seleccionamos firmar v1. Damos click en finish.
- 
-
-7.	Al dar click en finish, se generara un .aap ubicado en [Carpeta del proyecto] > releases > 
-
- Información requerida por Google play
-
- 
+7.	Al dar click en finish, se generara un .aap ubicado en [Carpeta del proyecto] > releases.
 
 
-Audiencia objetivo
-Del panel de control dar click en Audiencia objetivo y llenar el formulario presentado. Una vez finalizado, dar click a guardar.
- 
-Anuncios y aplicaciones de noticias
-Regresar al panel de control y dar click en Anuncios para configurar el contenido y luego en guardar.
- 
-Realizar lo mismo con Aplicaciones de noticias
- 
-Versiones de la aplicación
+## Paso 3: Información requerida por Google play
+- Versiones de la aplicación: Cargamos el APK e indicamos la versión actual.
+- Clasificación de contenido: Indicamos que tipo de contenido presenta nuestra aplicación.
+- Anuncios: Indicamos si (en caso de asignar algún anuncio) o por defecto no.
+- Contenido y audiencia objetivo:
+    - Grupo de edad objetivo
+    - Llenar formulario
+- Categoría de aplicación: Datos de contacto y categoría.
+- Ficha de Play Store: Indicamos nombre, descripción, e imágenes publicitarias.
 
-Del menú lateral ir a la opción de producción y colocar en Crear nueva versión
+**Audiencia objetivo**
+Del panel de control dar clic en Audiencia objetivo y llenar el formulario presentado. Una vez finalizado, dar clic en Guardar.
  
-En App bundles subir la app bundle (.aab) recién creada.
+**Anuncios y aplicaciones de noticias**
+- Regresar al panel de control y dar click en Anuncios para configurar el contenido y luego en guardar.
  
+- Realizar lo mismo con Aplicaciones de noticias
  
-Detallar la versión. Dar click en guardar
 
+**Versiones de la aplicación**
+- Del menú lateral ir a la opción de producción y colocar en Crear nueva versión.
  
-Ficha de Google Play
-Regresamos al panel de control y dar click en ficha de Google Play o en el menú lateral dirigirse a la opción de crecimiento > Presencia en Google Play > Ficha de Play Store principal
+- En App bundles subir la app bundle (.aab) recién creada.
  
-Aparecerá el título de la APP, agregamos una descripción corta y otra completa sobre el funcionamiento de la aplicación.
+- Detallar la versión. Dar clic en Guardar.
+
+
+**Ficha de Google Play**
+- Regresamos al panel de control y dar click en ficha de Google Play o en el menú lateral dirigirse a la opción de crecimiento > Presencia en Google Play > Ficha de Play Store principal.
  
-Agregamos las imágenes correspondientes en medidas específicas: 
+- Aparecerá el título de la APP, agregamos una descripción corta y otra completa sobre el funcionamiento de la aplicación.
+ 
+- Agregamos las imágenes correspondientes en medidas específicas: 
 •	Icono de la aplicación: 512 x 512 px 
 •	Capturas de pantalla del teléfono: mínimo 380 px laterales 
 •	Gráfico de funciones (Imagen destacada): 1024 x 500 px 
-No es necesario llenar todas las imágenes, solo las requeridas arriba. Dar click en guardar
+- No es necesario llenar todas las imágenes, solo las requeridas arriba. Dar click en guardar
   
-Configuración de la tienda
+
+**Configuración de la tienda**
 En el panel de control, dar click a seleccionar categoría de la aplicación o en el menú lateral ir a crecimiento > Configuración de la tienda. Llenar el formulario seleccionando la categoría e ingresando datos de contacto. Dar click a guardar.
  
- 
- 
 
-Clasificación de contenido
+**Clasificación de contenido**
+- En el menú izquierdo, se requiere seguir las tareas de políticas y llenar el formulario de clasificación de contenido.
+- Dar clic a empezar el formulario.
+- Llenar el formulario, indicando el tipo de contenido que tiene la aplicación.
+- Una vez finalizado se activará el botón enviar.
 
-En el menú izquierdo, se requiere seguir las tareas de políticas y llenar el formulario de clasificación de contenido.
- 
-Dar click a empezar el formulario.
- 
+**Lanzar a producción**
+- Una vez cumplidos los requisitos de producción nos dirigimos a la pestaña Lanzar > Producción > Países y regiones. Añadir los países donde se quiera publicar la aplicación.
 
+- Ahora dar click en editar versión
 
-Llenar el formulario, indicando el tipo de contenido que tiene la aplicación.
+- Damos clic en Revisar versión.
+ 
+- Finalmente, ya estará disponible para publicar nuestra app. En caso de haber algún error, la opción aparecerá en gris. Luego, nuestra aplicación, aparecerá en producción y disponible en el PlayStore.
 
- 
- 
- 
-
- 
-Una vez finalizado se activará el botón enviar.
-Lanzar a producción
-
-Una vez cumplidos los requisitos de producción nos dirigimos a la pestaña Lanzar > Producción > Países y regiones. Añadir los países donde se quiera publicar la aplicación.
-  
- 
-Ahora dar click en editar versión
+- La aplicación entrará en proceso de revisión por Google para conocer que no existan errores o riegos para el usuario.
  
 
-Damos clic en: Revisar versión
- 
-Finalmente, ya estará disponible para publicar nuestra app. En caso de haber algún error, la opción aparecerá en gris.
+### **Formato de la práctica**
+La práctica de laboratorio será desarrollado en el siguiente formato:
 
- 
- 
+- Nombre del archivo: AMST_Práctica de Laboratorio A_Grupo B_Apellido1_Apellido2_Apellido3
 
-
-Finalmente nuestra aplicación, aparecerá en producción y disponible en el PlayStore: 
- 
-
-La aplicación entrará en proceso de revisión por Google para conocer que no existan errores o riegos para el usuario.
- 
-
-FORMATO DEL TRABAJO
-
-El trabajo autónomo será desarrollado en el siguiente formato:
-
-	Nombre del archivo: AMST_P01_Práctica de Laboratorio A_Grupo B_Apellido1_Apellido2_Apellido3
-	(*) Siendo A el número de la práctica y B el número del grupo
-	Nombre de la materia y paralelo 1
-	Título del trabajo: Ejemplo: Práctica de Laboratorio A - Tema
-	Nombre de la profesora
-	Número de grupo
-	Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
-	Fecha de inicio y fin del trabajo
-	Resultados de las actividades planteadas: Por esta actividad solamente se entregarán capturas de pantallas como evidencia y un resumen de la actividad.
+- (*) Siendo A el número de la práctica y B el número del grupo
+- Nombre de la materia
+- Título de la práctica: Ejemplo: Trabajo Autónomo A - Tema
+- Nombre de la profesora
+- Número de grupo
+- Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
+- Fecha de inicio y fin del trabajo
+- Resultados de las actividades planteadas: 
+- Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Además, incluir el enlace del repositorio del proyecto en Github y el archivo ejecutable (apk) de la aplicación móvil.
+- Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
+- Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
