@@ -5,7 +5,7 @@
 
 
 ## POLÍTICAS
-* [I PAO 2023 Políticas de la materia de AMST](https://aulavirtual.espol.edu.ec/courses/19786/files/3518494/download?wrap=1)
+* [II PAO 2023 Políticas de la materia de AMST](https://aulavirtual.espol.edu.ec/files/4368315/download?download_frd=1)
 
 ## UNIDADES
 
