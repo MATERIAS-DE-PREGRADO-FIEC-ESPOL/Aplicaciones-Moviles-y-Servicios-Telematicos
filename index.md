@@ -35,21 +35,21 @@
     * 4.4. Aplicaciones telemáticas móviles y su impacto en la sociedad
 
 ## PRÁCTICAS DE LABORATORIO
-* [AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio1.md)
+* [AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio.md)
 
-* [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio2.md)
+* [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio.md)
 
-* [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio3.md)
+* [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio.md)
 
-* [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio4.md)
+* [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio.md)
 
-* [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio5.md)
+* [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio.md)
 
-* [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio6.md)
+* [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio.md)
 
-* [AMST LAB7 Desarrollo de aplicación móvil avanzada usando notificaciones en tiempo real](laboratorios/laboratorio7.md)
+* [AMST LAB7 Desarrollo de aplicación móvil avanzada usando notificaciones en tiempo real](laboratorios/laboratorio.md)
 
-* [AMST LAB8 Publicación de una aplicación móvil avanzada en Google Play Store](laboratorios/laboratorio8.md)
+* [AMST LAB8 Publicación de una aplicación móvil avanzada en Google Play Store](laboratorios/laboratorio.md)
 
 ## MICROSESIONES
 * [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
