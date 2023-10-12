@@ -35,7 +35,7 @@
     * 4.4. Aplicaciones telemáticas móviles y su impacto en la sociedad
 
 ## PRÁCTICAS DE LABORATORIO
-* [AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio.md)
+* [AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio1.md)
 
 * [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio.md)
 
