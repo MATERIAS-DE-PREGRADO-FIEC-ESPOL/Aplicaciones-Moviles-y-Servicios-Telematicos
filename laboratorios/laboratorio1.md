@@ -847,7 +847,7 @@ La práctica de laboratorio será desarrollada en el siguiente formato:
 - Número de grupo
 - Nombres/Apellidos de los integrantes del grupo que hayan desarrollado el trabajo
 - Fecha de inicio y fin del trabajo
-- Resultados de las actividades planteadas: Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso.
+- Resultados de las actividades planteadas: Explicación de las actividades ejecutadas, incluyendo las imágenes del proceso. Colocar el enlace del repositorio de GitHub con su código fuente.
 - Conclusiones y Recomendaciones: Respecto a lo aprendido durante el desarrollo del trabajo.
 - Referencias bibliográficas: Colocar los documentos, enlaces web o libros consultados.
 
