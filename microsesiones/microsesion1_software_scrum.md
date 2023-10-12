@@ -25,7 +25,7 @@ De 1 a 4 semanas.
 ## ROLES
 
 <p align="center">
-  <img src="imagenes/mt_2.png" style="width: 70%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt1_scrumr_roles.webp" style="width: 100%; float; padding: 15px;" alt="scrum_roles">
 </p>
 
 ## ARTEFACTOS
