@@ -37,7 +37,7 @@
 ## PRÁCTICAS DE LABORATORIO
 * [AMST LAB1 Desarrollo de una aplicación móvil usando controles avanzados](laboratorios/laboratorio1.md)
 
-* [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio.md)
+* [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio2.md)
 
 * [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio.md)
 
