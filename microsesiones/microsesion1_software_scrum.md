@@ -11,7 +11,7 @@ plugins:
 
 **Facultad:** Facultad de Ingeniería en Electricidad y Computación (FIEC)
 
-# MICRO-SESIÓN DE SOFTWARE 1: SCRUM
+# MICRO-SESIÓN DE SOFTWARE 1: Principios ágiles y SCRUM
 
 ## **Marco de trabajo utilizado para el desarrollo ágil de proyectos**
 

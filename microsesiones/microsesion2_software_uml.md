@@ -5,58 +5,59 @@ plugins:
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# **Micro-Sesión de Software #3**
+**Itinerario de Aplicaciones Móviles y Servicios Telemáticos**
 
-## **Diseño de una solución con diagramas de Lenguaje Unificado de Modelado (UML)**
+**Docente:** Adriana Collaguazo Jaramillo
 
-Itinerario de Aplicaciones Móviles y Servicios Telemáticos
-Docente: Adriana Collaguazo Jaramillo 
-FIEC-ESPOL
+**Facultad:** Facultad de Ingeniería en Electricidad y Computación (FIEC)
 
-## **Diagramas UML**
+# MICRO-SESIÓN DE SOFTWARE 2: Diagramas UML (Lenguaje Unificado de Modelado)
 
-Lenguaje Unificado de Modelado
-
-Un lenguaje de modelado visual común y sintácticamente rico para la arquitectura, el diseño y la implementación de sistemas 
+Un lenguaje de modelado visual para la arquitectura, el diseño y la implementación de sistemas. 
 
 <p align="center">
-  <img src="imagenes/mts_.png" style="width: 100%; height: 300px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_uml_diagramas.png" alt="diagramas" width="100%">
 </p>
 
-## **Algunos diagramas UML**
+## **Tipos de Diagramas UML**
 
 <p align="center">
-  <img src="imagenes/mts_.png" style="width: 100%; height: 300px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_uml_diagramasUML.png" alt="uml" width="100%">
 </p>
 
-## **Caso de estudio**
+## **Herramientas de libre uso**
 
-
+- [Draw.io](#https://app.diagrams.net)
+- [Lucidchart](#https://www.lucidchart.com/)
 
 ## **Diagrama de Clases**
 
 <p align="center">
-  <img src="imagenes/mt3_diagrama_clases.jpg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_clases.jpg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+</p>
+
+<p align="center">
+  <img src="imagenes/mt2_uml_diagramasUML.png" alt="uml" width="100%">
 </p>
 
 
-## **Diagrama de Arbol**
+## **Diagrama de Árbol**
 
 <p align="center">
-  <img src="imagenes/mt3_diagrama_arbol.png" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_arbol.png" alt="uml" width="100%">
 </p>
 
 ## **Diagrama de Despliegue**
 
 <p align="center">
-  <img src="imagenes/mt3_diagrama_de_despliegue.png" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_despliegue.png" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
 </p>
 
 ## **Diagrama de Casos de Uso**
 
 
 <p align="center">
-  <img src="imagenes/mt3_diagrama_casos_de_uso.jpeg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_casos_de_uso.jpeg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
 </p>
 
 
