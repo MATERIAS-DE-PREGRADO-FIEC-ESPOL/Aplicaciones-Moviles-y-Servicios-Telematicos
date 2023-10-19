@@ -54,7 +54,7 @@
 ## MICROSESIONES
 * [AMST MT1 SOFT Principios ágiles y SCRUM](microsesiones/microsesion1_software_scrum.md)
 
-* [AMST MT2 SOFT DISEÑO DE UNA SOLUCIÓN CON DIAGRAMAS DE LENGUAJE UNIFICADO DE MODELADO UML](microsesiones/microsesion2_software_uml.md)
+* [AMST MT2 SOFT Diagramas UML (Lenguaje Unificado de Modelado)](microsesiones/microsesion2_software_uml.md)
 
 * [AMST MT3 SOFT Base de datos No Relacionales](microsesiones/microsesion2_software_noSQL.md)
 
