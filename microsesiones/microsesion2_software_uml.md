@@ -33,13 +33,8 @@ Un lenguaje de modelado visual para la arquitectura, el diseño y la implementac
 ## **Diagrama de Clases**
 
 <p align="center">
-  <img src="imagenes/mt2_diagrama_clases.jpg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_clases.jpg" alt="uml" width="100%">
 </p>
-
-<p align="center">
-  <img src="imagenes/mt2_uml_diagramasUML.png" alt="uml" width="100%">
-</p>
-
 
 ## **Diagrama de Árbol**
 
@@ -50,27 +45,27 @@ Un lenguaje de modelado visual para la arquitectura, el diseño y la implementac
 ## **Diagrama de Despliegue**
 
 <p align="center">
-  <img src="imagenes/mt2_diagrama_despliegue.png" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_despliegue.png" alt="uml" width="100%">
 </p>
+
 
 ## **Diagrama de Casos de Uso**
 
-
 <p align="center">
-  <img src="imagenes/mt2_diagrama_casos_de_uso.jpeg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_casos_de_uso.jpeg" alt="uml" width="100%">
 </p>
+
 
 
 ## **Diagrama de Proyecto**
 
-
 <p align="center">
-  <img src="imagenes/mt3_diagrama_proyecto.jpeg" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_proyecto.jpeg" alt="uml" width="100%">
 </p>
 
 
 ## **Diagrama de Circuito**
 
 <p align="center">
-  <img src="imagenes/mt3_diagrama_circuito.png" style="width: 100%; height: 200px; float; padding: 15px;" alt="redhat">
+  <img src="imagenes/mt2_diagrama_circuito.png" alt="uml" width="100%">
 </p>
