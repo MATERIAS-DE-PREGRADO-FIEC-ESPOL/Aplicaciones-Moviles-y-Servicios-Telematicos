@@ -5,12 +5,13 @@ plugins:
 ---
 [Regresar](/Aplicaciones-Moviles-y-Servicios-Telematicos/)
 
-# MICRO-SESIÓN DE SOFTWARE #3 
+**Itinerario de Aplicaciones Móviles y Servicios Telemáticos**
 
-## **BASE DE DATOS NO RELACIONAL**
+**Docente:** Adriana Collaguazo Jaramillo
 
-**Itinerario de Aplicaciones Móviles y Servicios Telemáticos**
-**Docente:** Adriana Collaguazo Jaramillo 
+**Facultad:** Facultad de Ingeniería en Electricidad y Computación (FIEC)
+
+# MICRO-SESIÓN DE SOFTWARE 3: Base de datos no relacional
 
 ### **¿Qué es una base de datos no relacional?**
 

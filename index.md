@@ -39,7 +39,7 @@
 
 * [AMST LAB2 Aplicación móvil integrando base de datos externa en la nube de Google](laboratorios/laboratorio2.md)
 
-* [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio.md)
+* [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio3.md)
 
 * [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio.md)
 
@@ -56,7 +56,7 @@
 
 * [AMST MT2 SOFT Diagramas UML (Lenguaje Unificado de Modelado)](microsesiones/microsesion2_software_uml.md)
 
-* [AMST MT3 SOFT Base de datos No Relacionales](microsesiones/microsesion2_software_noSQL.md)
+* [AMST MT3 SOFT Base de datos No Relacionales](microsesiones/microsesion3_software_norelacional.md)
 
 
 # MANUALES
