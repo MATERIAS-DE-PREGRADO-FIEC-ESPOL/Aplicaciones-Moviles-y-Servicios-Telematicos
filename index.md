@@ -41,7 +41,7 @@
 
 * [AMST LAB3 Desarrollo de una aplicación móvil con integración de base de datos externas utilizando REST API](laboratorios/laboratorio3.md)
 
-* [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio.md)
+* [AMST LAB4 Desarrollo de una aplicación móvil híbrida básica con Flutter](laboratorios/laboratorio4.md)
 
 * [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio.md)
 
