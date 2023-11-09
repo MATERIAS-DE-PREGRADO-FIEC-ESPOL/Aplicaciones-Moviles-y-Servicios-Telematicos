@@ -19,7 +19,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [Arquitectura de Android](#arquitectura)
 - [Estructura de un proyecto](#estructura)
 - [Componentes de una aplicación](#componenes)
-- [Ciclo de vida de la actidad](#ciclo)
+- [Ciclo de vida de la actividad](#ciclo)
 - [Diseño en las vistas](#layout)
     -[Ejemplo de Relative Layout](#sample_relative)
 - [Controles básicos](#controles_basicos)
