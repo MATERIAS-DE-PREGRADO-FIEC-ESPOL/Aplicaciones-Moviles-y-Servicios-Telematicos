@@ -70,3 +70,5 @@ Se elige No. SQL cuando:
 
 https://www.mongodb.com/scale/types-of-nosql-databases
 https://www.jamesserra.com/archive/2015/08/relational-databases-vs-non-relational-databases/
+
+NoSQL significa no sólo SQL. El término se refiere a una clase de bases de datos de arquitectura no relacional. Tienen sus raíces en la comunidad de código abierto. Las bases de datos NoSQL se han hecho más populares debido a las demandas de Big Data.
