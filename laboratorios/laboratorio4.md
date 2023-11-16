@@ -188,7 +188,7 @@ by running `flutter --disable-telemetry`
 Para esto ya deben tener instalado Android Studio y actualizado a la última versión.
 
 1)	Abriremos Android Studio.
-2)	Abriremos configure > settings.
+2)	Abriremos Configure > settings.
 3)	En la parte derecha seleccionaremos la pestaña Plugins.
 4)	Buscaremos el Marketplace el nombre el plugin llamado “flutter”
 5)	Una vez encontrado presionaremos en el icono de Install, para instalar el plugin.
@@ -209,18 +209,41 @@ Para esto ya deben tener instalado Android Studio y actualizado a la última ver
 Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
 
 1)	Abriremos Android Studio.
+
 2)	Daremos click en “Create new flutter project”.
+
 3)	Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
-- Presionar en los 3 puntos a la derecha.
-- Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guardó cuando se instaló).
+
+  - Presionar en los 3 puntos a la derecha.
+
+  - Buscar y seleccionar el directorio de la carpeta de flutter (Donde se la guardó cuando se instaló).
+
+<p align="center">
+  <img src="imagenes/amst_lab4_flutter_ruta.png" alt="appAMST" width="100%">
+</p>
+
 4)	Le damos click en Next.
+
 5)	En la siguiente página podremos poner el nombre y la localización del proyecto, en nuestro caso llamaremos el proyecto “g0amst”, donde 0 es el número de grupo.
+
+<p align="center">
+  <img src="imagenes/amst_lab4_flutter_newproject.png" alt="appAMST" width="100%">
+</p>
+
 6)	Damos click en Finish.
+
 7)	Se nos abrirá la app de ejemplo que viene por defecto en flutter.
+
 8)	Para correrla debemos de tener un dispositivo Android conectado, o iniciado un dispositivo virtual.
+
 9) Presionamos en el icono de run para que empiece a compilar la aplicación y automáticamente se abrirá en el dispositivo la aplicación.
 
+<p align="center">
+  <img src="imagenes/amst_lab4_flutter_phoneandroid.png" alt="appAMST" width="100%">
+</p>
+
 10)	Con esto se nos abrira una aplicación que la genera flutter como demostracion. Eliminaremos todos los comentarios que encontramos en el archivo ./lib/main.dart.
+
 11)	OJO* Algunos comentarios que son nombres de widgets como “MaterialAPP o ThemeData” se generan automaticamente por Android Studio para mejor facilidad de visualizacion de los componentes. Con esto estamos listos para el desarrollo de la app.
 
 ### **Paso 4: Esqueleto de la aplicación**
