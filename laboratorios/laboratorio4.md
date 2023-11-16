@@ -177,6 +177,9 @@ by running `flutter --disable-telemetry`
 7)	Una vez verificado, ejecutamos el siguiente comando:
 
 ```flutter doctor```
+<p align="center">
+  <img src="imagenes/amst_lab4_flutter_doctor.png" alt="appAMST" width="100%">
+</p>
 
 8)	En caso de pedir aceptar algunas opciones de firmas y datos lo hacemos.
 
@@ -204,6 +207,7 @@ Para esto ya deben tener instalado Android Studio y actualizado a la última ver
 
 ### **Paso 3: Crear nuevo proyecto**
 Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
+
 1)	Abriremos Android Studio.
 2)	Daremos click en “Create new flutter project”.
 3)	Donde dice Flutter SDK path deberíamos tener el directorio de nuestra carpeta de flutter, en caso de no tenerla:
