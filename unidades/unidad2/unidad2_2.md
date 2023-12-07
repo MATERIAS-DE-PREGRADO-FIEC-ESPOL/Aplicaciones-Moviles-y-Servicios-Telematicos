@@ -21,7 +21,6 @@ Al finalizar la clase el estudiante será capaz de:
 - [Servicios](#servicios)
 - [Estado de mensajes HTTP](#mensaje)
 - [Usando Postman con el API de ASANA](#postman)
-- [Almacenamiento de datos y proveedores de contenido](#proveedores)
 - [Referencias](#referencias)
 
 <a name="sockets"> </a>
