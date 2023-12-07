@@ -29,6 +29,7 @@ https://www.iana.org/assignments/service-names-port-numbers/service-names-port-n
 
 
 ## Arquitectura general de los sistemas IoT utilizados en proyectos académicos
+
 <p align="center">
   <img src="../imagenes/unidad2_2_arquitectura_sistemas_iot.jpg" alt="arquitectura" width="100%">
 </p>
@@ -49,6 +50,8 @@ these applications can be web or mobile depending on the type of project. The to
 were the Android Studio integrated development environment (IDE), and for web applications, the execution environment for
 JavaScript Node.js, and the React library.
 
+
+## Taxonomía de problemas en el desarrollo de sistemas IoT
 <p align="center">
   <img src="../imagenes/unidad2_2_taxonomy_iot.jpg" alt="taxonomy" width="100%">
 </p>
@@ -64,7 +67,19 @@ JavaScript Node.js, and the React library.
 
 + APIs are found almost everywhere. Amazon Web Services, Facebook, and home automation devices such as thermostats, refrigerators, and wireless lighting systems, all use APIs. They are also used for building programmable network automation.
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_api_concept.png" alt="frontback" width="100%">
+</p>
+
+<p align="center">
+  <img src="../imagenes/unidad2_2_flight_api.png" alt="frontback" width="70%">
+</p>
+
 ## Open, Internal, and partner APIS
+
+<p align="center">
+  <img src="../imagenes/unidad2_2_api_types.png" alt="types_api" width="100%">
+</p>
 
 ## Types of web service APIS
 
@@ -74,6 +89,10 @@ A web service is a service that is available over the internet, using the World 
 + eXtensible Markup Language-Remote Procedure Call (XML-RPC)
 + JavaScript Object Notation-Remote Procedure Call (JSON-RPC)
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_web_services_apis.png" alt="types_api" width="100%">
+</p>
+
 ## REST and RESTful API
 
 An API can be considered “RESTful” if it has the following features:
@@ -82,6 +101,10 @@ An API can be considered “RESTful” if it has the following features:
 + **Stateless:** No client data is stored on the server between requests. The session state is stored on the client.
 + **Cacheable:** Clients can cache responses to improve performance.
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_rest_api.png" alt="rest_api" width="100%">
+</p>
+
 It is a collection of resources with four defined aspects:
 
 + The base Uniform Resource Identifier (URI) for the web service, such as http://example.com/resources.
@@ -89,11 +112,20 @@ It is a collection of resources with four defined aspects:
 + The set of operations supported by the web service using HTTP methods.
 + The API must be hypertext driven.
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_restful_api.png" alt="rest_api" width="100%">
+</p>
+
 ## Services
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_web_services.png" alt="rest_api" width="100%">
+</p>
 
 ## HTTP staus messages
-
+<p align="center">
+  <img src="../imagenes/unidad2_2_http_messages.png" alt="rest_api" width="100%">
+</p>
 
 ## Using postman with the Asana API
 
