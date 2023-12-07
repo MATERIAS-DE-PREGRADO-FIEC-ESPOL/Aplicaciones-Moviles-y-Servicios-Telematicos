@@ -14,11 +14,13 @@ Al finalizar la clase el estudiante será capaz de:
 - [Arquitectura general de los sistemas IoT utilizados en proyectos académicos](#arquitectura)
 - [Taxonomía de problemas en el desarrollo de sistemas IoT](#taxonomia)
 - [Frontend and Backend](#frontback)
+- [Conceptos de API](#api)
+- [Tipos de APIs](#tipo_api)
 - [Servicios web: API REST](#api)
 - [Almacenamiento de datos y proveedores de contenido](#proveedores)
 - [Referencias](#referencias)
 
-<a name=sockets"> </a>
+<a name="sockets"> </a>
 
 # 📲 Sockets
 
@@ -32,7 +34,7 @@ Al finalizar la clase el estudiante será capaz de:
 https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml
 
 
-<a name=arquitectura"> </a>
+<a name="arquitectura"> </a>
 
 # 📲 Arquitectura general de los sistemas IoT utilizados en proyectos académicos
 
@@ -57,14 +59,14 @@ were the Android Studio integrated development environment (IDE), and for web ap
 JavaScript Node.js, and the React library.
 
 
-<a name=taxonomia"> </a>
+<a name="taxonomia"> </a>
 
 # 📲 Taxonomía de problemas en el desarrollo de sistemas IoT
 <p align="center">
   <img src="../imagenes/unidad2_2_taxonomy_iot.jpg" alt="taxonomy" width="100%">
 </p>
 
-<a name=frontback"> </a>
+<a name="frontback"> </a>
 
 # 📲 Frontend and Backend
 
@@ -72,9 +74,9 @@ JavaScript Node.js, and the React library.
   <img src="../imagenes/unidad2_2_frontend_backend.png" alt="frontback" width="100%">
 </p>
 
-<a name=api"> </a>
+<a name="api"> </a>
 
-# 📲 The API concept
+# 📲 Conceptos de API
 + An API (Application Programming Interface) is software that allows other applications to access its data or services. It is a set of rules describing how one application can interact with another, and the instructions to allow the interaction to occur. The user sends an API request to a server asking for specific information and receives an API response in return from the server along with the requested information.
 
 + APIs are found almost everywhere. Amazon Web Services, Facebook, and home automation devices such as thermostats, refrigerators, and wireless lighting systems, all use APIs. They are also used for building programmable network automation.
@@ -87,7 +89,9 @@ JavaScript Node.js, and the React library.
   <img src="../imagenes/unidad2_2_flight_api.png" alt="frontback" width="70%">
 </p>
 
-## Open, Internal, and partner APIS
+<a name="tipo_api"> </a>
+
+# 📲 Tipos de APIs
 
 <p align="center">
   <img src="../imagenes/unidad2_2_api_types.png" alt="types_api" width="100%">
