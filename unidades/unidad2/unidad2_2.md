@@ -20,6 +20,7 @@ Al finalizar la clase el estudiante será capaz de:
 - [REST and RESTful API](#rest)
 - [Servicios](#servicios)
 - [Estado de mensajes HTTP](#mensaje)
+- [Usando Postman con el API de ASANA](#postman)
 - [Almacenamiento de datos y proveedores de contenido](#proveedores)
 - [Referencias](#referencias)
 
@@ -157,7 +158,7 @@ It is a collection of resources with four defined aspects:
 </p>
 
 
-<a name="mensajes"> </a>
+<a name="postman"> </a>
 
 # 📲 Usando Postman con el API de ASANA
 
@@ -173,78 +174,6 @@ Click "+ Create New Personal Access Token"
 + Type a description of what you’ll use the Personal Access Token for.
 + Click "Create"
 Copy your token. You will only see this one time, but you can always create another PAT later.
-
-## Alicación “Postman”
-
-
-Un completo entorno de desarrollo API REST.
-
-## “Postman” User Interface (UI)
-
-**Note:** The UI may vary depending on your platform and version of Postman.
-
-## Request Method
-
-+ HTTP request method drop-down box.
-+ GET is the default.
-
-## Request URL
-
-Enter request URL.
-
-
-## Authorization
-
-
-+ Includes various types of authorization including Bearer Token and Oauth.
-+ Cisco Webex Teams uses Bearer Token.
-
-## Type: Bearer token
-
-Copy and paste your access token from Cisco Webex Teams for Developers or your text editor.
-
-## Headers: Content Type
-
-+ Content-Type: application/json
-+ Designates that the content be in JSON format (default)
-+ Postman uses autocomplete for header values and keys.
-
-## Params
-
-Query Parameters can be entered using the Params tab or can be added to the URL using a ? followed by the key/value pair.
-
-## Sending the URL Request
-
-
-## Using postman with the webex teams API 
-### List rooms using postman
-
-**Cisco Webex for Developers**
-
-**Postman**
-
-
-1 **GET** method
-2 URL of the API /rooms resource
-3 Click the **Authorization** tab.
-4 Authorization using **Bearer Token** 
-5 Your access token
-6 **Send** request.
-
-## Response/Verification
-
-+ **Status: 200 OK**
-+ Response Body tab: JSON response
-
-## Response data
-
-
-## Response body
-
-To see the response data in the proper format choose:
-1 ***Body***
-2 Pretty 
-3 JSON
 
 <a name=referencias"> </a>
 
