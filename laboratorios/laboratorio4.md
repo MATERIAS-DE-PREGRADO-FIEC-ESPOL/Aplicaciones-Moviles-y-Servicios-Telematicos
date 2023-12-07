@@ -242,17 +242,21 @@ Crearemos un nuevo proyecto para familiarizarnos con los archivos de flutter.
   <img src="imagenes/amst_lab4_flutter_phoneandroid.png" alt="appAMST" width="100%">
 </p>
 
-10)	Con esto se nos abrira una aplicación que la genera flutter como demostracion. Eliminaremos todos los comentarios que encontramos en el archivo ./lib/main.dart.
+10)	Con esto se nos abrira una aplicación que la genera flutter como demostración. Eliminaremos todos los comentarios que encontramos en el archivo ./lib/main.dart.
+
+<p align="center">
+  <img src="imagenes/amst_lab4_flutter_main_comentarios.png" alt="appAMST" width="100%">
+</p>
 
 11)	OJO* Algunos comentarios que son nombres de widgets como “MaterialAPP o ThemeData” se generan automaticamente por Android Studio para mejor facilidad de visualizacion de los componentes. Con esto estamos listos para el desarrollo de la app.
 
 ### **Paso 4: Esqueleto de la aplicación**
 
-En caso de tener más interés en el desarrollo de flutter, y tiene experiencia en el desarrollo en Android nativo, se recomienda visitar el siguiente enlace: https://flutter.dev/docs/get-started/flutter-for/android-devs. Aquí se explica a un programador de Android, cuáles son sus equivalentes en flutter. Así mismo encontrara para desarrolladores de IOS, web y más.
+En caso de tener más interés en el desarrollo de flutter, y tiene experiencia en el desarrollo en Android nativo, se recomienda visitar el siguiente enlace: https://flutter.dev/docs/get-started/flutter-for/android-devs.
+Aquí se explica a un programador de Android, cuáles son sus equivalentes en flutter. Así mismo encontrara para desarrolladores de IOS, web y más.
 Los recursos e imágenes se deben guardar en una nueva carpeta llamada assets -> images dentro del proyecto principal:
 
 Una vez creada la carpeta, añadir en el archivo pubspec.yaml las siguientes líneas debajo del comentario de assets:
-
 
 El proyecto simula una aplicación básica de compra con inicio de sesión, registro, configuración, vista de promociones y carrito de compra.
 
