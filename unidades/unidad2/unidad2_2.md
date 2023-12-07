@@ -16,7 +16,10 @@ Al finalizar la clase el estudiante será capaz de:
 - [Frontend and Backend](#frontback)
 - [Conceptos de API](#api)
 - [Tipos de APIs](#tipo_api)
-- [Servicios web: API REST](#api)
+- [Tipos de servicios web](#servicios_web)
+- [REST and RESTful API](#rest)
+- [Servicios](#servicios)
+- [Estado de mensajes HTTP](#mensaje)
 - [Almacenamiento de datos y proveedores de contenido](#proveedores)
 - [Referencias](#referencias)
 
@@ -97,7 +100,9 @@ JavaScript Node.js, and the React library.
   <img src="../imagenes/unidad2_2_api_types.png" alt="types_api" width="100%">
 </p>
 
-## Types of web service APIS
+<a name="servicios_web"> </a>
+
+# 📲 Tipos de servicios web
 
 A web service is a service that is available over the internet, using the World Wide Web. There are four types of web service APIs:
 + Simple Object Access Protocol (SOAP)
@@ -109,7 +114,9 @@ A web service is a service that is available over the internet, using the World 
   <img src="../imagenes/unidad2_2_web_services_apis.png" alt="types_api" width="100%">
 </p>
 
-## REST and RESTful API
+<a name="rest"> </a>
+
+# 📲 REST and RESTful API
 
 An API can be considered “RESTful” if it has the following features:
 
@@ -132,18 +139,27 @@ It is a collection of resources with four defined aspects:
   <img src="../imagenes/unidad2_2_restful_api.png" alt="rest_api" width="100%">
 </p>
 
-## Services
+
+<a name="servicios"> </a>
+
+# 📲 Servicios
 
 <p align="center">
   <img src="../imagenes/unidad2_2_web_services.png" alt="rest_api" width="100%">
 </p>
 
-## HTTP staus messages
+
+<a name="mensajes"> </a>
+
+# 📲 Estado de mensajes HTTP
 <p align="center">
   <img src="../imagenes/unidad2_2_http_messages.png" alt="rest_api" width="100%">
 </p>
 
-## Using postman with the Asana API
+
+<a name="mensajes"> </a>
+
+# 📲 Usando Postman con el API de ASANA
 
 The Asana API is a RESTful interface, providing programmatic access to much of the data in the system. It provides predictable URLs for accessing resources, and uses built-in HTTP features to receive commands and return responses.
 The API accepts JSON or form-encoded content in requests and returns JSON content in all of its responses, including errors.
