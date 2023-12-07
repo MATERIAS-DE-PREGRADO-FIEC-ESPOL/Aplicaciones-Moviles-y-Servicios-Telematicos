@@ -11,11 +11,16 @@ Al finalizar la clase el estudiante será capaz de:
 
 # 2.2 Programación de sockets
 - [Programación de sockets](#sockets)
+- [Arquitectura general de los sistemas IoT utilizados en proyectos académicos](#arquitectura)
+- [Taxonomía de problemas en el desarrollo de sistemas IoT](#taxonomia)
+- [Frontend and Backend](#frontback)
 - [Servicios web: API REST](#api)
 - [Almacenamiento de datos y proveedores de contenido](#proveedores)
+- [Referencias](#referencias)
 
+<a name=sockets"> </a>
 
-## Sockets
+# 📲 Sockets
 
 + Define las reglas que un programa ha de seguir para utilizar los servicios del nivel de transporte en una red TCP/IP. Esta interfaz se basa en el concepto de socket. 
 + Un socket es el punto final de una comunicación bidireccional entre dos programas que intercambian información a través de Internet.
@@ -27,8 +32,9 @@ Al finalizar la clase el estudiante será capaz de:
 https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml
 
 
+<a name=arquitectura"> </a>
 
-## Arquitectura general de los sistemas IoT utilizados en proyectos académicos
+# 📲 Arquitectura general de los sistemas IoT utilizados en proyectos académicos
 
 <p align="center">
   <img src="../imagenes/unidad2_2_arquitectura_sistemas_iot.jpg" alt="arquitectura" width="100%">
@@ -51,18 +57,24 @@ were the Android Studio integrated development environment (IDE), and for web ap
 JavaScript Node.js, and the React library.
 
 
-## Taxonomía de problemas en el desarrollo de sistemas IoT
+<a name=taxonomia"> </a>
+
+# 📲 Taxonomía de problemas en el desarrollo de sistemas IoT
 <p align="center">
   <img src="../imagenes/unidad2_2_taxonomy_iot.jpg" alt="taxonomy" width="100%">
 </p>
 
-## Fronted and Backend
+<a name=frontback"> </a>
+
+# 📲 Frontend and Backend
 
 <p align="center">
   <img src="../imagenes/unidad2_2_frontend_backend.png" alt="frontback" width="100%">
 </p>
 
-## The API concept
+<a name=api"> </a>
+
+# 📲 The API concept
 + An API (Application Programming Interface) is software that allows other applications to access its data or services. It is a set of rules describing how one application can interact with another, and the instructions to allow the interaction to occur. The user sends an API request to a server asking for specific information and receives an API response in return from the server along with the requested information.
 
 + APIs are found almost everywhere. Amazon Web Services, Facebook, and home automation devices such as thermostats, refrigerators, and wireless lighting systems, all use APIs. They are also used for building programmable network automation.
@@ -214,3 +226,8 @@ To see the response data in the proper format choose:
 2 Pretty 
 3 JSON
 
+<a name=referencias"> </a>
+
+# 📲 Referencias
+[An activity-based approach for the early identification and resolution of problems in the development of IoT systems in academic projects
+](https://www.sciencedirect.com/science/article/pii/S2542660523002524)

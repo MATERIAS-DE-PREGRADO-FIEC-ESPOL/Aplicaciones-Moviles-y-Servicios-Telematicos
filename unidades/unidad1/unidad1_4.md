@@ -392,7 +392,6 @@ Enlace
 
 ## DESARROLLO DE SOFTWARE EN CASCADA VS. ÁGIL
 
-imagen 
 
 Referencias
 [Arquitectura de la plataforma](https://developer.android.com/guide/platform?hl=es-419)
