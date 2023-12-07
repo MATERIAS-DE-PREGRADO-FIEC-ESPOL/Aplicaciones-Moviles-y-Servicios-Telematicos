@@ -55,6 +55,9 @@ JavaScript Node.js, and the React library.
 
 ## Fronted and Backend
 
+<p align="center">
+  <img src="../imagenes/unidad2_2_frontend_backend.png" alt="frontback" width="100%">
+</p>
 
 ## The API concept
 + An API (Application Programming Interface) is software that allows other applications to access its data or services. It is a set of rules describing how one application can interact with another, and the instructions to allow the interaction to occur. The user sends an API request to a server asking for specific information and receives an API response in return from the server along with the requested information.
