@@ -13,40 +13,50 @@ Diseñar aplicaciones que utilicen los sensores embebidos en dispositivos móvil
 
 # 3.1 S
 
-
-
-
-
-
 # 📲 Embedded sensors in mobile devices.
 The smart phone's embedded sensors are a low-cost solution that allows interactions between humans, computers and the environment. 
 
 Examples include applications designed to identify the user's location by GPS receiver, games that use accelerometers and/or gyroscope, Wi-Fi and Bluetooth antennas that exchange information between users, microphones that perceive user's gestural movements, and so on.
 
-+ Accelerometers: Handle axis-based motion sensing and can be found in fitness trackers as well as phones.
 
-+ Gyroscope: Helps the accelerometer out with understanding which way your phone is orientated, it adds another level of precision so those 360-degree photo spheres really look as impressive as possible.
 
-+ Magnetometer: It measures magnetic fields and can thus tell you which way is north by varying its voltage output to the phone.
+<p align="center">
+  <img src="../imagenes/unid3.embebido2.png" alt="tiempo" width="100%">
+</p>
 
-+ GPS (Global Positioning System): Gets a ping from a satellite up in space to figure out which part of the planet you’re standing on (or driving through).
++ **Accelerometers:** Handle axis-based motion sensing and can be found in fitness trackers as well as phones.
 
-+ Proximity sensor: Usually sits up near the top speaker and combines an infrared LED and light detector to work out when you have the phone up to your ear, so that screen can be switched off.
++ **Gyroscope** Helps the accelerometer out with understanding which way your phone is orientated, it adds another level of precision so those 360-degree photo spheres really look as impressive as possible.
 
-+ Ambient light sensor: Meanwhile the ambient light sensor does exactly what you would expect, taking a measuring of the light in the room and adjusting your screen’s brightness accordingly (if indeed it’s set to auto-adjust).
++ **Magnetometer:** It measures magnetic fields and can thus tell you which way is north by varying its voltage output to the phone.
+
+<p align="right">
+  <img src="../imagenes/unid3.embebido11.png" alt="tiempo" width="60%">
+</p>
+
++ **GPS** (Global Positioning System): Gets a ping from a satellite up in space to figure out which part of the planet you’re standing on (or driving through).
+
++ **Proximity sensor:** Usually sits up near the top speaker and combines an infrared LED and light detector to work out when you have the phone up to your ear, so that screen can be switched off.
+
++ **Ambient light sensor:** Meanwhile the ambient light sensor does exactly what you would expect, taking a measuring of the light in the room and adjusting your screen’s brightness accordingly (if indeed it’s set to auto-adjust).
+
+<p align="right">
+  <img src="../imagenes/unid3.embebido3.png" alt="tiempo" width="60%">
+</p>
 
 ## Arquitectura del modelo de enseñanza basado en la nube de aplicaciones móviles avanzadas.
 
 
+
 <p align="center">
-  <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
+  <img src="../imagenes/unid3.embebido8.png" alt="tiempo" width="100%">
 </p>
 
 ## IoT sensors used in mobile applications
 
 
 <p align="center">
-  <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
+  <img src="../imagenes/unid3.embebido10.png" alt="tiempo" width="100%">
 </p>
 
 ## Location-based applications
@@ -55,16 +65,25 @@ What the Covid Tracing Tracker contains?
 (*) The key terms about the basic technology underlying the contact tracing mobile application
 
 <p align="center">
-  <img src="../imagenes/proceso_diseno.png" alt="tiempo" width="100%">
+  <img src="../imagenes/unid3.embebido5.png" alt="tiempo" width="100%">
 </p>
+
 
 + At the most basic level, we are compiling a list of automated contact tracing apps that are backed by national governments. 
 
 + These are apps designed to automatically tell users or public health officials whether somebody has potentially been exposed to covid-19; it’s what is generally known as “exposure notification.”
 
+<p align="right">
+  <img src="../imagenes/unid3.embebido6.png" alt="tiempo" width="60%">
+</p>
+
 Here’s the first version of that database.
 
 So far we have documented 25 individual, significant automated contact tracing efforts globally, including details on what they are, how they work, and what policies and processes have been put in place around them.
+
+<p align="right">
+  <img src="../imagenes/unid3.embebido7.png" alt="tiempo" width="60%">
+</p>
 
 ## [INV] Análisis de aplicaciones móviles de rastreo de contactos con sensores embebidos
 
@@ -103,12 +122,21 @@ There are a number of competing standards and vendors in the LPWAN space:
 + The gateways are connected to the network server via standard IP connections and act as a transparent bridge, simply converting RF packets to IP packets and vice versa. 
 + All modes are capable of bi-directional communication.
 
+<p align="center">
+  <img src="../imagenes/unid3.embebido4.png" alt="tiempo" width="100%">
+</p>
+
 **Sigfox**
 The Sigfox protocol focuses on: 
 + Autonomy. Extremely low energy consumption, allowing years of battery life.
 Simplicity. No configuration, connection request or signaling. 
 + Cost efficiency. From the hardware used in the devices to our network, we optimize every step to be as cost-effective as possible.
 + Small messages. No large assets or media allowed on the network, only small notifications: up to 12 bytes.
+
+
+<p align="center">
+  <img src="../imagenes/unid3.embebido1.png" alt="tiempo" width="100%">
+</p>
 
 **Real-Time data capture**
 
@@ -117,6 +145,11 @@ Simplicity. No configuration, connection request or signaling.
 + Individuals are also generating more personal data, known as digital traces.
 
 + Often, individuals can post and access historical and real time information about their environment, interests, and other variety of topics.
+
+
+<p align="right">
+  <img src="../imagenes/unid3.embebido9.png" alt="tiempo" width="60%">
+</p>
 
 + In these applications, embedded systems must provide predictability both in response time and quality of the results. This feature raises them to the status of real-time systems. In such systems, the validity of the results is given not only for their correction but also because they are on time. That is, there are some restrictions that limit the time of its operation.
 
