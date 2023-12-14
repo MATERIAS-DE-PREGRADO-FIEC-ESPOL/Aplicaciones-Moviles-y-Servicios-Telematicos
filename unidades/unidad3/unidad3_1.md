@@ -10,9 +10,6 @@ Al finalizar la sesión de clase, el estudiante será capaz de:
 
 Diseñar aplicaciones que utilicen los sensores embebidos en dispositivos móviles para la entrega de información a los usuarios en tiempo real.
 
-
-# 3.1 S
-
 # 📲 Embedded sensors in mobile devices.
 The smart phone's embedded sensors are a low-cost solution that allows interactions between humans, computers and the environment. 
 
