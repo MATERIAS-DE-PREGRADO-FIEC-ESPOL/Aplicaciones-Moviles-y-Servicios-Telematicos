@@ -17,13 +17,14 @@ More efficient mobile device location data can be obtained by estimating a most 
 For each wireless sector, the collected location data can grouped to the closest geographic coordinate system, and an inference can be made based on the grouped data.
 
 <p align="center">
-  <img src="../imagenes/unid4_geolocation.png" alt="tiempo" width="100%">
+  <img src="../imagenes/unid4_geolocation.png" alt="tiempo" width="70%">
 </p>
 
 
 # 📲 Aplicaciones y servicios basados en localización 
 
 Existen algunos trucos para obtener la localización:
+
 + Utilizando la última ubicación conocida del LocationManager para cualquier proveedor de ubicación.
 + Recuperar esa ubicación en la interfaz de usuario, y para eso simplemente puede transmitir un Intent como si fuera el LocationManager.
 
@@ -38,12 +39,12 @@ Existen algunos trucos para obtener la localización:
 
 Múltiples son las aplicaciones y los servicios basados en localización, que buscan proveer servicios geográficos en tiempo real. A continuación serán enunciados algunos de los más relevantes.
 
-+ **Rescate y salvamento:** En EE.UU. el servicio 911
++ **Rescate y salvamento:** En EE.UU. el servicio 911.
 + **Rastreo y navegación:** Navegación avanzada.
-+ **Hogar:** Información preventiva sobre los lugares peligrosos
-+ **Privacidad:** DAA “Direct Anonymous Attestation”
-+ **Mensajería:** SIP “Session Initiation Protocol”
-+ **Sector commercial:** RFID “Radio Frequency Identification”
++ **Hogar:** Información preventiva sobre los lugares peligrosos.
++ **Privacidad:** DAA “Direct Anonymous Attestation”.
++ **Mensajería:** SIP “Session Initiation Protocol”.
++ **Sector commercial:** RFID “Radio Frequency Identification”.
 
 
 <p align="center">
