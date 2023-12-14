@@ -22,7 +22,7 @@
     * [2.4. Almacenamiento de datos y proveedores de contenido](unidades/unidad2/unidad2_4.md)
 
 * Unidad 3. Sensores embebidos
-    * 3.1. Sensores embebidos en dispositivos móviles
+    * [3.1. Sensores embebidos en dispositivos móviles](unidades/unidad3/unidad3_1.md)
     * 3.2. Sensores IoT usados en aplicaciones móviles
     * 3.3. Geolocalización en redes móviles
     * 3.4. Aplicaciones basadas en localización
@@ -45,7 +45,7 @@
 
 * [AMST LAB5 Desarrollo de una aplicación móvil híbrida con base de datos externa](laboratorios/laboratorio5.md)
 
-* [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio.md)
+* [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio6.md)
 
 * [AMST LAB7 Desarrollo de aplicación móvil avanzada usando notificaciones en tiempo real](laboratorios/laboratorio.md)
 
