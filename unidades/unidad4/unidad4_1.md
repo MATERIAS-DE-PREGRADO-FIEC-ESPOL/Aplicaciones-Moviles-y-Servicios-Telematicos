@@ -10,7 +10,7 @@ Al finalizar la sesión de clase, el estudiante será capaz de:
 
 Diseñar aplicaciones móviles basadas en la localización del dispositivo para la implementación de servicios personalizados de acuerdo a la ubicación de los usuarios.
 
-# 4.1 Facilitaction od mobile device geolocation
+# 📲 4.1 Facilitation of mobile device geolocation
 
 More efficient mobile device location data can be obtained by estimating a most likely location point in a coverage pattern using a kernel density estimation technique. The kernel density estimation technique can provide a continuous estimate of the most frequented locations of a mobile device(s) within a coverage area. 
 
@@ -52,7 +52,7 @@ Múltiples son las aplicaciones y los servicios basados en localización, que 
 </p>
 
 
-## Visualización de datos sensados
+##  📲 Visualización de datos sensados
 
 La «Ley del pulgar» se refiere a la superficie de pantalla a la que este dedo tiene acceso sin mayores problemas y nos da pistas para organizar jerárquicamente los elementos en la interfaz.
 
