@@ -10,7 +10,13 @@ Al finalizar la sesión de clase, el estudiante será capaz de:
 
 Diseñar aplicaciones que utilicen los sensores embebidos en dispositivos móviles para la entrega de información a los usuarios en tiempo real.
 
-# 📲 Embedded sensors in mobile devices.
+# 3.1 Sensores embebidos en dispositivos móviles
+- [Sensores integrados en dispositivos móviles](#sensores)
+
+<a name="sensores"> </a>
+
+# 📲 Sensores integrados en dispositivos móviles
+
 The smart phone's embedded sensors are a low-cost solution that allows interactions between humans, computers and the environment. 
 
 Examples include applications designed to identify the user's location by GPS receiver, games that use accelerometers and/or gyroscope, Wi-Fi and Bluetooth antennas that exchange information between users, microphones that perceive user's gestural movements, and so on.
@@ -80,6 +86,47 @@ So far we have documented 25 individual, significant automated contact tracing e
 
 <p align="right">
   <img src="../imagenes/unid3.embebido7.png" alt="tiempo" width="60%">
+</p>
+
+# 📲 4.1 Facilitation of mobile device geolocation
+
+More efficient mobile device location data can be obtained by estimating a most likely location point in a coverage pattern using a kernel density estimation technique. The kernel density estimation technique can provide a continuous estimate of the most frequented locations of a mobile device(s) within a coverage area. 
+
+For each wireless sector, the collected location data can grouped to the closest geographic coordinate system, and an inference can be made based on the grouped data.
+
+<p align="center">
+  <img src="../imagenes/unid4_geolocation.png" alt="tiempo" width="70%">
+</p>
+
+
+# 📲 Aplicaciones y servicios basados en localización 
+
+Existen algunos trucos para obtener la localización:
+
++ Utilizando la última ubicación conocida del LocationManager para cualquier proveedor de ubicación.
++ Recuperar esa ubicación en la interfaz de usuario, y para eso simplemente puede transmitir un Intent como si fuera el LocationManager.
+
+
+<p align="left">
+  <img src="../imagenes/unid4_localizacion1.png" alt="tiempo" width="50%">
+</p>
+
+<p align="right">
+  <img src="../imagenes/unid4_localizacion2.png" alt="tiempo" width="50%">
+</p>
+
+Múltiples son las aplicaciones y los servicios basados en localización, que buscan proveer servicios geográficos en tiempo real. A continuación serán enunciados algunos de los más relevantes.
+
++ **Rescate y salvamento:** En EE.UU. el servicio 911.
++ **Rastreo y navegación:** Navegación avanzada.
++ **Hogar:** Información preventiva sobre los lugares peligrosos.
++ **Privacidad:** DAA “Direct Anonymous Attestation”.
++ **Mensajería:** SIP “Session Initiation Protocol”.
++ **Sector commercial:** RFID “Radio Frequency Identification”.
+
+
+<p align="center">
+  <img src="../imagenes/unid4_localizacion3.jpg" alt="tiempo" width="80%">
 </p>
 
 ## [INV] Análisis de aplicaciones móviles de rastreo de contactos con sensores embebidos
@@ -153,6 +200,30 @@ Simplicity. No configuration, connection request or signaling.
 + In a real-time remote monitoring set up, connected devices collect medical and other health data and use a Wi-Fi, zigbee, or cellular network to either transfer that data to a doctor or store it in the cloud where it may be accessible to doctors, care providers, patients, and consultants.
 
 **Captura de datos en tiempo real**
+
+## Visualización de datos sensados
+
+<p align="center">
+  <img src="../imagenes/unid4_visualizacion_datos2.jpg" alt="tiempo" width="100%">
+</p>
+
+Referencia: https://github.com/AnyChart/AnyChart-Android
+
+
+https://github.com/AnyChart/AnyChart-Android
+http://www.estadisticaparatodos.es/taller/graficas/cajas.html
+
+**iOS - Steps**       
+**Android -Steps**    
+**Android - Stress**
+
+
+<p align="center">
+  <img src="../imagenes/unid4_visualizacion_datos3.jpg" alt="tiempo" width="100%">
+</p>
+
+http://appdesignbook.com/es/contenidos/patrones-interaccion-moviles/
+
 
 Types of real time systems based on timing constraints:
 + Hard 

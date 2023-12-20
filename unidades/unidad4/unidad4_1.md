@@ -10,47 +10,6 @@ Al finalizar la sesión de clase, el estudiante será capaz de:
 
 Diseñar aplicaciones móviles basadas en la localización del dispositivo para la implementación de servicios personalizados de acuerdo a la ubicación de los usuarios.
 
-# 📲 4.1 Facilitation of mobile device geolocation
-
-More efficient mobile device location data can be obtained by estimating a most likely location point in a coverage pattern using a kernel density estimation technique. The kernel density estimation technique can provide a continuous estimate of the most frequented locations of a mobile device(s) within a coverage area. 
-
-For each wireless sector, the collected location data can grouped to the closest geographic coordinate system, and an inference can be made based on the grouped data.
-
-<p align="center">
-  <img src="../imagenes/unid4_geolocation.png" alt="tiempo" width="70%">
-</p>
-
-
-# 📲 Aplicaciones y servicios basados en localización 
-
-Existen algunos trucos para obtener la localización:
-
-+ Utilizando la última ubicación conocida del LocationManager para cualquier proveedor de ubicación.
-+ Recuperar esa ubicación en la interfaz de usuario, y para eso simplemente puede transmitir un Intent como si fuera el LocationManager.
-
-
-<p align="left">
-  <img src="../imagenes/unid4_localizacion1.png" alt="tiempo" width="50%">
-</p>
-
-<p align="right">
-  <img src="../imagenes/unid4_localizacion2.png" alt="tiempo" width="50%">
-</p>
-
-Múltiples son las aplicaciones y los servicios basados en localización, que buscan proveer servicios geográficos en tiempo real. A continuación serán enunciados algunos de los más relevantes.
-
-+ **Rescate y salvamento:** En EE.UU. el servicio 911.
-+ **Rastreo y navegación:** Navegación avanzada.
-+ **Hogar:** Información preventiva sobre los lugares peligrosos.
-+ **Privacidad:** DAA “Direct Anonymous Attestation”.
-+ **Mensajería:** SIP “Session Initiation Protocol”.
-+ **Sector commercial:** RFID “Radio Frequency Identification”.
-
-
-<p align="center">
-  <img src="../imagenes/unid4_localizacion3.jpg" alt="tiempo" width="80%">
-</p>
-
 
 ##  📲 Visualización de datos sensados
 
@@ -72,27 +31,4 @@ Tener en cuenta la orientación del dispositivo al utilizar la aplicación, sign
 </p>
 
 
-
-## Visualización de datos sensados
-
-<p align="center">
-  <img src="../imagenes/unid4_visualizacion_datos2.jpg" alt="tiempo" width="100%">
-</p>
-
-Referencia: https://github.com/AnyChart/AnyChart-Android
-
-
-https://github.com/AnyChart/AnyChart-Android
-http://www.estadisticaparatodos.es/taller/graficas/cajas.html
-
-**iOS - Steps**       
-**Android -Steps**    
-**Android - Stress**
-
-
-<p align="center">
-  <img src="../imagenes/unid4_visualizacion_datos3.jpg" alt="tiempo" width="100%">
-</p>
-
-http://appdesignbook.com/es/contenidos/patrones-interaccion-moviles/
 
