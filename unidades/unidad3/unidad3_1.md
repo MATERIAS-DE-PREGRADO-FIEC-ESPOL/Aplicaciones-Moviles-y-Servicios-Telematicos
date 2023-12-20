@@ -49,7 +49,6 @@ Algunos ejemplos son las aplicaciones diseñadas para identificar la ubicación 
 ## Arquitectura del modelo de enseñanza basado en la nube de aplicaciones móviles avanzadas.
 
 
-
 <p align="center">
   <img src="../imagenes/unid3.embebido8.png" alt="tiempo" width="100%">
 </p>
