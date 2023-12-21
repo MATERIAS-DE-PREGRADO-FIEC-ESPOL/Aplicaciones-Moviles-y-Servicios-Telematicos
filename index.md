@@ -47,7 +47,7 @@
 
 * [AMST LAB6 Desarrollo de una aplicación móvil avanzada integrando hardware IoT con conexión a la red de LoRaWAN](laboratorios/laboratorio6.md)
 
-* [AMST LAB7 Desarrollo de aplicación móvil avanzada usando notificaciones en tiempo real](laboratorios/laboratorio.md)
+* [AMST LAB7 Desarrollo de aplicación móvil avanzada usando notificaciones en tiempo real](laboratorios/laboratorio7.md)
 
 * [AMST LAB8 Publicación de una aplicación móvil avanzada en Google Play Store](laboratorios/laboratorio.md)
 
