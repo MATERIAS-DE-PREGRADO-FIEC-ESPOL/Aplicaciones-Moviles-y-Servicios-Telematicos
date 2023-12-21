@@ -25,8 +25,8 @@
     * [3.1. Sensores embebidos en dispositivos móviles](unidades/unidad3/unidad3_1.md)
     * [3.2. Sensores IoT usados en aplicaciones móviles](unidades/unidad3/unidad3_2.md)
     * [3.3. Geolocalización en redes móviles](unidades/unidad3/unidad3_3.md)
-    * [3.4. Aplicaciones basadas en localización]((unidades/unidad3/unidad3_4.md))
-    * [3.5 Captura de datos en tiempo real]((unidades/unidad3/unidad3_5.md))
+    * [3.4. Aplicaciones basadas en localización](unidades/unidad3/unidad3_4.md)
+    * [3.5 Captura de datos en tiempo real](unidades/unidad3/unidad3_5.md)
 
 * Unidad 4. Sistemas telemáticos móviles
     * 4.1. Salud móvil y reconocimiento de actividades
