@@ -62,7 +62,7 @@
 * [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)
 
 # LECTURAS
-* [Lectura complementaria 1 Metodología MARS para la Evaluación de Aplicaciones Móviles de salud] (lecturas/Lectura complementaria 1 Metodología MARS.pdf)
+* [Lectura complementaria 1 Metodología MARS para la Evaluación de Aplicaciones Móviles de salud](lecturas/Lectura complementaria 1 Metodología MARS.pdf)
 
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
