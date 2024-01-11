@@ -58,9 +58,11 @@
 
 * [AMST MT3 SOFT Base de datos No Relacionales](microsesiones/microsesion3_software_norelacional.md)
 
-
 # MANUALES
 * [AMST MANUAL1 CREACIÓN DE API REST EN DJANGO CON DESPLIEGUE EN HEROKU](https://aulavirtual.espol.edu.ec/files/3695699/download?download_frd=1)
+
+# LECTURAS
+* [Lectura complementaria 1 Metodología MARS para la Evaluación de Aplicaciones Móviles de salud](Lectura complementaria 1 Metodología MARS para la Evaluación de Aplicaciones Móviles de salud.pdf)
 
 ## RECURSOS DE SOFTWARE
 - [Android Studio](https://developer.android.com/studio)
